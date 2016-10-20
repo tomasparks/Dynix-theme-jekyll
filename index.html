@@ -1,1 +1,33 @@
-/home/tom/blog/index.html
+---
+layout: default
+---
+<main role="main">
+<article>
+<div style="text-align: center;">Welcome to the Online {{ site.name }} Catalog!<br />
+Please select one of the options bellow.</div>
+
+<nav style="margin-left: 14.5em;margin-top: 1em;margin-bottom: 1em;">
+    <ol type="A">
+        {% for item in site.data.navigation %}
+        <li>
+            <a href="{{ site.url }}{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+    </ol>
+</nav>
+    <h1>Just Added:</h1>
+<nav>
+<table>
+<tr style="color: $black; background: $green;font-family:$secondary_text;"><td>Title</td><td></td><td>Date</td></tr>
+{% for post in site.posts limit:10 %}
+<tr>
+<td>{{ forloop.index }}. <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></td>
+<td>{% for icons in post.icons %}<li class="fa fa-{{icons}}" aria-hidden="true"></li>{% endfor %}</td>
+<td><time datetime="{{ post.date  | date_to_xmlschema }}">{{ post.date  | date_to_string }}</time></td>
+</tr><tr>
+<td colspan="3">{{ post.excerpt | strip_html }}</td>
+</tr>{% endfor %}
+</table>
+</nav>
+</article>
+</main>
