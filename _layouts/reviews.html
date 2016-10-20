@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<!-- start of reviews -->
+{% include jquery-ui.html %}
+
+<main role="main">
+{% if page.title %}
+<header>
+    <h1>{{ page.title }}</h1>
+</header>
+{% endif %}
+{% assign url = page.url|remove:'.html' %}
+<div id="tabs">
+	<ul>
+		<li><a href="#tabs-1">Overview (F2)</a></li>
+		<li><a href="{{site.url}}{{url}}-system-specs.html">System specs (F3)</a></li>
+		<li><a href="{{site.url}}{{url}}-soft.html">Software (F4)</a></li>
+		<li><a href="{{site.url}}{{url}}-manuals.html">Manuals (F5)</a></li>
+	</ul>
+<article>
+<section id="tabs-1">
+{% include image.html %}
+        {{ content }}
+</section>
+</article>
+</div>
+</main>
+<script>
+  $( function() {
+    $( "#tabs" ).tabs({
+      beforeLoad: function( event, ui ) {
+        ui.jqXHR.fail(function() {
+          ui.panel.html(
+            "Couldn't load this tab. We'll try to fix this as soon as possible. " );
+        });
+      }
+    });
+  } );
+</script>
+<!-- end of reviews -->

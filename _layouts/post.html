@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<!-- start of post -->
+{% include jquery-ui.html %}
+
+<main role="main">
+{% if page.title %}
+<header>
+    <h1>{{ page.title }}</h1>
+</header>
+{% endif %}
+
+<div id="tabs">
+	<ul>
+		<li><a href="#tabs-1">Main (F2)</a></li>
+		<li><a href="#tabs-2">Meta (F3)</a></li>
+	</ul>
+<article id="tabs-1">
+{% include image.html %}
+        {{ content }}
+</article>
+<aside id="tabs-2">
+<p>Date: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time></p>
+<p>Author: Tom Sparks</p>
+<p>Permalink: {{site.url}}{{ page.url }}</p>
+</aside>
+</div>
+</main>
+<script>$( "#tabs" ).tabs();
+
+</script>
+<!-- end of post -->
