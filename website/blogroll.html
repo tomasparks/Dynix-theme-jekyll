@@ -1,0 +1,112 @@
+---
+layout: default
+---
+{% include jquery-ui.html %}
+<main role="main">
+<article>
+<div></div>
+<div id="tabs">
+	<ul>
+        <li><a href="#linux"><i class="fa fa-linux" aria-hidden="true"></i> linux (F2)</a></li>
+        <li><a href="#music"><i class="fa fa-music" aria-hidden="true"></i> Music (F3)</a></li>
+        <li><a href="#networks">Networks (F4)</a></li>
+        <li><a href="#podcast"><i class="fa fa-rss-square" aria-hidden="true"></i> Podcast (F5)</a></li>
+        <li><a href="#software">Software (F6)</a></li>
+        <li><a href="#tech_news"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Tech News (F7)</a></li>
+        <li><a href="#videos"><i class="fa fa-video-camera" aria-hidden="true"></i> Videos (F8)</a></li>
+        <li><a href="#websites">Websites (F9)</a></li>
+	</ul>
+<section id="linux">
+<div>{{ site.data.blogroll.linux.description }}</div>
+    <ol>
+        {% for item in site.data.blogroll.linux.links %}
+        <li>
+            <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+    </ol>
+</section>
+
+<section id="music">
+<div>{{ site.data.blogroll.music.description }}</div>
+    <ol>
+        {% for item in site.data.blogroll.music.links %}
+        <li>
+            <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+    </ol>
+</section>
+
+<section id="networks">
+<div>{{ site.data.blogroll.networks.description }}</div>
+    <ol>
+        {% for item in site.data.blogroll.networks.links %}
+        <li>
+            <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+    </ol>
+</section>
+
+<section id="software">
+<div>{{ site.data.blogroll.software.description }}</div>
+    <ol>
+        {% for item in site.data.blogroll.software.links %}
+        <li>
+            <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+    </ol>
+</section>
+
+<section id="tech_news">
+<div>{{ site.data.blogroll.tech_news.description }}</div>
+    <ol>
+        {% for item in site.data.blogroll.tech_news.links %}
+        <li>
+            <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+    </ol>
+</section>
+
+<section id="websites">
+<div>{{ site.data.blogroll.websites.description }}</div>
+    <ol>
+        {% for item in site.data.blogroll.websites.links %}
+        <li>
+            <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+    </ol>
+</section>
+
+<section id="videos">
+<div>{{ site.data.blogroll.videos.description }}</div>
+    <ol>
+        {% for item in site.data.blogroll.videos.links %}
+        <li>
+           <i class="fa fa-{{ item.loc }}" aria-hidden="true"></i> <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+    </ol>
+</section>
+
+<section id="podcast">
+<div>{{ site.data.blogroll.podcast.description }}</div>
+    <ol>
+        {% for item in site.data.blogroll.podcast.links %}
+        <li>
+            <a href="{{ item.url }}">{{ item.title }}</a> ( <a href="{{ item.rss }}"><i class="fa fa-rss"></i></a> )
+        </li>
+        {% endfor %}
+    </ol>
+</section>
+
+</div>
+</article>
+</main>
+<script>$( "#tabs" ).tabs();
+
+</script>
