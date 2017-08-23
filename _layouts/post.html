@@ -15,7 +15,7 @@ layout: default
 	<ul>
 		<li><a href="#tabs-1">Main (F2)</a></li>
 		<li><a href="#tabs-2">Meta (F3)</a></li>
-		<li><a href="#tabs-3">Comments (F4)</a></li>
+		{% if page.comments == true %}<li><a href="#tabs-3">Comments (F4)</a></li>{% endif %}
 	</ul>
 <article id="tabs-1">
 {% include image.html %}
@@ -26,11 +26,11 @@ layout: default
 <p>Author: Tom Sparks</p>
 <p>Permalink: {{site.url}}{{ page.url }}</p>
 </aside>
-<aside id="tabs-3">
     {% if page.comments == true %}
+<aside id="tabs-3">
       {% include comments.html %}
-{% endif %}
 </aside>
+{% endif %}
 </div>
 
 </main>
