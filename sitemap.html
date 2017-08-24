@@ -1,0 +1,34 @@
+---
+layout: page
+---  
+ <h2>sitemap</h2>
+<h2>Post</h2>
+<nav>
+    <ol>
+
+  {% for post in site.posts %}
+    {% unless post.published == false %}
+<li>
+ <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+<div>last updated: </div>
+    </li>
+    {% endunless %}     
+  {% endfor %}
+    </ol>
+</nav>
+<!--
+<h2>Pages</h2>
+<nav>
+    <ol>
+
+  {% for page in site.pages %}
+    {% unless page.sitemap.exclude == "yes" %}
+<li>
+      <a hre="{{ site.url }}{{ page.url | remove: "index.html" }}">{{ page.title}}</a>
+<div>last updated: </div>
+    </li>
+    {% endunless %}
+  {% endfor %}
+    </ol>
+</nav>
+-->
