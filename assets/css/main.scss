@@ -1,10 +1,12 @@
 ---
 ---
-@import "variables"
-
+$main_text: IBM_MDA;
+$secondary_text: Glass_TTY_VT220;
+$black: #121010;
+$green: green;
 
 body {
-	color: $green;background: $black; position: relative;font-family: $main_text; font-size:xx-large;padding:5px;
+	color: $green;background: $black; position: relative;font-family: $main_text;padding:5px;
 		a {
 			padding: 2px;
 			}
