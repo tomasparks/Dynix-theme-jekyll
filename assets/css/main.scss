@@ -4,7 +4,7 @@
 @import "_variables.scss";
 
 body {
-	color: $green;background: $black; position: relative;font-family: $main_text;padding:5px;
+	color: $green;background: $black; position: relative;font-family: $main_text;font-size: $fontsize;padding:5px;
 		a {
 			padding: 2px;
 			}
