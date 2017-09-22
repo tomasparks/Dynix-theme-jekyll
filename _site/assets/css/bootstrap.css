@@ -55,7 +55,7 @@ body {
   font-size: 1em;
   line-height: 19px;
   color: #bbbbbb;
-  background-color: #000084; }
+  background-color: #121010; }
 
 article {
   display: block; }
@@ -1247,7 +1247,7 @@ th {
   padding: 4px;
   margin-bottom: 19px;
   line-height: 19px;
-  background-color: #000084;
+  background-color: #121010;
   border: 2px solid #dddddd; }
   .thumbnail > img {
     display: block;
@@ -1309,7 +1309,7 @@ th {
 .img-thumbnail {
   padding: 4px;
   line-height: 19px;
-  background-color: #000084;
+  background-color: #121010;
   border: 2px solid #dddddd;
   display: inline-block;
   max-width: 100%;
@@ -2465,7 +2465,7 @@ caption {
   .table > colgroup + thead > tr:first-child > td {
     border-top: 1px; }
   .table .table {
-    background-color: #000084; }
+    background-color: #121010; }
 
 .table-condensed > thead > tr > th {
   padding: 8.5px 3px 8.5px 4px; }
@@ -5646,7 +5646,7 @@ button.close {
     background: #555555;
     margin-bottom: 0; }
   .modal-body a {
-    color: #000084;
+    color: #121010;
     background: transparent; }
     .modal-body a:hover {
       color: #ffffff;
@@ -5992,7 +5992,7 @@ button.close {
 
 #wrap386 {
   z-index: 9999999;
-  background: #000084;
+  background: #121010;
   position: fixed;
   bottom: 0;
   right: 0;
@@ -6003,7 +6003,7 @@ button.close {
   color: #ffffff;
   font-weight: bold;
   float: right;
-  background: #000084;
+  background: #121010;
   height: 19px;
   margin-top: -19px;
   width: 100%; }
