@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <link rel="icon" href="/home/tom/github/blog/Dynix-theme-jekyll/_site//assets/img/favicon.png"> 
+    <link href="/home/tom/github/blog/Dynix-theme-jekyll/_site//assets/css/fonts.css" rel="stylesheet" media="screen">
+    <link href="/home/tom/github/blog/Dynix-theme-jekyll/_site//assets/css/bootstrap.css" rel="stylesheet" media="screen">
+
+<script src="https://use.fontawesome.com/8ada10233a.js"></script>
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Post: Gallery | Dynix-theme-jekyll theme</title>
+<meta property="og:title" content="Post: Gallery" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="These are gallery tests for image wrapped in &lt;figure&gt; elements." />
+<meta property="og:description" content="These are gallery tests for image wrapped in &lt;figure&gt; elements." />
+<link rel="canonical" href="/home/tom/github/blog/Dynix-theme-jekyll/_site//archive/2010/09/post-gallery.html" />
+<meta property="og:url" content="/home/tom/github/blog/Dynix-theme-jekyll/_site//archive/2010/09/post-gallery.html" />
+<meta property="og:site_name" content="Dynix-theme-jekyll theme" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2010-09-09T00:00:00+10:00" />
+<script type="application/ld+json">
+{"name":null,"description":"These are gallery tests for image wrapped in &lt;figure&gt; elements.","author":null,"@type":"BlogPosting","url":"/home/tom/github/blog/Dynix-theme-jekyll/_site//archive/2010/09/post-gallery.html","publisher":null,"image":null,"headline":"Post: Gallery","dateModified":"2010-09-09T00:00:00+10:00","datePublished":"2010-09-09T00:00:00+10:00","sameAs":null,"mainEntityOfPage":{"@type":"WebPage","@id":"/home/tom/github/blog/Dynix-theme-jekyll/_site//archive/2010/09/post-gallery.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+<body>
+<header>
+<table>
+<tr>
+<td class="text-left">
+<script type="text/javascript"><!--
+var now = new Date();
+var Month = new Array("JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC");
+document.write(now.getDate()+" "+Month[now.getMonth()]+" "+now.getFullYear());
+//--></script></td>
+<td class="text-center"><a href="/home/tom/github/blog/Dynix-theme-jekyll/_site/">Dynix-theme-jekyll theme</a></td>
+<td class="text-right" ><script type="text/javascript"><!--
+var date_format = '12'; /* FORMAT CAN BE 12 hour (12) OR 24 hour (24)*/
+var d 		= new Date();
+var hour 	= d.getHours();  /* Returns the hour (from 0-23) */
+var minutes     = d.getMinutes();  /* Returns the minutes (from 0-59) */
+var result 	= hour;
+var ext 	= '';
+if(date_format == '12'){
+	if(hour > 12){
+		ext = 'PM';
+		hour = (hour - 12);
+	
+		if(hour < 10){
+			result = "0" + hour;
+		}else if(hour == 12){
+			hour = "00";
+			ext = 'AM';
+		}
+	}
+	else if(hour < 12){
+		result = ((hour < 10) ? "0" + hour : hour);
+		ext = 'AM';
+	}else if(hour == 12){
+		ext = 'PM';
+	}
+}
+if(minutes < 10){
+	minutes = "0" + minutes; 
+}
+result = result + ":" + minutes + ' ' + ext; 
+document.write(result);
+//--></script></td></tr>
+</table>
+</header>
+
+        <!-- start of post -->
+<main role="main">
+	<div class="container">
+		
+			<header class="jumbotron subhead" id="overview">
+				<div class="container">
+					<h1 class="lead">Post: Gallery</h1>
+				</div>
+			</header>
+		
+
+  <ul class="nav nav-tabs" role="navigation" >
+    <li class="active"><a data-toggle="tab" href="#home">Main (F2)</a></li>
+    <li><a data-toggle="tab" href="#menu1">Meta (F3)</a></li>
+    <li><a data-toggle="tab" href="#menu2">Comments (F4)</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      				
+
+				<p>These are gallery tests for image wrapped in <code class="highlighter-rouge">&lt;figure&gt;</code> elements.</p>
+
+<p>To place a gallery add the necessary YAML Front Matter:</p>
+
+<div class="language-yaml highlighter-rouge"><pre class="highlight"><code><span class="s">gallery</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">url</span><span class="pi">:</span> <span class="s">unsplash-gallery-image-1.jpg</span>
+    <span class="s">image_path</span><span class="pi">:</span> <span class="s">unsplash-gallery-image-1-th.jpg</span>
+    <span class="s">alt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">placeholder</span><span class="nv"> </span><span class="s">image</span><span class="nv"> </span><span class="s">1"</span>
+  <span class="pi">-</span> <span class="s">url</span><span class="pi">:</span> <span class="s">unsplash-gallery-image-2.jpg</span>
+    <span class="s">image_path</span><span class="pi">:</span> <span class="s">unsplash-gallery-image-2-th.jpg</span>
+    <span class="s">alt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">placeholder</span><span class="nv"> </span><span class="s">image</span><span class="nv"> </span><span class="s">2"</span>
+  <span class="pi">-</span> <span class="s">url</span><span class="pi">:</span> <span class="s">unsplash-gallery-image-3.jpg</span>
+    <span class="s">image_path</span><span class="pi">:</span> <span class="s">unsplash-gallery-image-3-th.jpg</span>
+    <span class="s">alt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">placeholder</span><span class="nv"> </span><span class="s">image</span><span class="nv"> </span><span class="s">3"</span>
+  <span class="pi">-</span> <span class="s">url</span><span class="pi">:</span> <span class="s">unsplash-gallery-image-4.jpg</span>
+    <span class="s">image_path</span><span class="pi">:</span> <span class="s">unsplash-gallery-image-4-th.jpg</span>
+    <span class="s">alt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">placeholder</span><span class="nv"> </span><span class="s">image</span><span class="nv"> </span><span class="s">4"</span>
+</code></pre>
+</div>
+
+<p>And then drop-in the gallery include — gallery <code class="highlighter-rouge">caption</code> is optional.</p>
+
+<div class="language-liquid highlighter-rouge"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span><span class="nv">gallery</span><span class="w"> </span><span class="na">caption</span><span class="o">=</span><span class="s2">"This is a sample gallery with **Markdown support**."</span><span class="w"> </span><span class="p">%}</span>
+</code></pre>
+</div>
+
+<figure class="third ">
+  
+    
+      <a href="/home/tom/github/blog/Dynix-theme-jekyll/_site//images/unsplash-gallery-image-1.jpg">
+        <img src="/home/tom/github/blog/Dynix-theme-jekyll/_site//images/unsplash-gallery-image-1-th.jpg" alt="placeholder image 1" />
+      </a>
+    
+  
+    
+      <a href="/home/tom/github/blog/Dynix-theme-jekyll/_site//images/unsplash-gallery-image-2.jpg">
+        <img src="/home/tom/github/blog/Dynix-theme-jekyll/_site//images/unsplash-gallery-image-2-th.jpg" alt="placeholder image 2" />
+      </a>
+    
+  
+    
+      <a href="/home/tom/github/blog/Dynix-theme-jekyll/_site//images/unsplash-gallery-image-3.jpg">
+        <img src="/home/tom/github/blog/Dynix-theme-jekyll/_site//images/unsplash-gallery-image-3-th.jpg" alt="placeholder image 3" />
+      </a>
+    
+  
+    
+      <a href="/home/tom/github/blog/Dynix-theme-jekyll/_site//images/unsplash-gallery-image-1.jpg">
+        <img src="/home/tom/github/blog/Dynix-theme-jekyll/_site//images/unsplash-gallery-image-1-th.jpg" alt="placeholder image 1" />
+      </a>
+    
+  
+    
+      <a href="/home/tom/github/blog/Dynix-theme-jekyll/_site//images/unsplash-gallery-image-2.jpg">
+        <img src="/home/tom/github/blog/Dynix-theme-jekyll/_site//images/unsplash-gallery-image-2-th.jpg" alt="placeholder image 2" />
+      </a>
+    
+  
+    
+      <a href="/home/tom/github/blog/Dynix-theme-jekyll/_site//images/unsplash-gallery-image-3.jpg">
+        <img src="/home/tom/github/blog/Dynix-theme-jekyll/_site//images/unsplash-gallery-image-3-th.jpg" alt="placeholder image 3" />
+      </a>
+    
+  
+  
+    <figcaption>This is a sample gallery with <strong>Markdown support</strong>.
+</figcaption>
+  
+</figure>
+
+<p>This is some text after the gallery just to make sure that everything aligns properly.</p>
+
+<p>Here comes another gallery, this time set the <code class="highlighter-rouge">id</code> to match 2nd gallery hash in YAML Front Matter.</p>
+
+<div class="language-yaml highlighter-rouge"><pre class="highlight"><code><span class="s">gallery2</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">url</span><span class="pi">:</span> <span class="s">https://flic.kr/p/8a6Ven</span>
+    <span class="s">image_path</span><span class="pi">:</span> <span class="s">https://farm2.staticflickr.com/1272/4697500467_8294dac099_q.jpg</span>
+    <span class="s">alt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Black</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">grays</span><span class="nv"> </span><span class="s">with</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">hint</span><span class="nv"> </span><span class="s">of</span><span class="nv"> </span><span class="s">green"</span>
+  <span class="pi">-</span> <span class="s">url</span><span class="pi">:</span> <span class="s">https://flic.kr/p/8a738X</span>
+    <span class="s">image_path</span><span class="pi">:</span> <span class="s">https://farm5.staticflickr.com/4029/4697523701_249e93ba23_q.jpg</span>
+    <span class="s">alt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Made</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">open</span><span class="nv"> </span><span class="s">text</span><span class="nv"> </span><span class="s">placement"</span>
+  <span class="pi">-</span> <span class="s">url</span><span class="pi">:</span> <span class="s">https://flic.kr/p/8a6VXP</span>
+    <span class="s">image_path</span><span class="pi">:</span> <span class="s">https://farm5.staticflickr.com/4046/4697502929_72c612c636_q.jpg</span>
+    <span class="s">alt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Fog</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">trees"</span>
+</code></pre>
+</div>
+
+<p>And place it like so:</p>
+
+<div class="language-liquid highlighter-rouge"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span><span class="nv">gallery</span><span class="w"> </span><span class="na">id</span><span class="o">=</span><span class="s2">"gallery2"</span><span class="w"> </span><span class="na">caption</span><span class="o">=</span><span class="s2">"This is a second gallery example with images hosted externally."</span><span class="w"> </span><span class="p">%}</span>
+</code></pre>
+</div>
+
+<figure class="third ">
+  
+    
+      <a href="https://flic.kr/p/8a6Ven">
+        <img src="https://farm2.staticflickr.com/1272/4697500467_8294dac099_q.jpg" alt="Black and grays with a hint of green" />
+      </a>
+    
+  
+    
+      <a href="https://flic.kr/p/8a738X">
+        <img src="https://farm5.staticflickr.com/4029/4697523701_249e93ba23_q.jpg" alt="Made for open text placement" />
+      </a>
+    
+  
+    
+      <a href="https://flic.kr/p/8a6VXP">
+        <img src="https://farm5.staticflickr.com/4046/4697502929_72c612c636_q.jpg" alt="Fog in the trees" />
+      </a>
+    
+  
+  
+    <figcaption>This is a second gallery example with images hosted externally.
+</figcaption>
+  
+</figure>
+
+<p>And for giggles one more gallery just to make sure this works. To fill page content container add <code class="highlighter-rouge">class="full"</code>.</p>
+
+<figure class="half full">
+  
+    
+      <img src="/home/tom/github/blog/Dynix-theme-jekyll/_site//images/unsplash-gallery-image-2-th.jpg" alt="placeholder image 2" />
+    
+  
+    
+      <img src="/home/tom/github/blog/Dynix-theme-jekyll/_site//images/unsplash-gallery-image-4-th.jpg" alt="placeholder image 4" />
+    
+  
+  
+    <figcaption>This is a third gallery example with two images and fills the entire content container.
+</figcaption>
+  
+</figure>
+
+    </div>
+    <div id="menu1" class="tab-pane fade">
+				<p>Date: <time datetime="2010-09-09T00:00:00+10:00">09 Sep 2010</time></p>
+				<p>Author: Tom Sparks</p>
+				<p>Permalink: /home/tom/github/blog/Dynix-theme-jekyll/_site//archive/2010/09/post-gallery.html</p>
+    </div>
+
+    <div id="menu2" class="tab-pane fade">
+				<div class="entry-comments">
+  
+
+</div>
+
+    </div>
+			
+  </div>
+</div>
+
+<ul class="pager">
+  <li class="previous"><a href="/archive/2010/08/post-image-caption.html">&laquo; Post: Image (Caption)</a></li>  
+  <li class="next"><a href="/archive/2010/09/post-twitter-embeds.html">Post: Twitter Embed &raquo;</a></li>  
+</ul> 
+
+
+</main>
+<script>$( "#tabs" ).tabs();</script>
+<!-- end of post -->
+
+    <footer>
+      <div>
+        <span><div><a href="/home/tom/github/blog/Dynix-theme-jekyll/_site//website/">(W)ebsite</a></div><div>Standing by</div><div>
+<form action="/home/tom/github/blog/Dynix-theme-jekyll/_site/search/" method="get"><input type="text" id="search-query" name="q" placeholder="" autocomplete="off"></form>
+</div></span>
+      </div>
+    </footer>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="/home/tom/github/blog/Dynix-theme-jekyll/_site//assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+

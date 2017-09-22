@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <link rel="icon" href="/home/tom/github/blog/website/assets/img/favicon.png">
+<link rel="stylesheet" href="/home/tom/github/blog/website/assets/css/fonts.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="/home/tom/github/blog/website/assets/css/main.css">
+<script src="https://use.fontawesome.com/8ada10233a.js"></script>
+{% seo %}
+</head>
+<body>
+<header>
+<table>
+<tr>
+<td style="text-align:left;">
+<script type="text/javascript"><!--
+var now = new Date();
+var Month = new Array("JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC");
+document.write(now.getDate()+" "+Month[now.getMonth()]+" "+now.getFullYear());
+//--></script></td>
+<td style="text-align:center;"><a href="{{ site.url }}">{{ site.name }}</a></td>
+<td style="text-align:right;" ><script type="text/javascript"><!--
+var date_format = '12'; /* FORMAT CAN BE 12 hour (12) OR 24 hour (24)*/
+var d 		= new Date();
+var hour 	= d.getHours();  /* Returns the hour (from 0-23) */
+var minutes     = d.getMinutes();  /* Returns the minutes (from 0-59) */
+var result 	= hour;
+var ext 	= '';
+if(date_format == '12'){
+	if(hour > 12){
+		ext = 'PM';
+		hour = (hour - 12);
+	
+		if(hour < 10){
+			result = "0" + hour;
+		}else if(hour == 12){
+			hour = "00";
+			ext = 'AM';
+		}
+	}
+	else if(hour < 12){
+		result = ((hour < 10) ? "0" + hour : hour);
+		ext = 'AM';
+	}else if(hour == 12){
+		ext = 'PM';
+	}
+}
+if(minutes < 10){
+	minutes = "0" + minutes; 
+}
+result = result + ":" + minutes + ' ' + ext; 
+document.write(result);
+//--></script></td></tr>
+</table>
+</header>
+
+<style>
+pre::before { 
+    content: "  GNU nano 2.5.3                                       New Buffer                                                                                    \n";
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+}
+pre::after { 
+    content: "^G Get Help     ^O Write Out    ^W Where Is     ^K Cut Text     ^J Justify      ^C Cur Pos      ^Y Prev Page    M-\ First Line  M-W WhereIs Next
+^X Exit         ^R Read File    ^\ Replace      ^U Uncut Text   ^T To Spell     ^_ Go To Line   ^V Next Page    M-/ Last Line   M-] To Bracket\n";
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+}
+</style>
+<pre><code>#!/usr/bin/env php
+&lt;?php
+
+$xml=simplexml_load_file(&quot;./E1M1-outline-path.svg&quot;) or die(&quot;Error: Cannot create object&quot;);
+           $writer = new XMLWriter();
+$writer-&gt;openuri(&quot;php://output&quot;);
+           $writer-&gt;startDocument(&#39;1.0&#39;,&#39;UTF-8&#39;);   
+$writer-&gt;startDTD(&#39;&lt;!DOCTYPE X3D PUBLIC &quot;ISO//Web3D//DTD X3D 3.3//EN&quot; &quot;http://www.web3d.org/specifications/x3d-3.3.dtd&quot;&gt;&#39;); 
+$writer-&gt;endDTD(); 
+           $writer-&gt;setIndent(4);   
+           $writer-&gt;startElement(&#39;X3D&#39;); 
+           $writer-&gt;writeAttribute (&#39;profile&#39;, &#39;Immersive&#39;);
+           $writer-&gt;writeAttribute (&#39;version&#39;, &#39;3.3&#39;); 
+           $writer-&gt;writeAttribute (&#39;xmlns:xsd&#39;, &#39;http://www.w3.org/2001/XMLSchema-instance&#39;); 
+           $writer-&gt;writeAttribute (&#39;xsd:noNamespaceSchemaLocation&#39;, &#39;http://www.web3d.org/specifications/x3d-3.3.xsd&#39;); 
+           $writer-&gt;startElement(&quot;head&quot;);$writer-&gt;endElement();
+           $writer-&gt;startElement(&quot;Scene&quot;); 
+           $writer-&gt;startElement(&quot;Transform&quot;);
+ $writer-&gt;writeAttribute (&#39;scale&#39;,&#39;500 500 500&#39;);
+    $writer-&gt;endElement();
+           $writer-&gt;startElement(&quot;Inline&quot;);
+ $writer-&gt;writeAttribute (&#39;DEF&#39;,&#39;CoordinateAxes&#39;);
+ $writer-&gt;writeAttribute (&#39;url&#39;,&#39;./CoordinateAxes.x3d&#39;);
+    $writer-&gt;endElement();
+           $writer-&gt;startElement(&quot;Shape&quot;);
+           $writer-&gt;startElement(&quot;Appearance&quot;);
+           $writer-&gt;startElement(&quot;Material&quot;);
+ $writer-&gt;writeAttribute (&#39;diffuseColor&#39;,&#39;0 1 0&#39;);
+    $writer-&gt;endElement();
+    $writer-&gt;endElement();
+           $writer-&gt;startElement(&quot;Extrusion&quot;);
+ $writer-&gt;startAttribute(&#39;crossSection&#39;); 
+
+
+
+//$endpos=array(&#39;x&#39;=&gt;&quot;1797&quot;,&#39;y&#39;=&gt;&quot;1189&quot;);
+//$startpos=array(&#39;x&#39;=&gt;&quot;1861&quot;,&#39;y&#39;=&gt;&quot;1189&quot;);
+//$curpos=array(&#39;x&#39;=&gt;$startpos[&#39;x&#39;],&#39;y&#39;=&gt;$startpos[&#39;y&#39;]);
+
+//$skip=array(&quot;metadata980&quot;,&quot;defs4&quot;,&quot;line6&quot;);
+//$writer-&gt;text($endpos[&#39;x&#39;].&quot; -&quot;.$endpos[&#39;y&#39;].&quot; &quot;);
+//$writer-&gt;text($startpos[&#39;x&#39;].&quot; -&quot;.$startpos[&#39;y&#39;]);
+//do {
+//$writer-&gt;text(&quot; 00*start*do*loop*00&quot;);
+//      foreach($xml-&gt;children() as $lines) {
+//          $writer-&gt;text(&quot; 00*start*foreach*lines*00&quot;);
+//
+//          foreach($skip as $value) {
+//              if ($value ==  $lines[&#39;id&#39;]) {
+//                  $writer-&gt;text(&quot; 00*skiping*&quot;.$lines[&#39;id&#39;].&quot;*00&quot;);
+//                  continue 2; }
+//              }
+//          $writer-&gt;flush(); 
+//          //$writer-&gt;text(&quot; 00stats00*curpos[x]=&quot;.$curpos[&#39;x&#39;].&quot;*curpos[y]=&quot;.$curpos[&#39;y&#39;].&quot;*00&quot;);
+//          //if ( $endpos[&#39;x&#39;] == $lines[&#39;x2&#39;] &amp;&amp; $endpos[&#39;y&#39;] == $lines[&#39;y2&#39;] ) {  $writer-&gt;text(&quot; 00 00&quot;); break; }
+//
+//          if ( $curpos[&#39;x&#39;] == $lines[&#39;x1&#39;] &amp;&amp; $curpos[&#39;y&#39;] == $lines[&#39;y1&#39;] ) {
+//                  $writer-&gt;text(&quot; &quot;.$lines[&#39;x2&#39;].&quot; *-&quot;.$lines[&#39;y2&#39;].&quot;&quot;);
+//                  $curpos[&#39;x&#39;] = $lines[&#39;x2&#39;];$curpos[&#39;y&#39;] = $lines[&#39;y2&#39;];
+//                  array_push($skip,$lines[&#39;id&#39;]);
+//                  //$writer-&gt;text(&quot; 00stats00*curpos[x]=&quot;.$curpos[&#39;x&#39;].&quot;*curpos[y]=&quot;.$curpos[&#39;y&#39;].&quot;*00&quot;);
+//                  continue;
+//              }
+//
+//
+//          if ( $curpos[&#39;x&#39;] == $lines[&#39;x2&#39;] &amp;&amp; $curpos[&#39;y&#39;] == $lines[&#39;y2&#39;] ) {
+//                  $writer-&gt;text(&quot; &quot;.$lines[&#39;x1&#39;].&quot; -&quot;.$lines[&#39;y1&#39;].&quot;&quot;);
+//                  $curpos[&#39;x&#39;] = $lines[&#39;x1&#39;];$curpos[&#39;y&#39;] = $lines[&#39;y1&#39;];
+//                  array_push($skip,$lines[&#39;id&#39;]);
+//                  //$writer-&gt;text(&quot; 00stats00*curpos[x]=&quot;.$curpos[&#39;x&#39;].&quot;*curpos[y]=&quot;.$curpos[&#39;y&#39;].&quot;*00&quot;);
+//                  continue;
+//              }
+//          $writer-&gt;flush(); 
+//          $writer-&gt;text(&quot; 00*end*foreach*lines*00&quot;);
+//      }
+//$writer-&gt;text(&quot; 00*end*do*loop*00&quot;);
+//  } while   ($endpos[&#39;x&#39;] !== $curpos[&#39;x&#39;] &amp;&amp; $endpos[&#39;y&#39;] !== $curpos[&#39;y&#39;]);
+// 
+        $writer-&gt;endAttribute();
+ $writer-&gt;writeAttribute (&#39;solid&#39;,&#39;true&#39;);
+ $writer-&gt;writeAttribute (&#39;spine&#39;,&#39;0 0 0 0 500 0&#39;);
+          $writer-&gt;endElement();     
+           $writer-&gt;endElement();   
+           $writer-&gt;endDocument();   
+           $writer-&gt;flush(); 
+?&gt;</code></pre>
+
+
+<footer  style="display: table-row; color:black; background: green; width: 100%; display: table; ">
+<div style="color:black; background: green; display: table-row">
+        <div style="color:black; background: green; display: table-cell; text-align: left;">
+<a style="color:black; background: green;" href="{{ site.url }}/website/">(W)ebsite</a></div>
+        <div style="color:black; background: green; display: table-cell;">
+Standing by
+</div>
+        <div style="color:green; background: black; display: table-cell; text-align: left;">
+<form action="{{ site.url }}search/" method="get">
+  <input type="text" id="search-query" name="q" placeholder="" autocomplete="off">
+</form>
+</div>
+</div>
+</footer>
+<script src="http://www.anrdoezrs.net/am/8187413/include/allCj/impressions/page/am.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-86242614-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+
+</html>
