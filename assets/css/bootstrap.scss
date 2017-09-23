@@ -3,7 +3,7 @@
 $color_1: green;
 $color_2: #000;
 $color_3: inherit;
-$color_4: #bbbbbb;
+$color_4: green;
 $color_5: #ffffff;
 $color_6: #555555;
 $color_7: #a2a2a2;
@@ -41,7 +41,7 @@ $background_color_1: transparent;
 $background_color_2: #fff;
 $background_color_3: #121010;
 $background_color_4: #aa00aa;
-$background_color_5: #bbbbbb;
+$background_color_5: green;
 $background_color_6: #a2a2a2;
 $background_color_7: #00aa00;
 $background_color_8: #007700;
@@ -74,7 +74,7 @@ $border_color_1: #55ff55;
 $border_color_2: #ff55ff;
 $border_color_3: #ff5555;
 $border_color_4: transparent;
-$border_color_5: #bbbbbb;
+$border_color_5: green;
 $border_color_6: #dddddd;
 $border_color_7: #000000;
 $border_color_8: #333333;
@@ -94,9 +94,9 @@ $border_top_color_4: #aa5500;
 $border_top_color_5: #aa00aa;
 $border_top_color_6: #000000;
 $border_top_color_7: #dddddd;
-$border_top_color_8: #bbbbbb;
+$border_top_color_8: green;
 $border_bottom_color_1: #dddddd;
-$border_bottom_color_2: #bbbbbb;
+$border_bottom_color_2: green;
 $border_bottom_color_3: #00aa00;
 $border_bottom_color_4: #aa5500;
 $border_bottom_color_5: #aa00aa;
@@ -270,7 +270,7 @@ a {
 abbr[title] {
 	border-bottom: 1px dotted;
 	cursor: help;
-	border-bottom: 0px dotted #bbbbbb;
+	border-bottom: 0px dotted green;
 }
 b {
 	font-weight: normal;
@@ -355,9 +355,9 @@ hr {
 }
 pre {
 	overflow: auto;
-	font-family: $font_family_2;
+	font-family: $font_family_1;
 	font-size: 1em;
-	font-family: $font_family_6;
+	font-family: $font_family_1;
 	display: block;
 	padding: 9px;
 	margin: 0 0 9.5px;
@@ -377,9 +377,9 @@ pre {
 	}
 }
 code {
-	font-family: $font_family_2;
+	font-family: $font_family_1;
 	font-size: 1em;
-	font-family: $font_family_6;
+	font-family: $font_family_1;
 	padding: 0;
 	font-size: 1em;
 	color: $color_17;
@@ -2078,7 +2078,7 @@ h4 {
 	margin: 0 0 19px 0;
 	color: $color_3;
 	font-size: 1em;
-	color: $color_5;
+	color: green;
 	small {
 		font-weight: normal;
 		line-height: 1;
@@ -2356,7 +2356,7 @@ a.bg-danger {
 .page-header {
 	padding-bottom: 8.5px;
 	margin: 38px 0 19px;
-	border-bottom: 2px solid #bbbbbb;
+	border-bottom: 2px solid green;
 }
 ol {
 	margin-top: 0;
@@ -2471,7 +2471,7 @@ dd {
 }
 abbr[data-original-title] {
 	cursor: help;
-	border-bottom: 0px dotted #bbbbbb;
+	border-bottom: 0px dotted green;
 }
 .initialism {
 	font-size: 1em;
@@ -2480,7 +2480,7 @@ abbr[data-original-title] {
 blockquote {
 	padding: 19px 19px;
 	margin: 0 0 19px;
-	border-left: 4.75px solid #bbbbbb;
+	border-left: 4.75px solid green;
 	p {
 		&:last-child {
 			margin-bottom: 0;
@@ -2527,7 +2527,7 @@ blockquote {
 .blockquote-reverse {
 	padding-right: 10px;
 	padding-left: 0;
-	border-right: 4.75px solid #bbbbbb;
+	border-right: 4.75px solid green;
 	border-left: 0;
 	text-align: right;
 	footer {
@@ -2558,7 +2558,7 @@ blockquote {
 blockquote.pull-right {
 	padding-right: 10px;
 	padding-left: 0;
-	border-right: 4.75px solid #bbbbbb;
+	border-right: 4.75px solid green;
 	border-left: 0;
 	text-align: right;
 	footer {
@@ -3094,15 +3094,15 @@ caption {
 				padding: 8.5px 3px 8.5px 4px;
 				line-height: 19px;
 				vertical-align: top;
-				border-top: 2px solid #bbbbbb;
+				border-top: 2px solid green;
 				vertical-align: bottom;
-				border-bottom: 2px solid #bbbbbb;
+				border-bottom: 2px solid green;
 			}
 			>td {
 				padding: 8.5px 3px 8.5px 4px;
 				line-height: 19px;
 				vertical-align: top;
-				border-top: 2px solid #bbbbbb;
+				border-top: 2px solid green;
 			}
 			>td.active {
 				color: $color_19;
@@ -3194,13 +3194,13 @@ caption {
 				padding: 8.5px 3px 8.5px 4px;
 				line-height: 19px;
 				vertical-align: top;
-				border-top: 2px solid #bbbbbb;
+				border-top: 2px solid green;
 			}
 			>td {
 				padding: 8.5px 3px 8.5px 4px;
 				line-height: 19px;
 				vertical-align: top;
-				border-top: 2px solid #bbbbbb;
+				border-top: 2px solid green;
 			}
 			>td.active {
 				color: $color_19;
@@ -3234,7 +3234,7 @@ caption {
 			}
 		}
 		&+tbody {
-			border-top: 2px solid #bbbbbb;
+			border-top: 2px solid green;
 		}
 		>tr.active {
 			>td {
@@ -3283,13 +3283,13 @@ caption {
 				padding: 8.5px 3px 8.5px 4px;
 				line-height: 19px;
 				vertical-align: top;
-				border-top: 2px solid #bbbbbb;
+				border-top: 2px solid green;
 			}
 			>td {
 				padding: 8.5px 3px 8.5px 4px;
 				line-height: 19px;
 				vertical-align: top;
-				border-top: 2px solid #bbbbbb;
+				border-top: 2px solid green;
 			}
 			>td.active {
 				color: $color_19;
@@ -3428,15 +3428,15 @@ caption {
 	}
 }
 .table-bordered {
-	border: 1px solid #bbbbbb;
+	border: 1px solid green;
 	>thead {
 		>tr {
 			>th {
-				border: 2px solid #bbbbbb;
+				border: 2px solid green;
 				border-bottom-width: 2px;
 			}
 			>td {
-				border: 2px solid #bbbbbb;
+				border: 2px solid green;
 				border-bottom-width: 2px;
 			}
 		}
@@ -3444,20 +3444,20 @@ caption {
 	>tbody {
 		>tr {
 			>th {
-				border: 2px solid #bbbbbb;
+				border: 2px solid green;
 			}
 			>td {
-				border: 2px solid #bbbbbb;
+				border: 2px solid green;
 			}
 		}
 	}
 	>tfoot {
 		>tr {
 			>th {
-				border: 2px solid #bbbbbb;
+				border: 2px solid green;
 			}
 			>td {
-				border: 2px solid #bbbbbb;
+				border: 2px solid green;
 			}
 		}
 	}
@@ -4941,8 +4941,8 @@ tbody.collapse.in {
 	text-align: left;
 	background-color: $background_color_5;
 	border: 2px solid #000000;
-	-webkit-box-shadow: 0px 0px 0 4px #bbbbbb;
-	box-shadow: 0px 0px 0 4px #bbbbbb;
+	-webkit-box-shadow: 0px 0px 0 4px green;
+	box-shadow: 0px 0px 0 4px green;
 	-webkit-background-clip: padding-box;
 	-moz-background-clip: padding;
 	background-clip: padding-box;
@@ -6269,8 +6269,8 @@ select[multiple].input-group-sm {
 			margin: 4px 3px 8px 4px;
 			background-color: $background_color_5;
 			border: 2px solid #000000;
-			-webkit-box-shadow: 0px 0px 0 4px #bbbbbb;
-			box-shadow: 0px 0px 0 4px #bbbbbb;
+			-webkit-box-shadow: 0px 0px 0 4px green;
+			box-shadow: 0px 0px 0 4px green;
 			-webkit-background-clip: padding-box;
 			-moz-background-clip: padding;
 			background-clip: padding-box;
@@ -6290,8 +6290,8 @@ select[multiple].input-group-sm {
 			margin: 4px 3px 8px 4px;
 			background-color: $background_color_5;
 			border: 2px solid #000000;
-			-webkit-box-shadow: 0px 0px 0 4px #bbbbbb;
-			box-shadow: 0px 0px 0 4px #bbbbbb;
+			-webkit-box-shadow: 0px 0px 0 4px green;
+			box-shadow: 0px 0px 0 4px green;
 			-webkit-background-clip: padding-box;
 			-moz-background-clip: padding;
 			background-clip: padding-box;
@@ -6555,7 +6555,7 @@ a.badge {
 	padding: 8.5px 13px 8.5px 14px;
 	margin: 8.5px 4px 8.5px 3px;
 	background-color: $background_color_1;
-	border: 2px solid #bbbbbb;
+	border: 2px solid green;
 	h1 {
 		margin: 0;
 		color: $color_3;
@@ -6772,8 +6772,8 @@ a.thumbnail.active {
 	background-color: $background_color_5;
 	padding: 9.5px 3px 9.5px 4px;
 	border: 2px solid #000000;
-	-webkit-box-shadow: 0px 0px 0 5px #bbbbbb;
-	box-shadow: 0px 0px 0 5px #bbbbbb;
+	-webkit-box-shadow: 0px 0px 0 5px green;
+	box-shadow: 0px 0px 0 5px green;
 	-webkit-background-clip: padding-box;
 	-moz-background-clip: padding;
 	background-clip: padding-box;
@@ -7002,7 +7002,7 @@ a.list-group-item-danger.active {
 			padding-right: 0 4px 0 6px;
 		}
 		&+.panel-body {
-			border-top: 0px solid #bbbbbb;
+			border-top: 0px solid green;
 		}
 		>tbody {
 			&:first-child {
@@ -7028,7 +7028,7 @@ a.list-group-item-danger.active {
 			}
 		}
 		&+.panel-body {
-			border-top: 0px solid #bbbbbb;
+			border-top: 0px solid green;
 		}
 		>.table-bordered {
 			border: 0;
@@ -7130,10 +7130,10 @@ a.list-group-item-danger.active {
 	}
 	>.panel-body {
 		&+.table {
-			border-top: 0px solid #bbbbbb;
+			border-top: 0px solid green;
 		}
 		&+.table-responsive {
-			border-top: 0px solid #bbbbbb;
+			border-top: 0px solid green;
 		}
 	}
 	>.table-bordered {
@@ -9037,7 +9037,7 @@ button.close {
 		margin-bottom: 8.5px;
 		overflow-y: hidden;
 		-ms-overflow-style: -ms-autohiding-scrollbar;
-		border: 2px solid #bbbbbb;
+		border: 2px solid green;
 		>.table {
 			margin-bottom: 0;
 			>thead {
