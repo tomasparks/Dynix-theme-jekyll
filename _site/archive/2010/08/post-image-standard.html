@@ -97,21 +97,19 @@ document.write(result);
     <div id="home" class="tab-pane fade in active">
       				
 
-				<p>The preferred way of using images is placing them in the <code class="highlighter-rouge">/images/</code> directory and referencing them with an absolute path. Prepending the filename with <code class="highlighter-rouge"><span class="p">{</span><span class="err">{</span><span class="w"> </span><span class="err">site.url</span><span class="w"> </span><span class="p">}</span><span class="err">}</span><span class="p">{</span><span class="err">{</span><span class="w"> </span><span class="err">site.baseurl</span><span class="w"> </span><span class="p">}</span><span class="err">}/images/</span></code> will make sure your images display properly in feeds and such.</p>
+				<p>The preferred way of using images is placing them in the <code class="highlighter-rouge">/images/</code> directory and referencing them with an absolute path. Prepending the filename with <code class="highlighter-rouge">{{ site.url }}{{ site.baseurl }}/images/</code> will make sure your images display properly in feeds and such.</p>
 
 <p>Standard image with no width modifier classes applied.</p>
 
 <p><strong>HTML:</strong></p>
 
-<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"{{ site.url }}{{ site.baseurl }}/images/filename.jpg"</span> <span class="na">alt=</span><span class="s">""</span><span class="nt">&gt;</span>
-</code></pre>
-</div>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"{{ site.url }}{{ site.baseurl }}/images/filename.jpg"</span> <span class="na">alt=</span><span class="s">""</span><span class="nt">&gt;</span>
+</code></pre></div></div>
 
 <p><strong>or Kramdown:</strong></p>
 
-<div class="language-markdown highlighter-rouge"><pre class="highlight"><code><span class="p">![</span><span class="nv">alt</span><span class="p">](</span><span class="sx">{{</span> site.url }}{{ site.baseurl }}/images/filename.jpg)
-</code></pre>
-</div>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">alt</span><span class="p">](</span><span class="sx">{{</span> site.url }}{{ site.baseurl }}/images/filename.jpg)
+</code></pre></div></div>
 
 <p><img src="/home/tom/github/blog/Dynix-theme-jekyll/_site//images/unsplash-image-9.jpg" alt="Unsplash image 9" /></p>
 
@@ -119,16 +117,14 @@ document.write(result);
 
 <p><strong>HTML:</strong></p>
 
-<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"{{ site.url }}{{ site.baseurl }}/images/filename.jpg"</span> <span class="na">alt=</span><span class="s">""</span> <span class="na">class=</span><span class="s">"full"</span><span class="nt">&gt;</span>
-</code></pre>
-</div>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"{{ site.url }}{{ site.baseurl }}/images/filename.jpg"</span> <span class="na">alt=</span><span class="s">""</span> <span class="na">class=</span><span class="s">"full"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
 
 <p><strong>or Kramdown:</strong></p>
 
-<div class="language-markdown highlighter-rouge"><pre class="highlight"><code><span class="p">![</span><span class="nv">alt</span><span class="p">](</span><span class="sx">{{</span> site.url }}{{ site.baseurl }}/images/filename.jpg)
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">alt</span><span class="p">](</span><span class="sx">{{</span> site.url }}{{ site.baseurl }}/images/filename.jpg)
 {: .full}
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p class="full"><img src="/home/tom/github/blog/Dynix-theme-jekyll/_site//images/unsplash-image-10.jpg" alt="Unsplash image 10" /></p>
 

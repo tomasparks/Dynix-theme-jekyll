@@ -99,7 +99,7 @@ document.write(result);
 
 				<p>A notice displays information that explains nearby content. Often used to call attention to a particular detail.</p>
 
-<p>When using Kramdown <code class="highlighter-rouge"><span class="p">{</span><span class="err">:</span><span class="w"> </span><span class="err">.notice</span><span class="p">}</span></code> can be added after a sentence to assign the <code class="highlighter-rouge">.notice</code> to the <code class="highlighter-rouge">&lt;p&gt;&lt;/p&gt;</code> element.</p>
+<p>When using Kramdown <code class="highlighter-rouge">{: .notice}</code> can be added after a sentence to assign the <code class="highlighter-rouge">.notice</code> to the <code class="highlighter-rouge">&lt;p&gt;&lt;/p&gt;</code> element.</p>
 
 <p class="notice"><strong>Changes in Service:</strong> We just updated our <a href="#">privacy policy</a> here to better service our customers. We recommend reviewing the changes.</p>
 
@@ -115,7 +115,7 @@ document.write(result);
 
 <p>Want to wrap several paragraphs or other elements in a notice? Using Liquid to capture the content and then filter it with <code class="highlighter-rouge">markdownify</code> is a good way to go.</p>
 
-<div class="language-html highlighter-rouge"><pre class="highlight"><code>{% capture notice-2 %}
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% capture notice-2 %}
 #### New Site Features
 
 * You can now have cover images on blog pages
@@ -123,8 +123,7 @@ document.write(result);
 {% endcapture %}
 
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notice"</span><span class="nt">&gt;</span>{{ notice-2 | markdownify }}<span class="nt">&lt;/div&gt;</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <div class="notice">
   
@@ -139,12 +138,11 @@ document.write(result);
 
 <p>Or you could skip the capture and stick with straight HTML.</p>
 
-<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notice"</span><span class="nt">&gt;</span>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notice"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;h4&gt;</span>Message<span class="nt">&lt;/h4&gt;</span>
   <span class="nt">&lt;p&gt;</span>A basic message.<span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;/div&gt;</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <div class="notice">
   <h4>Message</h4>
