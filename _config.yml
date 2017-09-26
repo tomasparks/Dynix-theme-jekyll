@@ -1,9 +1,9 @@
 #url: http://127.0.0.1:4000/
 baseurl: 
-username:             tomasparks
-repo:                 Dynix-theme-jekyll
-branch:               bootstrap
+username: tomasparks
+repo: Dynix-theme-jekyll
+branch: bootstrap
 
 # Jekyll source / destination
-source:               .
-destination:          _site
+source: .
+destination: _site
