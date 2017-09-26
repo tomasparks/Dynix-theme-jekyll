@@ -4,46 +4,45 @@ pagination:
   enabled: true
 ---
 <!-- start of post -->
-{% include jquery-ui.html %}
-
 <main role="main">
-{% if page.title %}
-<header>
-    <h1>{{ page.title }}</h1>
-</header>
-{% endif %}
+	<div class="container">
+		{% if page.title %}
+			<header class="jumbotron subhead" id="overview">
+				<div class="container">
+					<h1 class="lead">{{ page.title }}</h1>
+				</div>
+			</header>
+		{% endif %}
 
-<div id="tabs">
-	<ul>
-		<li><a href="#tabs-1">Main (F2)</a></li>
-		<li><a href="#tabs-2">Meta (F3)</a></li>
-		{% if page.comments == true %}<li><a href="#tabs-3">Comments (F4)</a></li>{% endif %}
-	</ul>
-<article id="tabs-1">
-{% include image.html %}
-        {{ content }}
-</article>
-<aside id="tabs-2">
-<p>Date: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time></p>
-<p>Author: Tom Sparks</p>
-<p>Permalink: {{site.url}}{{ page.url }}</p>
-</aside>
-    {% if page.comments == true %}
-<aside id="tabs-3">
-      {% include comments.html %}
-</aside>
-{% endif %}
+  <ul class="nav nav-tabs" role="navigation" >
+    <li class="active"><a data-toggle="tab" href="#home">Main (F2)</a></li>
+    <li><a data-toggle="tab" href="#menu1">Meta (F3)</a></li>
+    <li><a data-toggle="tab" href="#menu2">Comments (F4)</a></li>
+    <li><a data-toggle="tab" href="#menu3">Webmention (F5)</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      				{% include image.html %}
+				{{ content }}
+    </div>
+    <div id="menu1" class="tab-pane fade">
+				<p>Date: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time></p>
+				<p>Author: Tom Sparks</p>
+				<p>Permalink: {{site.url}}{{ page.url }}</p>
+    </div>
+
+    <div id="menu2" class="tab-pane fade">
+				{% include comments.html %}
+    </div>
+    <div id="menu3" class="tab-pane fade">
+				{% include webmention.html %}
+    </div>
+  </div>
 </div>
-<div>
-  {% if page.previous.url %}
-    <a  href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-  {% endif %}
-  {% if page.next.url %}
-    <a href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-  {% endif %}
-</div>
+
+{% include pagination.html %}
+
 </main>
-<script>$( "#tabs" ).tabs();
-
-</script>
+<script>$( "#tabs" ).tabs();</script>
 <!-- end of post -->

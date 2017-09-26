@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
 
-<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <link rel="icon" href="{{ site.url }}/assets/img/favicon.png">
-<link rel="stylesheet" href="{{ site.url }}/assets/css/fonts.css" type="text/css" charset="utf-8" />
-<link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/main.css" />
+    <link rel="icon" href="{{ /assets/img/favicon.png | relative_url }}"> 
+    <link href="{{"/assets/css/bootstrap.css" | relative_url}}" rel="stylesheet" media="screen">
+
 <script src="https://use.fontawesome.com/8ada10233a.js"></script>
 
 {% seo %}
@@ -17,14 +19,14 @@
 <header>
 <table>
 <tr>
-<td style="text-align:left;">
+<td class="text-left">
 <script type="text/javascript"><!--
 var now = new Date();
 var Month = new Array("JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC");
 document.write(now.getDate()+" "+Month[now.getMonth()]+" "+now.getFullYear());
 //--></script></td>
-<td style="text-align:center;"><a href="{{ site.url }}">{{ site.name }}</a></td>
-<td style="text-align:right;" ><script type="text/javascript"><!--
+<td class="text-center"><a href="{{ site.url }}">{{ site.name }}</a></td>
+<td class="text-right" ><script type="text/javascript"><!--
 var date_format = '12'; /* FORMAT CAN BE 12 hour (12) OR 24 hour (24)*/
 var d 		= new Date();
 var hour 	= d.getHours();  /* Returns the hour (from 0-23) */

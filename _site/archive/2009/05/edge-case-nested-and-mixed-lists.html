@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <link rel="icon" href=""> 
+    <link href="/assets/css/bootstrap.css" rel="stylesheet" media="screen">
+
+<script src="https://use.fontawesome.com/8ada10233a.js"></script>
+
+<!-- Begin Jekyll SEO tag v2.3.0 -->
+<title>Edge Case: Nested and Mixed Lists | Dynix-theme-jekyll theme</title>
+<meta property="og:title" content="Edge Case: Nested and Mixed Lists" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Nested and mixed lists are an interesting beast. It’s a corner case to make sure that" />
+<meta property="og:description" content="Nested and mixed lists are an interesting beast. It’s a corner case to make sure that" />
+<link rel="canonical" href="http://127.0.0.1:4000//archive/2009/05/edge-case-nested-and-mixed-lists.html" />
+<meta property="og:url" content="http://127.0.0.1:4000//archive/2009/05/edge-case-nested-and-mixed-lists.html" />
+<meta property="og:site_name" content="Dynix-theme-jekyll theme" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2009-05-15T00:00:00+10:00" />
+<script type="application/ld+json">
+{"name":null,"description":"Nested and mixed lists are an interesting beast. It’s a corner case to make sure that","author":null,"@type":"BlogPosting","url":"http://127.0.0.1:4000//archive/2009/05/edge-case-nested-and-mixed-lists.html","publisher":null,"image":null,"headline":"Edge Case: Nested and Mixed Lists","dateModified":"2017-09-22T23:21:37+10:00","datePublished":"2009-05-15T00:00:00+10:00","sameAs":null,"mainEntityOfPage":{"@type":"WebPage","@id":"http://127.0.0.1:4000//archive/2009/05/edge-case-nested-and-mixed-lists.html"},"@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+<body>
+<header>
+<table>
+<tr>
+<td class="text-left">
+<script type="text/javascript"><!--
+var now = new Date();
+var Month = new Array("JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC");
+document.write(now.getDate()+" "+Month[now.getMonth()]+" "+now.getFullYear());
+//--></script></td>
+<td class="text-center"><a href="http://127.0.0.1:4000/">Dynix-theme-jekyll theme</a></td>
+<td class="text-right" ><script type="text/javascript"><!--
+var date_format = '12'; /* FORMAT CAN BE 12 hour (12) OR 24 hour (24)*/
+var d 		= new Date();
+var hour 	= d.getHours();  /* Returns the hour (from 0-23) */
+var minutes     = d.getMinutes();  /* Returns the minutes (from 0-59) */
+var result 	= hour;
+var ext 	= '';
+if(date_format == '12'){
+	if(hour > 12){
+		ext = 'PM';
+		hour = (hour - 12);
+	
+		if(hour < 10){
+			result = "0" + hour;
+		}else if(hour == 12){
+			hour = "00";
+			ext = 'AM';
+		}
+	}
+	else if(hour < 12){
+		result = ((hour < 10) ? "0" + hour : hour);
+		ext = 'AM';
+	}else if(hour == 12){
+		ext = 'PM';
+	}
+}
+if(minutes < 10){
+	minutes = "0" + minutes; 
+}
+result = result + ":" + minutes + ' ' + ext; 
+document.write(result);
+//--></script></td></tr>
+</table>
+</header>
+
+        <!-- start of post -->
+<main role="main">
+	<div class="container">
+		
+			<header class="jumbotron subhead" id="overview">
+				<div class="container">
+					<h1 class="lead">Edge Case: Nested and Mixed Lists</h1>
+				</div>
+			</header>
+		
+
+  <ul class="nav nav-tabs" role="navigation" >
+    <li class="active"><a data-toggle="tab" href="#home">Main (F2)</a></li>
+    <li><a data-toggle="tab" href="#menu1">Meta (F3)</a></li>
+    <li><a data-toggle="tab" href="#menu2">Comments (F4)</a></li>
+    <li><a data-toggle="tab" href="#menu3">Webmention (F5)</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      				
+
+				<p>Nested and mixed lists are an interesting beast. It’s a corner case to make sure that</p>
+
+<ul>
+  <li>Lists within lists do not break the ordered list numbering order</li>
+  <li>Your list styles go deep enough.</li>
+</ul>
+
+<h3 id="ordered--unordered--ordered">Ordered – Unordered – Ordered</h3>
+
+<ol>
+  <li>ordered item</li>
+  <li>ordered item
+    <ul>
+      <li><strong>unordered</strong></li>
+      <li><strong>unordered</strong></li>
+    </ul>
+    <ol>
+      <li>ordered item</li>
+      <li>ordered item</li>
+    </ol>
+  </li>
+  <li>ordered item</li>
+  <li>ordered item</li>
+</ol>
+
+<h3 id="ordered--unordered--unordered">Ordered – Unordered – Unordered</h3>
+
+<ol>
+  <li>ordered item</li>
+  <li>ordered item
+    <ul>
+      <li><strong>unordered</strong></li>
+      <li><strong>unordered</strong></li>
+    </ul>
+    <ul>
+      <li>unordered item</li>
+      <li>unordered item</li>
+    </ul>
+  </li>
+  <li>ordered item</li>
+  <li>ordered item</li>
+</ol>
+
+<h3 id="unordered--ordered--unordered">Unordered – Ordered – Unordered</h3>
+
+<ul>
+  <li>unordered item</li>
+  <li>unordered item
+    <ol>
+      <li>ordered</li>
+      <li>ordered
+        <ul>
+          <li>unordered item</li>
+          <li>unordered item</li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+  <li>unordered item</li>
+  <li>unordered item</li>
+</ul>
+
+<h3 id="unordered--unordered--ordered">Unordered – Unordered – Ordered</h3>
+
+<ul>
+  <li>unordered item</li>
+  <li>unordered item
+    <ul>
+      <li>unordered</li>
+      <li>unordered
+        <ol>
+          <li><strong>ordered item</strong></li>
+          <li><strong>ordered item</strong></li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+  <li>unordered item</li>
+  <li>unordered item</li>
+</ul>
+
+    </div>
+    <div id="menu1" class="tab-pane fade">
+				<p>Date: <time datetime="2009-05-15T00:00:00+10:00">15 May 2009</time></p>
+				<p>Author: Tom Sparks</p>
+				<p>Permalink: http://127.0.0.1:4000//archive/2009/05/edge-case-nested-and-mixed-lists.html</p>
+    </div>
+
+    <div id="menu2" class="tab-pane fade">
+				<div class="entry-comments">
+
+
+  
+
+</div>
+
+    </div>
+    <div id="menu3" class="tab-pane fade">
+				<div class="webmentions">
+  <p class="webmentions__not-found">No webmentions were found.</p>
+</div>
+<div class="webmentions webmentions--likes">
+  <p class="webmentions__not-found">No likes were found.</p>
+</div>
+<div class="webmentions webmentions--links">
+  <p class="webmentions__not-found">No webmentions were found.</p>
+</div>
+<div class="webmentions webmentions--reposts">
+  <p class="webmentions__not-found">No reposts were found.</p>
+</div>
+<div class="webmentions webmentions--replies">
+  <p class="webmentions__not-found">No webmentions were found.</p>
+</div>
+<div class="webmentions webmentions--reposts">
+  <p class="webmentions__not-found">No reposts were found.</p>
+</div>
+
+    </div>
+  </div>
+</div>
+
+<ul class="pager">
+  
+  <li class="next"><a href="/archive/2009/06/edge-case-many-tags.html">Edge Case: Many Tags &raquo;</a></li>  
+</ul> 
+
+
+</main>
+<script>$( "#tabs" ).tabs();</script>
+<!-- end of post -->
+
+    <footer>
+      <div>
+        <span><div><a href="http://127.0.0.1:4000//website/">(W)ebsite</a></div><div>Standing by</div><div>
+<form action="http://127.0.0.1:4000/search/" method="get"><input type="text" id="search-query" name="q" placeholder="" autocomplete="off"></form>
+</div></span>
+      </div>
+    </footer>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="http://127.0.0.1:4000//assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+

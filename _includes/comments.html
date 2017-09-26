@@ -1,4 +1,6 @@
 <div class="entry-comments">
+
+
   {% if site.repository and site.branch %}
     {% if site.data.comments[page.slug] %}
       <!-- Start static comments -->
@@ -22,7 +24,8 @@
       </div>
       <!-- End static comments -->
     {% endif %}
-
     {% include comment-form.html %}
+
   {% endif %}
+
 </div>

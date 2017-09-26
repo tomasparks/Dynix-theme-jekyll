@@ -1,0 +1,87 @@
+# Blog settings
+permalink: '/archive/:year/:month/:slug.html'
+title: Dynix-theme-jekyll theme
+name: Dynix-theme-jekyll theme
+
+
+keep_files:   [".git"]
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE","build.sh","Gemfile.lock","Gemfile","*.yml"]
+
+strict_front_matter: true
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+
+defaults:
+  
+  # all posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+  # all _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+
+  # recipes collection
+  - scope:
+      path: ""
+      type: recipes
+    values:
+      layout: single
+  
+  # pets collection
+  - scope:
+      path: ""
+      type: pets
+    values:
+      layout: single
+
+  # portfolio collection
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+
+collections:
+   components:
+    output: false
+   colors:
+    output: false
+   projects:
+     output: true
+     permalink: /projects/:name.html
+#  computers:
+#    layout: page
+#    output: true
+#    permalink: /about-me/computers/:name.html
+#  questions:
+#    layout: page
+#    output: true
+#    permalink: /questions/:path/
+
+
+plugins: 
+# - 'jekyll-lunr-js-search' [UNSUPPORTED] 
+ - 'jekyll-seo-tag' # setting in seo.yml
+ - 'jekyll/responsive_image' # settings in responsive_image.yml
+ - 'jekyll-redirect-from' # https://github.com/jekyll/jekyll-redirect-from
+# - 'jekyll-paginate-v2' # https://github.com/sverrirs/jekyll-paginate-v2
+ - 'jekyll-last-modified-at'
+ - 'jekyll-webmention_io' # setting in webmentions.yml
