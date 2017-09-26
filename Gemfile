@@ -15,6 +15,7 @@ gem 'jekyll-last-modified-at'
 #gem 'rmagick'
 gem 'jekyll-responsive_image'
 #gem 'jekyll-picture-tag', github: 'nhoizey/jekyll-picture-tag'
+gem 'jekyll-webmention_io'
 
 
 #gem 'html-proofer'

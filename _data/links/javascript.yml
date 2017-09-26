@@ -1,0 +1,27 @@
+title: javascripts
+description: 
+links: 
+
+- title: jQuery
+  url: "https://jquery.com/"
+  description: "jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript."
+
+- title: jQuery UI
+  url: "https://jqueryui.com/"
+  description: "jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library. Whether you're building highly interactive web applications or you just need to add a date picker to a form control, jQuery UI is the perfect choice."
+
+- title: facyBox
+  url: "http://fancybox.net/"
+  description: "FancyBox is a tool for displaying images, html content and multi-media in a Mac-style \"lightbox\" that floats overtop of web page. It was built using the jQuery library. Licensed under both MIT and GPL licenses"
+
+- title: x3dom
+  url: "http://www.x3dom.org/"
+  description: "Integrate 3D content seamlessly into your webpage - the scene is directly written into the HTML markup. No Plugins needed. Simply include a javascript file. Free for non-commercial and commercial purposes."
+
+- title: SpriteSpin
+  url: "http://spritespin.ginie.eu/"
+  description: SpriteSpin is a jQuery p'lugin that turns image frames into animations. It requires an array of images or a stiched sprite sheet and plays them frame by frame like a flip book. The aim of this plugin is to provide a 360 degree view of any kind of product. The plugin is built with extensibility in mind and allows web developers to customize the behavior and presentation of the animations."
+
+- title: OpenSeadragon
+  url: "https://openseadragon.github.io/"
+  description: "An open-source, web-based viewer for high-resolution zoomable images, implemented in pure JavaScript, for desktop and mobile."
