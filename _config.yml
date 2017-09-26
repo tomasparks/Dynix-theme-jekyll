@@ -2,11 +2,7 @@
 baseurl: 
 username: tomasparks
 repo: Dynix-theme-jekyll
-<<<<<<< HEAD
 branch: master
-=======
-branch: bootstrap
->>>>>>> bootstrap
 
 # Jekyll source / destination
 source: .
