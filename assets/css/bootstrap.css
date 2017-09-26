@@ -2,25 +2,25 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 @font-face {
   font-family: 'IBM_MDA';
-  src: url("http://127.0.0.1:4000//assets/css/fonts/PxPlus_IBM_MDA.eot");
-  src: local("☺"), url("http://127.0.0.1:4000//assets/css/fonts/PxPlus_IBM_MDA.woff") format("woff"), url("http://127.0.0.1:4000//assets/css/fonts/PxPlus_IBM_MDA.ttf") format("truetype"), url("http://127.0.0.1:4000//assets/css/fonts/PxPlus_IBM_MDA.svg") format("svg");
+  src: url("/assets/css/fonts/PxPlus_IBM_MDA.eot");
+  src: local("☺"), url("/assets/css/fonts/PxPlus_IBM_MDA.woff") format("woff"), url("/assets/css/fonts/PxPlus_IBM_MDA.ttf") format("truetype"), url("/assets/css/fonts/PxPlus_IBM_MDA.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'Glass_TTY_VT220';
-  src: url("http://127.0.0.1:4000//assets/css/fonts/Glass_TTY_VT220.eot");
-  src: local("☺"), url("http://127.0.0.1:4000//assets/css/fonts/Glass_TTY_VT220.woff") format("woff"), url("http://127.0.0.1:4000//assets/css/fonts/Glass_TTY_VT220.ttf") format("truetype"), url("http://127.0.0.1:4000//assets/css/fonts/Glass_TTY_VT220.svg") format("svg");
+  src: url("/assets/css/fonts/Glass_TTY_VT220.eot");
+  src: local("☺"), url("/assets/css/fonts/Glass_TTY_VT220.woff") format("woff"), url("/assets/css/fonts/Glass_TTY_VT220.ttf") format("truetype"), url("/assets/css/fonts/Glass_TTY_VT220.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("http://127.0.0.1:4000//assets/css/fonts/glyphicons-halflings-regular.eot");
-  src: url("http://127.0.0.1:4000//assets/css/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("http://127.0.0.1:4000//assets/css/fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("http://127.0.0.1:4000//assets/css/fonts/glyphicons-halflings-regular.woff") format("woff"), url("http://127.0.0.1:4000//assets/css/fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("http://127.0.0.1:4000//assets/css/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+  src: url("/assets/css/fonts/glyphicons-halflings-regular.eot");
+  src: url("/assets/css/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("/assets/css/fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("/assets/css/fonts/glyphicons-halflings-regular.woff") format("woff"), url("/assets/css/fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("/assets/css/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 @font-face {
   font-family: 'DOS';
   src: url("fonts/Fixedsys500c.eot");
-  src: local("☺"), url("http://127.0.0.1:4000//assets/css/fonts/Fixedsys500c.woff") format("woff"), url("http://127.0.0.1:4000//assets/css/fonts/Fixedsys500c.ttf") format("truetype"), url("http://127.0.0.1:4000//assets/css/fonts/Fixedsys500c.svg") format("svg");
+  src: local("☺"), url("/assets/css/fonts/Fixedsys500c.woff") format("woff"), url("/assets/css/fonts/Fixedsys500c.ttf") format("truetype"), url("/assets/css/fonts/Fixedsys500c.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
 @-webkit-keyframes "progress-bar-stripes" {
