@@ -1,4 +1,6 @@
-source 'https://rubygems.org'
+source "http://production.cf.rubygems.org/"
+
+gem "rake", "~> 10.1.1"
 gem 'jekyll'
 gem 'jekyll-lunr-js-search'
 #gem 'jekyll-archives'
