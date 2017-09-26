@@ -83,9 +83,5 @@ plugins:
  - 'jekyll/responsive_image' # settings in responsive_image.yml
  - 'jekyll-redirect-from' # https://github.com/jekyll/jekyll-redirect-from
 # - 'jekyll-paginate-v2' # https://github.com/sverrirs/jekyll-paginate-v2
- - 'jekyll/scholar' # settings in scholar.yml
-# - 'jekyll/scholar/extras' # settings in scholar.yml
  - 'jekyll-last-modified-at'
  - 'jekyll-webmention_io' # setting in webmentions.yml
-
-
