@@ -1,9 +1,27 @@
-#url: http://127.0.0.1:4000/
-baseurl: 
-username: tomasparks
-repo: Dynix-theme-jekyll
-branch: master
+# Blog settings
+permalink: '/archive/:year/:month/:slug.html'
 
-# Jekyll source / destination
-source: .
-destination: _site
+keep_files:   [".git"]
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE","Gemfile.lock","Gemfile","*.yml"]
+
+strict_front_matter: true
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+
+
+
+
+plugins: 
+# - 'jekyll-lunr-js-search' [UNSUPPORTED] 
+ - 'jekyll-seo-tag' # setting in seo.yml
+ - 'jekyll/responsive_image' # settings in responsive_image.yml
+ - 'jekyll-redirect-from' # https://github.com/jekyll/jekyll-redirect-from
+# - 'jekyll-paginate-v2' # https://github.com/sverrirs/jekyll-paginate-v2
+
+
