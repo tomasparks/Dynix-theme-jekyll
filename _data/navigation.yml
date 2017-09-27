@@ -1,0 +1,8 @@
+- title: home
+  url: /
+
+- title: Website
+  url: /website/
+
+- title: theme source
+  url: https://github.com/tomasparks/Dynix-theme-jekyll
