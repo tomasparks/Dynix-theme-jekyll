@@ -1,9 +1,12 @@
 # Blog settings
 permalink: '/archive/:year/:month/:slug.html'
+title: Dynix-theme-jekyll theme
+name: Dynix-theme-jekyll theme
+
 
 keep_files:   [".git"]
 include: [".htaccess"]
-exclude: ["README.md", "LICENSE","Gemfile.lock","Gemfile","*.yml"]
+exclude: ["README.md", "LICENSE","build.sh","Gemfile.lock","Gemfile","*.yml"]
 
 strict_front_matter: true
 
@@ -15,13 +18,12 @@ kramdown:
 highlighter: rouge
 
 
-
-
 plugins: 
 # - 'jekyll-lunr-js-search' [UNSUPPORTED] 
  - 'jekyll-seo-tag' # setting in seo.yml
  - 'jekyll/responsive_image' # settings in responsive_image.yml
  - 'jekyll-redirect-from' # https://github.com/jekyll/jekyll-redirect-from
 # - 'jekyll-paginate-v2' # https://github.com/sverrirs/jekyll-paginate-v2
-
+ - 'jekyll-last-modified-at'
+ - 'jekyll-webmention_io' # setting in webmentions.yml
 
