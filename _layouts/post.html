@@ -21,15 +21,15 @@ pagination:
     <li><a data-toggle="tab" href="#menu3">Webmention (F5)</a></li>
   </ul>
 
-  <div class="tab-content">
-    <div id="home" class="tab-pane fade in active">
+  <div class="tab-content h-entry">
+    <div id="home" class="tab-pane fade in active e-content">
       				{% include image.html %}
 				{{ content }}
     </div>
     <div id="menu1" class="tab-pane fade">
-				<p>Date: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time></p>
-				<p>Author: Tom Sparks</p>
-				<p>Permalink: {{site.url}}{{ page.url }}</p>
+				<p>Date: <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time></p>
+				<p>Author: <a href= "" class="p-author h-card">Tom Sparks</a></p>
+				<p>Permalink: <div class="u-url">{{site.url}}{{ page.url }}</div></p>
     </div>
 
     <div id="menu2" class="tab-pane fade">
