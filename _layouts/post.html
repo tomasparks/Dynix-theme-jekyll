@@ -3,6 +3,8 @@ layout: default
 pagination:
   enabled: true
 ---
+{% include jquery.html %}
+{% include jquery-ui.html %}
 <!-- start of post -->
 <main role="main">
 	<div class="container">
@@ -27,9 +29,7 @@ pagination:
 				{{ content }}
     </div>
     <div id="menu1" class="tab-pane fade">
-				<p>Date: <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time></p>
-				<p>Author: <a href= "" class="p-author h-card">Tom Sparks</a></p>
-				<p>Permalink: <div class="u-url">{{site.url}}{{ page.url }}</div></p>
+      				{% include metadata.html %}
     </div>
 
     <div id="menu2" class="tab-pane fade">
