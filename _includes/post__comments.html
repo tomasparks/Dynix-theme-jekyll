@@ -1,7 +1,10 @@
 {% if page.comments == true %}
+<!-- page.comments == TRUE -->
   <section class="post__comments">
+  <!-- {{site.repository}} {{site.staticman.branch}} -->
     {% if site.repository and site.staticman.branch %}
       {% if site.data.comments[page.slug] %}
+      <!-- {{site.data.comments[page.slug]}} -->
         <!-- Start static comments -->
         <div id="comments" class="js-comments">
           <h3 class="tile__header">Comments</h3>
