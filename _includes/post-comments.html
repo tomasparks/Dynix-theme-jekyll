@@ -1,6 +1,7 @@
 <!-- page.comments == TRUE -->
   <section class="post__comments">
-  <!-- {{site.repository}} {{site.staticman.branch}} -->
+  <!-- site.site.repository = {{site.repository}} -->
+  <!-- site.staticman.branch = {{site.staticman.branch}} -->
     {% if site.repository and site.staticman.branch %}
       {% if site.data.comments[page.slug] %}
       <!-- {{site.data.comments[page.slug]}} -->
