@@ -24,20 +24,20 @@ pagination:
   </ul>
 
   <div class="tab-content h-entry">
-    <div id="home" class="tab-pane fade in active e-content">
+    <div id="home" class="e-content">
       				{% include image.html %}
 				{{ content }}
     </div>
-    <div id="menu1" class="tab-pane fade">
+    <div id="menu1" class="">
       				{% include metadata.html %}
     </div>
 
-    <div id="menu2" class="tab-pane fade">
+    <div id="menu2" class="">
     {% if page.comments == true %}
       {% include post-comments.html %}
 {% endif %}
     </div>
-    <div id="menu3" class="tab-pane fade">
+    <div id="menu3" class="">
 				{% include webmention.html %}
     </div>
   </div>
