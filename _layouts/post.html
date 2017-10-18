@@ -33,7 +33,9 @@ pagination:
     </div>
 
     <div id="menu2" class="tab-pane fade">
-				{% include comments.html %}
+    {% if post.comments == true %}
+      {% include comments.html %}
+{% endif %}
     </div>
     <div id="menu3" class="tab-pane fade">
 				{% include webmention.html %}
