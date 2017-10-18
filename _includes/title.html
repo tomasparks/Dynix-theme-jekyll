@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<!-- start of page -->
+<main role="main">
+<article  class="h-entry">  
+<div class="container">
+{% if page.title %}
+<header class="jumbotron subhead" id="overview">
+ <div class="container">
+    <h1 class="lead p-name">{{ page.title }}</h1>
+  </div>
+</header>
+{% endif %}
+ <div class="e-content">
+        {{ content }}
+        </div>
+  <div>
+</article>
+</main>
+<!-- end of page -->
