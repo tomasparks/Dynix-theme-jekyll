@@ -1,3 +1,20 @@
+ <div class="u-comment h-cite" id="comment{{ include.index }}">
+   <div class="p-author h-card author">
+    {% if include.avatar %}
+      <img class="u-photo" src="{{ include.avatar }}" alt="{{ include.name }}" height="50" width="50">
+    {% else %}
+      <img class="u-photo" src="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=50" srcset="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=100 2x" alt="{{ include.name }}" height="50" width="50">
+    {% endif %}
+  <a class="p-name u-url" href="{{ include.url }}">{{ include.name }}</a>
+  </div>
+  <p class=""e-content p-name comment-content">{{ include.message | markdownify }}</p>
+  <a class="u-url" href="{{site.url}}{page.url}}#comment{{ include.index }}">
+    <time class="dt-published"  datetime="{{ include.date | date: "%B %d, %Y at %I:%M %p" }}">{{ include.date | date: "%B %d, %Y at %I:%M %p" }}</time>
+  </a>
+ </div>
+
+
+
 <article id="comment{{ include.index }}" class="js-comment comment" itemprop="comment" itemscop itemtype="http://schema.org/Comment">
   <div class="comment__avatar-wrapper">
     {% if include.avatar %}
