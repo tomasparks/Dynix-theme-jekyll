@@ -19,13 +19,13 @@ module Jekyll
 
 
 
-  module recursion
-    # strip characters and whitespace to create valid filenames, also lowercase
-def recursion_function(record,name)
-  record.each do |rec|
- if rec['name'] != nill then return
- Jekyll.logger.warn rec
-  recursion_function(rec,name)    # getting closer to base case 
+  module Recursion
+    def recursion_function(record,name)
+         record.each do |rec|
+         if rec['name'] != nill then return
+             Jekyll.logger.warn rec
+             recursion_function(rec,name)    # getting closer to base case 
+         end
     end
   end
 
