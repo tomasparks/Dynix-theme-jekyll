@@ -96,11 +96,13 @@ module Jekyll
             # for which we want to generate different pages
             records = nil
             data_spec['data'].split('.').each do |level|
+              Jekyll.logger.warn "level= ", level
               if records.nil?
                 records = site.data[level]
               else
                 records = records[level]
               end
+            Jekyll.logger.warn "records= ", records    
             end
             records = records.select { |r| r[data_spec['filter']] } if data_spec['filter']
             records.each do |record|
