@@ -22,6 +22,10 @@ module Jekyll
   module Recursion
   
     def recursion_function(record,name)
+        Jekyll.logger.warn "recursion_function ("
+        Jekyll.logger.warn "record= ", record
+        Jekyll.logger.warn "name= ", name       
+        Jekyll.logger.warn ")"
          record.each do |rec|
              if rec['name'] != nill then return
                 Jekyll.logger.warn rec
@@ -87,10 +91,10 @@ module Jekyll
       # (name/index.html) or standard files (name.html). This information
       # is passed to the DataPage constructor, which sets the @dir variable
       # as required by this directive
+      include Recursion
       Jekyll.logger.warn "inside generate(site)"
       
       index_files = site.config['page_gen-dirs'] == true
-      Jekyll.logger.warn index_files
 
       # data contains the specification of the data for which we want to generate
       # the pages (look at the README file for its specification)
@@ -106,7 +110,6 @@ module Jekyll
             # for which we want to generate different pages
             records = nil
             data_spec['data'].split('.').each do |level|
-              Jekyll.logger.warn "level= ", level
               if records.nil?
                 records = site.data[level]
               else
