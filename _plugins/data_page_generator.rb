@@ -106,7 +106,8 @@ module Jekyll
             end
             records = records.select { |r| r[data_spec['filter']] } if data_spec['filter']
             records.each do |record|
-            Jekyll.logger.warn "records= ", records                
+            Jekyll.logger.warn "start of records.each loop"
+            Jekyll.logger.warn "record= ", record                
             Jekyll.logger.warn "calling DataPage.new("
             Jekyll.logger.warn "site= ", site
             Jekyll.logger.warn "site.source= ", site.source
@@ -117,7 +118,8 @@ module Jekyll
             Jekyll.logger.warn "template= ", template
             Jekyll.logger.warn "extension= ", extension 
             Jekyll.logger.warn ")"
-             site.pages << DataPage.new(site, site.source, index_files, dir, record, name, template, extension)
+            site.pages << DataPage.new(site, site.source, index_files, dir, record, name, template, extension)
+            Jekyll.logger.warn "EOF records.each loop"
             end
           else
             Jekyll.logger.warn "error. could not find template #{template}" if not site.layouts.key? template
