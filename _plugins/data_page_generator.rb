@@ -21,11 +21,11 @@ module Jekyll
 
   module recursion
     # strip characters and whitespace to create valid filenames, also lowercase
-def recursion(record,name)
+def recursion_function(record,name)
   record.each do |rec|
  if rec['name'] != nill then return
  Jekyll.logger.warn rec
-  recursion(rec,name)    # getting closer to base case 
+  recursion_function(rec,name)    # getting closer to base case 
     end
   end
 
@@ -117,7 +117,7 @@ def recursion(record,name)
             Jekyll.logger.warn "records= ", records    
             end
             records = records.select { |r| r[data_spec['filter']] } if data_spec['filter']
-            recursion(record,name)
+            recursion_function(record,name)
             records.each do |record|
                 
                 Jekyll.logger.warn "start of records.each loop"
