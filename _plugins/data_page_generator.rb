@@ -98,13 +98,9 @@ module Jekyll
       if data
         data.each do |data_spec|
           template = data_spec['template'] || data_spec['data']
-          Jekyll.logger.warn "template= ", template
           name = data_spec['name']
-          Jekyll.logger.warn "name= ", name
           dir = data_spec['dir'] || data_spec['data']
-          Jekyll.logger.warn "dir= ", dir
           extension = data_spec['extension'] || "html"
-          Jekyll.logger.warn "extension= ", extension
           if site.layouts.key? template
             # records is the list of records defined in _data.yml
             # for which we want to generate different pages
@@ -119,7 +115,7 @@ module Jekyll
             Jekyll.logger.warn "records= ", records    
             end
             records = records.select { |r| r[data_spec['filter']] } if data_spec['filter']
-            recursion_function(record,name)
+            recursion_function(records,name)
             records.each do |record|
                 
                 Jekyll.logger.warn "start of records.each loop"
