@@ -17,6 +17,18 @@ module Jekyll
     end
   end
 
+
+
+  module recursion
+    # strip characters and whitespace to create valid filenames, also lowercase
+def recursion(record,name)
+  record.each do |rec|
+ if rec['name'] != nill then return
+ Jekyll.logger.warn rec
+  recursion(rec,name)    # getting closer to base case 
+    end
+  end
+
   # this class is used to tell Jekyll to generate a page
   class DataPage < Page
     include Sanitizer
@@ -105,21 +117,23 @@ module Jekyll
             Jekyll.logger.warn "records= ", records    
             end
             records = records.select { |r| r[data_spec['filter']] } if data_spec['filter']
+            recursion(record,name)
             records.each do |record|
-            Jekyll.logger.warn "start of records.each loop"
-            Jekyll.logger.warn "record= ", record                
-            Jekyll.logger.warn "calling DataPage.new("
-            Jekyll.logger.warn "site= ", site
-            Jekyll.logger.warn "site.source= ", site.source
-            Jekyll.logger.warn "index_files=", index_files
-            Jekyll.logger.warn "dir= ", dir
-            Jekyll.logger.warn "record= ", record
-            Jekyll.logger.warn "name= ", name
-            Jekyll.logger.warn "template= ", template
-            Jekyll.logger.warn "extension= ", extension 
-            Jekyll.logger.warn ")"
-            site.pages << DataPage.new(site, site.source, index_files, dir, record, name, template, extension)
-            Jekyll.logger.warn "EOF records.each loop"
+                
+                Jekyll.logger.warn "start of records.each loop"
+                         
+                Jekyll.logger.warn "calling DataPage.new("
+                Jekyll.logger.warn "site= ", site
+                Jekyll.logger.warn "site.source= ", site.source
+                Jekyll.logger.warn "index_files=", index_files
+                Jekyll.logger.warn "dir= ", dir
+                Jekyll.logger.warn "record= ", record
+                Jekyll.logger.warn "name= ", name
+                Jekyll.logger.warn "template= ", template
+                Jekyll.logger.warn "extension= ", extension 
+                Jekyll.logger.warn ")"
+                #site.pages << DataPage.new(site, site.source, index_files, dir, record, name, template, extension)
+                Jekyll.logger.warn "EOF records.each loop"
             end
           else
             Jekyll.logger.warn "error. could not find template #{template}" if not site.layouts.key? template
