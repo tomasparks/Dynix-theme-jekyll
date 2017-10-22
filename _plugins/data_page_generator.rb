@@ -106,6 +106,7 @@ module Jekyll
             end
             records = records.select { |r| r[data_spec['filter']] } if data_spec['filter']
             records.each do |record|
+            Jekyll.logger.warn "records= ", records                
             Jekyll.logger.warn "calling DataPage.new("
             Jekyll.logger.warn "site= ", site
             Jekyll.logger.warn "site.source= ", site.source
