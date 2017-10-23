@@ -3,9 +3,18 @@ layout: page
 title: notes
 ---
 
-{% for notes in site.date.notes.2017.10 | %}
-{% if note.type=="like" %}
- {{ include "notes/like.html" }}
+{% for notes in site.date.notes.2017.10 | sort: 'date' %}
+
+{% if notes.type=="like" %}
+            {% assign url = notes.url %}
+            {% assign date = notes.date %}
+ {% include "notes/like.html" url date %}
+{% endif }} 
+{% if notes.type=="twitter" %}
+            {% assign url = notes.url %}
+            {% assign date = notes.date %}
+            {% assign message = notes.message %}
+ {% include "notes/like.html" url date %}
 {% endif }} 
 </tr>{% endfor %}
 
