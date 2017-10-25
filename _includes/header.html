@@ -15,7 +15,7 @@
 
 {% seo %}
 <!-- IndieAuth -->
-{{ site.social.links }}
+{{ site.social.links | jsonify }}
 {% for links in site.social.links %}
 <link href="{{link}}" rel="me">
 {% endfor %}
