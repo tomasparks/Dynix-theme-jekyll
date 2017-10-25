@@ -14,11 +14,9 @@
 <script src="https://use.fontawesome.com/8ada10233a.js"></script>
 
 {% seo %}
+
 <!-- IndieAuth -->
-{{ site.social.links | jsonify }}
-{% for link in site.social.links %}
-<link href="{{link}}" rel="me">
-{% endfor %}
+{% for link in site.social.links %}<link href="{{link}}" rel="me">{% endfor %}
 
 </head>
 <body>
