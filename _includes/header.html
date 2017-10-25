@@ -17,7 +17,8 @@
 
 <!-- IndieAuth -->
 {% for link in site.social.links %}<link href="{{link}}" rel="me">{% endfor %}
-
+<!-- webmentions -->
+{% webmentions_head %}
 </head>
 <body>
 <header>
