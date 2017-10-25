@@ -9,12 +9,12 @@ title: notes
             {% assign url = notes.url %}
             {% assign date = notes.date %}
   {% include comment.html url=url date=date %}
-{% endif }} 
+{% endif %}
 {% if notes.type=="twitter" %}
             {% assign url = notes.url %}
             {% assign date = notes.date %}
             {% assign message = notes.message %}
  {% include "notes/like.html" url=url date=date message=message %}
-{% endif }} 
-</tr>{% endfor %}
+{% endif %} 
+{% endfor %}
 
