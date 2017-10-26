@@ -11,12 +11,13 @@ layout: default
     <h1 class="lead p-name">{{ page.title }}</h1>
   </div>
 </header>
-{% endif %}
+{% endif %} 
+<div id="author" style="padding:1em;margin:1em;float:right;border:1px solid;">
+{% include author.html %}
+</div>
  <div class="e-content">
        				{% include image.html %}
-       				<div id="author" style="padding:1em;margin:1em;float:right;border:1px solid;">
-       				{% include author.html %}
-       				</div>
+
         {{ content }}
         </div>
   <div>
