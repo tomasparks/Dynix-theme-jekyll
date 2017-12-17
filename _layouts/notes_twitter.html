@@ -3,19 +3,9 @@ layout: default
 pagination:
   enabled: true
 ---
-{{page._id}}
-{{page.message}}
-{{page.name}}
-{{page.email}}
-{{page.url}}
-{{page.replying_to}}
-{{page.hidden}}
-{{page.date}}
-
-
 <div class="u-comment h-cite" id="{{page._id}}">
-{% include "author.html" ?}
-  <p class=""e-content p-name comment-content">{{ page.message | markdownify }}</p>
+{% include "author.html" %}
+  <p class="e-content p-name comment-content">{{ content }}</p>
   <a class="u-url" href="{{site.url}}{page.url}}">
     <time class="dt-published"  datetime="{{ include.date | date: "%B %d, %Y at %I:%M %p" }}">{{ page.date | date: "%B %d, %Y at %I:%M %p" }}</time>
   </a>
