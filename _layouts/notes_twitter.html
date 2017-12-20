@@ -9,3 +9,5 @@ pagination:
     <time class="dt-published"  datetime="{{ include.date | date: "%B %d, %Y at %I:%M %p" }}">{{ page.date | date: "%B %d, %Y at %I:%M %p" }}</time>
   </a>
  </div>
+ 
+ {% include pagination.html %}

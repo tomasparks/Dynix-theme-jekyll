@@ -1,4 +1,5 @@
 ---
+title: notes
 layout: page
 permalink: /notes
 pagination:
@@ -8,13 +9,11 @@ pagination:
   extension: html
   indexpage: 'index'
 ---
+{% for post in paginator.posts %}
 
-{
-  "pages": [{% for post in paginator.posts %}
-    {% if forloop.first != true %},{% endif %}
-    {
-      "title": "{{ post.title }}",
-      "link": "{{ post.url }}"
-    }{% endfor %}
-  ]
-}
+{{ post.title }}
+<a href="{{site.url}}{{ post.url }}"><time datetime="{{ post.date  | date_to_xmlschema }}">{{ post.date  | date_to_string }}</time></a>
+
+{% endfor %}
+
+{% include pagination.html %}
