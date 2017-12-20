@@ -3,11 +3,15 @@ layout: default
 pagination:
   enabled: true
 ---
+
+<div class="note h-entry" style="padding:1em;margin:1em;border:1px solid;">
 <div class="u-comment h-cite" id="{{page._id}}">
   <p class="e-content p-name comment-content">{{ content }}</p>
-  <a class="u-url" href="{{site.url}}{{page.url}}">
-    <time class="dt-published"  datetime="{{ include.date | date: "%B %d, %Y at %I:%M %p" }}">{{ page.date | date: "%B %d, %Y at %I:%M %p" }}</time>
-  </a>
- </div>
  
+<p class="post-meta align-right"> <time class="dt-published" datetime="{{ post.date  | date_to_xmlschema }}" title="{{ post.date  | date_to_xmlschema }}"><a href="{{site.url}}{{ post.url }}" class="u-url">{{ post.date  | date_to_string }}</a></time> </p>
+<p class="post-meta align-right p-author h-card"> <span class="p-name">{{site.author}}</span> <a href="{{site.url}}" class="u-url"><img src="{{site.url}}{{site.image}}" class="u-photo" style="height:1.2em; vertical-align: text-bottom;" alt=""></a> </p>
+</div>
+</div>
+
+
  {% include pagination.html %}
