@@ -15,7 +15,7 @@ pagination:
     </blockquote>
   </div>
 
-<p class="post-meta align-right"> <time class="dt-published" datetime="{{ post.date }}" title="{{ post.date }}"><a href="{{site.url}}{{ post.url }}" class="u-url">{{ post.date }}</a></time> </p>
+<p class="post-meta align-right"> <time class="dt-published" datetime="{{ page.date  | date_to_xmlschema }}" title="{{ page.date  | date_to_xmlschema }}"><a href="{{site.url}}{{ post.url }}" class="u-url">{{ page.date  | date_to_string }}</a></time> </p> </p>
 <p class="post-meta align-right p-author h-card"> <span class="p-name">{{site.author}}</span> <a href="{{site.url}}" class="u-url"><img src="{{site.url}}{{site.image}}" class="u-photo" style="height:1.2em; vertical-align: text-bottom;" alt=""></a> </p>
 </div>
 
