@@ -25,6 +25,7 @@ liked {{ post.ext-url }}
 {% endif %}
 
 {% if post.type == "read" %}
+Reading <a href="{{post:book-url}}">{{post:book-title}}</a>
 📖 
 {% endif %}
  <p class="post-meta align-right"> <time class="dt-published" datetime="{{ post.date  | date_to_xmlschema }}" title="{{ post.date  | date_to_xmlschema }}"><a href="{{site.url}}{{ post.url }}" class="u-url">{{ post.date  | date_to_string }}</a></time> </p>
