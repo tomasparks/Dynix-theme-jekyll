@@ -25,8 +25,9 @@ liked {{ post.ext-url }}
 
 {% if post.type == "read" %}
 
-📖  <a href="{{post:book-url}}"><img src="{{post:book-image_url}}" alt="{{post:book-title}}" /></a>
-<a href="{{post:book-url}}">post:book-title</a>
+📖  <a href="{{ post:book-url }}"><img src="{{ post:book-image_url }}" alt="{{ post:book-title }}" /></a>
+Reading <a href="{{post:book-url}}">{{post:book-title}}</a> by 
+
 {{post.content}}
 {% endif %}
 
