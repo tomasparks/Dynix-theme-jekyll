@@ -9,4 +9,3 @@ gem 'jekyll-scholar'
 gem 'jekyll-webmention_io'
 gem 'jekyll-responsive_image'
 gem 'jekyll-last-modified-at'
-
