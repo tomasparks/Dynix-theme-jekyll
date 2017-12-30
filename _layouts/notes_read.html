@@ -1,0 +1,29 @@
+---
+layout: default
+pagination:
+  enabled: true
+---
+
+<div class="note h-entry" style="padding:1em;margin:1em;border:1px solid;">
+    <div class="p-name e-content"> 
+    <p><data class="p-read-status" value="Unknown">Unknown</data>: 
+    <cite class="p-read-of h-cite"><a href="{{page.book-url}}">{{page.book-title}}</a></cite></p>
+ </div>
+ 
+<p class="post-meta align-right">
+<div class="post-categories">
+
+  {% assign categories = page.categories %}
+  {% for category in categories %}
+  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">#{{category}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+</div>
+
+ <time class="dt-published" datetime="{{ page.date  | date_to_xmlschema }}" title="{{ page.date  | date_to_xmlschema }}"><a href="{{site.url}}{{ post.url }}" class="u-url">{{ page.date  | date_to_string }}</a></time> </p>
+<p class="post-meta align-right p-author h-card"> <span class="p-name">{{site.author}}</span> <a href="{{site.url}}" class="u-url"><img src="{{site.url}}{{site.image}}" class="u-photo" style="height:1.2em; vertical-align: text-bottom;" alt=""></a> </p>
+</div>
+</div>
+
+
+ {% include pagination.html %}
