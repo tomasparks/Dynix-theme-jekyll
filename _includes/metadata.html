@@ -1,6 +1,6 @@
 <p>Date: <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time></p>
-<p>Permalink: <a class="u-url u-syndication" rel="syndication" href="{{site.url}}{{ page.url }}">{{site.url}}{{ page.url }}</div></p>
-{% if page.syndication == 'indieweb' %}
+<p>Permalink: <a class="u-url u-syndication" rel="syndication" href="{{site.url}}{{ page.url }}">{{site.url}}{{ page.url }}</a></p>
+{% if page.syndication == "indieweb" %}
 
 <a href="https://news.indieweb.org/en" class="u-syndication">
   Also posted on IndieNews
