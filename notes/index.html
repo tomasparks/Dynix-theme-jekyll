@@ -10,8 +10,8 @@ pagination:
   extension: html
   indexpage: 'index'
 ---
-{% assign sorted = (paginator.posts sort: 'date') %}
-{% for post in sorted %}
+
+{% for post in paginator.posts %}
 
 <div class="note h-entry" style="padding:1em;margin:1em;border:1px solid;">
 <div class="p-name e-content">
@@ -29,12 +29,12 @@ liked {{ post.ext-url }}
 {% endif %}
 
 {% if post.type == "read" %}
-Reading <a href="{{post.book-url}}">{{post.book-title}}</a> by {{post.book-author}}
+Reading <div class="h-cite"><a href="{{post.book-url}}">{{post.book-title}}</a> by {{post.book-author}}</div>
 {% endif %}
 
 {% if post.type == "scrobble" %}
 <div class="h-cite">
-<div class="">{{post.music-title}}</div> (<div class="p-album">{{post.music-album}}</div>) By <div class="p-artist">{{post.music-artist}}</div>
+<div class="p-title">{{post.music-title}}</div> (<div class="p-album">{{post.music-album}}</div>) By <div class="p-artist">{{post.music-artist}}</div>
 </div>
 
 <br />
