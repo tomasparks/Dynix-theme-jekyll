@@ -1,0 +1,4 @@
+<ul class="postr">
+  {% if post.previous.url %}<li class="previous"><a href="{{post.previous.url}}">&laquo; {{post.previous.title}}</a></li>  {% endif %}
+  {% if post.next.url %}<li class="next"><a href="{{post.next.url}}">{{post.next.title}} &raquo;</a></li>  {% endif %}
+</ul> 
