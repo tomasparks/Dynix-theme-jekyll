@@ -29,7 +29,7 @@ liked {{ post.ext-url }}
 {% endif %}
 
 {% if post.type == "read" %}
-Reading <div class="h-cite"><a href="{{post.book-url}}">{{post.book-title}}</a> by {{post.book-author}}</div>
+<data class="p-read-status"  value="{{post.status}}">{{page.status}} Reading</data>: <div class="p-read-of h-cite"><a href="{{post.book-url}}">{{post.book-title}}</a> by {{post.book-author}}</div>
 {% endif %}
 
 {% if post.type == "scrobble" %}
