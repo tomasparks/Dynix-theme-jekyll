@@ -8,34 +8,36 @@ pagination:
 <!-- start of post -->
 <main role="main">
 	<div class="container">
-		{% if page.title %}
-			<header class="jumbotron subhead" id="overview">
-				<div class="container">
-					<h1 class="lead p-name">{{ page.title }}</h1>
-				</div>
-			</header>
+		<!-- h-entry -->  
+		<div class="h-entry">
+			{% if page.title %}
+				<header class="jumbotron subhead" id="overview">
+					<div class="container">
+						<h1 class="lead p-name">{{ page.title }}</h1>
+					</div>
+				</header>
+			{% endif %}
+
+	  <ul class="" role="navigation" >
+	    <li class="active"><a  href="#home">Main (F2)</a></li>
+    	<li><a  href="#menu1">Meta (F3)</a></li>
+    	<li><a  href="#menu2">Comments (F4)</a></li>
+    	<li><a  href="#menu3">Webmention (F5)</a></li>
+  	</ul>
+
+
+    	<div id="home" class="e-content">
+    	  				{% include image.html %}
+					{{ content }}
+    	</div>
+    	<div id="menu1" class="">
+      					{% include metadata.html %}
+    	</div>
+
+    	<div id="menu2" class="">
+    	{% if page.comments == true %}
+      		{% include post-comments.html %}
 		{% endif %}
-
-  <ul class="" role="navigation" >
-    <li class="active"><a  href="#home">Main (F2)</a></li>
-    <li><a  href="#menu1">Meta (F3)</a></li>
-    <li><a  href="#menu2">Comments (F4)</a></li>
-    <li><a  href="#menu3">Webmention (F5)</a></li>
-  </ul>
-
-  <div class="h-entry">
-    <div id="home" class="e-content">
-      				{% include image.html %}
-				{{ content }}
-    </div>
-    <div id="menu1" class="">
-      				{% include metadata.html %}
-    </div>
-
-    <div id="menu2" class="">
-    {% if page.comments == true %}
-      {% include post-comments.html %}
-{% endif %}
     </div>
     <div id="menu3" class="">
 				{% include webmention.html %}
