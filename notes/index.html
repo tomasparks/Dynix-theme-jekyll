@@ -10,7 +10,8 @@ pagination:
   extension: html
   indexpage: 'index'
 ---
-{% for post in paginator.posts sort: 'date' %}
+  {% assign sorted = (paginator.posts | sort: 'date') %}
+{% for post in sorted %}
 
 <div class="note h-entry" style="padding:1em;margin:1em;border:1px solid;">
 <div class="p-name e-content">
