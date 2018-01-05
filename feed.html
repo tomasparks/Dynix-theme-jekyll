@@ -8,14 +8,26 @@ layout: null
         <h1 class="p-name">{{ post.title | xml_escape }}</h1>
         <time class="dt-published" datetime="{{ post.date  | date_to_xmlschema }}" title="{{ post.date  | date_to_xmlschema }}">
         <a class="u-uid u-url" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Full post</a>
+        <ol>
+  {% assign syndications = post.syndication %}
+  {% for syndication in syndications %}
+  <li><a href="{{syndication}}" class="u-syndication" >{{syndication}}</a></li>
+  {% endfor %}
+  </ol>
 	</div>
     {% endfor %}
-{% assign d = site.collections | where:'label','notes' %}
+	{% assign d = site.collections | where:'label','notes' %}
     {% for post in d %}
    <div class="h-entry">
         <h1 class="p-name">{{ post.title | xml_escape }}</h1>
         <time class="dt-published" datetime="{{ post.date  | date_to_xmlschema }}" title="{{ post.date  | date_to_xmlschema }}">
         <a class="u-uid u-url" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Full post</a>
+                <ol>
+  {% assign syndications = post.syndication %}
+  {% for syndication in syndications %}
+  <li><a href="{{syndication}}" class="u-syndication" >{{syndication}}</a></li>
+  {% endfor %}
+  </ol>
 	</div>
     {% endfor %}	
 </body>
