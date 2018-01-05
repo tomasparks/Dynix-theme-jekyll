@@ -1,9 +1,13 @@
 <p>Date: <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time></p>
 <p>Permalink: <a class="u-url u-syndication" rel="syndication" href="{{site.url}}{{ page.url }}">{{site.url}}{{ page.url }}</a></p>
-{% if page.syndication == "indieweb" %}
 
-<a href="https://news.indieweb.org/en" class="u-syndication">
-  Also posted on IndieNews
-</a>
-{% endif %}
+
+
+  Also posted on:
+  {% assign syndications = page.syndication %}
+  {% for syndication in syndications %}
+  <a href="{{syndication}}" class="u-syndication" >{{syndication}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+
 {% include author.html %}
