@@ -1,0 +1,14 @@
+---
+layout: null
+---
+<html>
+<body class="h-feed">
+   {% for post in site.posts %}
+   <div class="h-entry">
+        <h1 class="p-name">{{ post.title | xml_escape }}</h1>
+        <time class="dt-published" datetime="{{ post.date  | date_to_xmlschema }}" title="{{ post.date  | date_to_xmlschema }}">
+        <a class="u-uid u-url" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Full post</a>
+	</div>
+    {% endfor %}	
+</body>
+</html>
