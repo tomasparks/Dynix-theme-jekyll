@@ -16,6 +16,17 @@ layout: null
   </ol>
 	</div>
     {% endfor %}
+    {% for item in site.notes %}
+   <div class="h-entry">
+  <h2>{{ item.title }}</h2>
+  <p>{{ item.description }}</p>
+  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+  </div>
+{% endfor %}
+
+    {% assign collectionName = 'notes' %}
+	{% assign d = site.collections | where:'label',collectionName | first %}
+	<!--{{ d.title }}-->
 	{% assign d = site.collections | where:'label','notes' %}
     {% for post in d %}
    <div class="h-entry">
