@@ -16,30 +16,19 @@ layout: null
   </ol>
 	</div>
     {% endfor %}
+    
+    
     {% for item in site.notes %}
    <div class="h-entry">
-  <h2>{{ item.title }}</h2>
-  <p>{{ item.description }}</p>
-  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
-  </div>
-{% endfor %}
-
-    {% assign collectionName = 'notes' %}
-	{% assign d = site.collections | where:'label',collectionName | first %}
-	<!--{{ d.title }}-->
-	{% assign d = site.collections | where:'label','notes' %}
-    {% for post in d %}
-   <div class="h-entry">
-        <h1 class="p-name">{{ post.title | xml_escape }}</h1>
-        <time class="dt-published" datetime="{{ post.date  | date_to_xmlschema }}" title="{{ post.date  | date_to_xmlschema }}">
-        <a class="u-uid u-url" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Full post</a>
+        <h1 class="p-name">{{ item.title | xml_escape }}</h1>
+        <time class="dt-published" datetime="{{ item.date  | date_to_xmlschema }}" title="{{ item.date  | date_to_xmlschema }}">
+        <a class="u-uid u-url" href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">Full post</a>
                 <ol>
-  {% assign syndications = post.syndication %}
+  {% assign syndications = item.syndication %}
   {% for syndication in syndications %}
   <li><a href="{{syndication}}" class="u-syndication" >{{syndication}}</a></li>
   {% endfor %}
   </ol>
-	</div>
-    {% endfor %}	
+{% endfor %}
 </body>
 </html>
