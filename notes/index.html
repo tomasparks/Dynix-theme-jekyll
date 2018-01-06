@@ -43,12 +43,6 @@ play count: {{post.music-play-count}}<br />
 {% endif %}
 
 {% if post.type == "photo" %}
-  {% assign photos = post.photo %}
-  {% for photo in photos %}
-{% responsive_image_block %}
-    path:   {{photo}}
-{% endresponsive_image_block %}
-  {% endfor %}
 {% endif %}
 
  <div class="post-meta align-left">

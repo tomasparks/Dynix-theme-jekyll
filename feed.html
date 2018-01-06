@@ -1,7 +1,7 @@
 ---
 layout: null
 ---
-<html>
+<html><body class="h-feed">
     {% for item in site.notes %}
    <div class="h-entry">
         <h1 class="p-name">{{ item.title | xml_escape }}</h1>
@@ -15,8 +15,9 @@ layout: null
   <li><a href="{{syndication}}" class="u-syndication" >{{syndication}}</a></li>
   {% endfor %}
   </ol>
+  </div>
 {% endfor %}
-<body class="h-feed">
+
    {% for post in site.posts %}
    <div class="h-entry">
         <h1 class="p-name">{{ post.title | xml_escape }}</h1>
