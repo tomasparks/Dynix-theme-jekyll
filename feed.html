@@ -1,16 +1,26 @@
 ---
+---
+title: feed
 layout: null
+permalink: /.
+pagination:
+  per_page: 10
+  collection: notes
+  permalink: 'feed-:num'
+  enabled: true
+  extension: html
+  indexpage: 'feed'
 ---
 <html><body class="h-feed">
-    {% for item in site.notes %}
+    {% for post in paginator.posts %}
    <div class="h-entry">
-        <h1 class="p-name">{{ item.title | xml_escape }}</h1>
-        <time class="dt-published" datetime="{{ item.date  | date_to_xmlschema }}" title="{{ item.date  | date_to_xmlschema }}">{{ item.date  | date_to_xmlschema }}</time>
+        <h1 class="p-name">{{ post.title | xml_escape }}</h1>
+        <time class="dt-published" datetime="{{ post.date  | date_to_xmlschema }}" title="{{ post.date  | date_to_xmlschema }}">{{ post.date  | date_to_xmlschema }}</time>
         <div class="e-content p-name comment-content">
         </div>
-        <a class="u-uid u-url" href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">Full post</a>
+        <a class="u-uid u-url" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Full post</a>
                 <ol>
-  {% assign syndications = item.syndication %}
+  {% assign syndications = post.syndication %}
   {% for syndication in syndications %}
   <li><a href="{{syndication}}" class="u-syndication" >{{syndication}}</a></li>
   {% endfor %}
@@ -21,7 +31,7 @@ layout: null
    {% for post in site.posts %}
    <div class="h-entry">
         <h1 class="p-name">{{ post.title | xml_escape }}</h1>
-        <time class="dt-published" datetime="{{ item.date  | date_to_xmlschema }}" title="{{ item.date  | date_to_xmlschema }}">{{ item.date  | date_to_xmlschema }}</time>
+        <time class="dt-published" datetime="{{ post.date  | date_to_xmlschema }}" title="{{ post.date  | date_to_xmlschema }}">{{ post.date  | date_to_xmlschema }}</time>
                 <div class="e-content p-name comment-content">
         </div>
         <a class="u-uid u-url" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Full post</a>
