@@ -2,6 +2,18 @@
 layout: null
 ---
 <html>
+    {% for item in site.notes %}
+   <div class="h-entry">
+        <h1 class="p-name">{{ item.title | xml_escape }}</h1>
+        <time class="dt-published" datetime="{{ item.date  | date_to_xmlschema }}" title="{{ item.date  | date_to_xmlschema }}">
+        <a class="u-uid u-url" href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">Full post</a>
+                <ol>
+  {% assign syndications = item.syndication %}
+  {% for syndication in syndications %}
+  <li><a href="{{syndication}}" class="u-syndication" >{{syndication}}</a></li>
+  {% endfor %}
+  </ol>
+{% endfor %}
 <body class="h-feed">
    {% for post in site.posts %}
    <div class="h-entry">
@@ -17,18 +29,5 @@ layout: null
 	</div>
     {% endfor %}
     
-    
-    {% for item in site.notes %}
-   <div class="h-entry">
-        <h1 class="p-name">{{ item.title | xml_escape }}</h1>
-        <time class="dt-published" datetime="{{ item.date  | date_to_xmlschema }}" title="{{ item.date  | date_to_xmlschema }}">
-        <a class="u-uid u-url" href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">Full post</a>
-                <ol>
-  {% assign syndications = item.syndication %}
-  {% for syndication in syndications %}
-  <li><a href="{{syndication}}" class="u-syndication" >{{syndication}}</a></li>
-  {% endfor %}
-  </ol>
-{% endfor %}
 </body>
 </html>
