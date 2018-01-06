@@ -5,7 +5,7 @@ layout: null
     {% for item in site.notes %}
    <div class="h-entry">
         <h1 class="p-name">{{ item.title | xml_escape }}</h1>
-        <time class="dt-published" datetime="{{ item.date  | date_to_xmlschema }}" title="{{ item.date  | date_to_xmlschema }}">
+        <time class="dt-published" datetime="{{ item.date  | date_to_xmlschema }}" title="{{ item.date  | date_to_xmlschema }}">{{ item.date  | date_to_xmlschema }}</time>
         <div class="e-content p-name comment-content">
         </div>
         <a class="u-uid u-url" href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">Full post</a>
@@ -21,7 +21,7 @@ layout: null
    {% for post in site.posts %}
    <div class="h-entry">
         <h1 class="p-name">{{ post.title | xml_escape }}</h1>
-        <time class="dt-published" datetime="{{ post.date  | date_to_xmlschema }}" title="{{ post.date  | date_to_xmlschema }}">
+        <time class="dt-published" datetime="{{ item.date  | date_to_xmlschema }}" title="{{ item.date  | date_to_xmlschema }}">{{ item.date  | date_to_xmlschema }}</time>
                 <div class="e-content p-name comment-content">
         </div>
         <a class="u-uid u-url" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Full post</a>
