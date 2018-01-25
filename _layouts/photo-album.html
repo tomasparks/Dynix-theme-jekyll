@@ -7,7 +7,7 @@ layout: default
   <p class="p-name e-content">{{ content }}</p>
 
 
-  {% for photo in post.photos %}
+  {% for photo in page.photos %}
   <div class="h-entry">
     <img class="u-photo" src="{{ photo.filename }}">
      	{% assign ptags = photo.person-tag %}
