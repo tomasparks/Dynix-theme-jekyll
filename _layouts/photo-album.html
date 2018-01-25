@@ -18,6 +18,14 @@ layout: default
        {% endfor %}
   </div>
   {% endfor %}
+  <p>Permalink: <a class="u-uid u-url u-syndication" rel="syndication" href="{{site.url}}{{ page.url }}">{{site.url}}{{ page.url }}</a></p>
+  
+  Also posted on:
+  {% assign syndications = page.syndication %}
+  {% for syndication in syndications %}
+  <a href="{{syndication}}" class="u-syndication" >{{syndication}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
 </article>
 
 <!--<article  class="h-entry">  
