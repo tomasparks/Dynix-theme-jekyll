@@ -6,8 +6,8 @@ layout: default
 <article class="h-entry">
   <p class="p-name e-content">{{ content }}</p>
 
-  {% assign photos = post.photos %}
-  {% for photo in photos %}
+
+  {% for photo in post.photos %}
   <div class="h-entry">
     <img class="u-photo" src="{{ photo.filename }}">
      	{% assign ptags = photo.person-tag %}
