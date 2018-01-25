@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<!-- start of page -->
+<main role="main">
+<article class="h-entry">
+  <p class="p-name e-content">{{ content }}</p>
+
+  {% assign photos = post.photos %}
+  {% for photo in photos %}
+  <div class="h-entry">
+    <img class="u-photo" src="{{ photo.filename }}">
+     	{% assign ptags = photo.person-tag %}
+ 		{% for ptag in ptags %}
+ 		<div class="p-category h-card">
+   			<a class="p-category h-card" href="url">name here</a> (f)
+       </div>
+       {% endfor %}
+  </div>
+  {% endfor %}
+</article>
+
+<!--<article  class="h-entry">  
+<div class="container">
+{% if page.title %}
+<header class="jumbotron subhead" id="overview">
+ <div class="container">
+    <h1 class="lead p-name">{{ page.title }}</h1>
+  </div>
+</header>
+{% endif %} 
+<div id="author" style="padding:1em;margin:1em;float:right;border:1px solid;">
+{% include author.html %}
+</div>
+ <div class="e-content">
+       				{% include image.html %}
+
+        {{ content }}
+        </div>
+  <div>
+</article> -->
+
+
+</main>
+<!-- end of page -->
