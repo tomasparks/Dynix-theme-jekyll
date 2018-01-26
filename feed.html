@@ -18,6 +18,15 @@ pagination:
         <div class="e-content p-name comment-content">
         </div>
         <a class="u-uid u-url" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Full post</a>
+        
+        <ol>
+          {% for photo in post.photos %}
+             	{% assign ptags = photo.ptag %}
+ 		{% for ptag in ptags %}
+<li class="u-category h-card"> <a class="u-url p-name" href="{{ptag.url}}">{{ptag.name}}</a> (<a class="u-url" href="facebook.com/{{ptag.facebook_id}}">f</a>)
+</li> 
+       {% endfor %}{% endfor %}
+       </ol>
                 <ol>
   {% assign syndications = post.syndication %}
   {% for syndication in syndications %}
