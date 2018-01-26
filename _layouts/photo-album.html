@@ -9,12 +9,15 @@ layout: default
 
   {% for photo in page.photos %}
   <div class="h-entry">
-    <img class="u-photo" src="{{ photo.filename }}">
-     	{% assign ptags = photo.person-tag %}
+  <a href="./{{ photo.link }}">
+    <img class="u-photo" src="{{ photo.filename }}" alt="[photo] {{ photo.content }}">
+    </a>
+     	{% assign ptags = photo.ptag %}
  		{% for ptag in ptags %}
- 		<div class="p-category h-card">
-   			<a class="p-category h-card" href="url">name here</a> (f)
-       </div>
+<span class="u-category h-card"> 
+  <a class="u-url p-name" href="{{ptag.url}}">{{ptag.name}}</a> 
+   <a class="u-url" href="facebook.com/{{ptag.facebook_id}}">f</a>)
+</span> 
        {% endfor %}
   </div>
   {% endfor %}
@@ -27,27 +30,6 @@ layout: default
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 </article>
-
-<!--<article  class="h-entry">  
-<div class="container">
-{% if page.title %}
-<header class="jumbotron subhead" id="overview">
- <div class="container">
-    <h1 class="lead p-name">{{ page.title }}</h1>
-  </div>
-</header>
-{% endif %} 
-<div id="author" style="padding:1em;margin:1em;float:right;border:1px solid;">
-{% include author.html %}
-</div>
- <div class="e-content">
-       				{% include image.html %}
-
-        {{ content }}
-        </div>
-  <div>
-</article> -->
-
 
 </main>
 <!-- end of page -->
