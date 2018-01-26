@@ -9,7 +9,7 @@ layout: default
 
   {% for photo in page.photos %}
   <div class="h-entry">
-  <a href="./{{ photo.link }}">
+  <a class="u-photo" href="./{{ photo.link }}">
     <img class="u-photo" src="{{ photo.filename }}" alt="[photo] {{ photo.content }}">
     </a>
      	{% assign ptags = photo.ptag %}
