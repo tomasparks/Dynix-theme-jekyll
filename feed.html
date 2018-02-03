@@ -23,7 +23,7 @@ pagination:
           {% for photo in post.photos %}
              	{% assign ptags = photo.ptag %}
  		{% for ptag in ptags %}
-<li class="u-category h-card"> <a class="u-url p-name" href="{{ptag.url}}">{{ptag.name}}</a> (<a class="u-url" href="facebook.com/{{ptag.facebook_id}}">f</a>)
+<li class="u-category h-card"> <a class="u-url p-name" href="{{ptag.url}}">{{ptag.name}}</a> (<a class="u-url" href="http://www.facebook.com/{{ptag.facebook_id}}">f</a>)
 </li> 
        {% endfor %}{% endfor %}
        </ol>
