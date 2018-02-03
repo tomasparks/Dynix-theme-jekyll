@@ -19,15 +19,26 @@ pagination:
         </div>
         <a class="u-uid u-url" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Full post</a>
         
-        <ol>
+        <!-- start of photos -->
+        <ul>
           {% for photo in post.photos %}
+          <li>{{ photo.content }<br />
+          <ol>
              	{% assign ptags = photo.ptag %}
- 		{% for ptag in ptags %}
-<li class="u-category h-card"> <a class="u-url p-name" href="{{ptag.url}}">{{ptag.name}}</a> (<a class="u-url" href="http://www.facebook.com/{{ptag.facebook_id}}">f</a>)
+ 				{% for ptag in ptags %}
+<li class="u-category h-card">
+<a class="u-url p-name" href="{{ptag.url}}">{{ptag.name}}</a> (<a class="u-url" href="http://www.facebook.com/profile.php?id={{ptag.facebook_id}}">f</a>)
 </li> 
-       {% endfor %}{% endfor %}
+       {% endfor %}
        </ol>
-                <ol>
+       </li>
+       {% endfor %}
+       </ol>
+       
+       <!-- end of photos -->
+       
+       <ol>
+       
   {% assign syndications = post.syndication %}
   {% for syndication in syndications %}
   <li><a href="{{syndication}}" class="u-syndication" >{{syndication}}</a></li>
