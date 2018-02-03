@@ -12,8 +12,7 @@ layout: default
   <a class="u-photo" href="./{{ photo.link }}">
     <img class="u-photo" src="{{ photo.filename }}" alt="[photo] {{ photo.content }}">
     </a>
-     	{% assign ptags = photo.ptag %}
- 		{% for ptag in ptags %}
+ 		{% for ptag in photo.ptag %}
 <span class="u-category h-card"> 
   <a class="u-url p-name" href="{{ptag.url}}">{{ptag.name}}</a> 
    (<a class="u-url" href="http://www.facebook.com/profile.php?id={{ptag.facebook_id}}">f</a>)
