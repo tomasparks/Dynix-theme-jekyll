@@ -20,9 +20,11 @@ pagination:
         <a class="u-uid u-url" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Full post</a>
         
         <!-- start of photos -->
-        <ul>
+        <ol>
           {% for photo in post.photos %}
-          <li>{{ photo.content }}<br />
+          <!--  start of photo loop -->
+          <li>{{ photo.content }}</li>
+          <!--
           <ol>
  				{% for ptag in poto.ptag %}
 <li class="u-category h-card">
@@ -30,9 +32,10 @@ pagination:
 </li> 
        {% endfor %}
        </ol>
-       </li>
+       </li> -->
+       <!--  end  of photo loop -->
        {% endfor %}
-       </ul>
+       </ol>
        
        <!-- end of photos -->
        
