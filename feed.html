@@ -10,7 +10,13 @@ pagination:
   extension: html
   indexpage: 'feed'
 ---
-<html><body class="h-feed">
+<html>
+<head>
+{% seo %}
+<!-- webmentions -->
+{% webmentions_head %}
+</head>
+<body class="h-feed">
     {% for post in paginator.posts %}
    <div class="h-entry">
         <h1 class="p-name">{{ post.title | xml_escape }}</h1>
