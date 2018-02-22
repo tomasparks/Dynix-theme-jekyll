@@ -51,7 +51,7 @@ play count: {{post.music-play-count}}<br />
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 </div>
-<i class="fa fa-heart" aria-hidden="true"></i> {% webmention_count post.url like %}
+{% webmention_count post.url %} <i class="fa fa-heart" aria-hidden="true"></i> {% webmention_count post.url like %} <i class="fas fa-reply" aria-hidden="true"></i> {% webmention_count post.url reply %} <i class="fas fa-share-square" aria-hidden="true"></i> {% webmention_count post.url reposts %}
  </div>
  <div class="post-meta align-right">
  
@@ -61,6 +61,8 @@ play count: {{post.music-play-count}}<br />
 </div
   <time class="dt-published" datetime="{{ post.date  | date_to_xmlschema }}" title="{{ post.date  | date_to_xmlschema }}"><a href="{{site.url}}{{ post.url }}" class="u-url">{{ post.date  | date_to_string }}</a></time> </p>
 <p class="post-meta align-right p-author h-card"> <span class="p-name">{{site.author}}</span> <a href="{{site.url}}" class="u-url"><img src="{{site.url}}{{site.image}}" class="u-photo" style="height:1.2em; vertical-align: text-bottom;" alt=""></a> </div>
+</div>
+<div>
 </div>
 </div>
 
