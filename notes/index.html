@@ -21,7 +21,7 @@ pagination:
 {% if post.type == "read" %}📖 {% endif %}
 {% if post.type == "scrobble" %}<i class="fa fa-music" aria-hidden="true"></i>{% endif %}
 {% if post.type == "like" %}
-liked {{ post.ext-url }}
+liked {{ post.ext.title }}
 {% endif %}
 
 {% if post.type == "twitter" %}
