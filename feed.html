@@ -23,7 +23,10 @@ pagination:
    <div class="h-entry">
         <h1 class="p-name">{{ post.title | xml_escape }}</h1>
         <time class="dt-published" datetime="{{ post.date  | date_to_xmlschema }}" title="{{ post.date  | date_to_xmlschema }}">{{ post.date  | date_to_xmlschema }}</time>
-        <div class="e-content">{{post.content}}</div>
+        <div class="e-content">{{post.contents}}</div>
+        
+        <h2>URLS</h2>
+        <h3>permalink</h3>
         <ol>
         <li><a class="u-uid u-url" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Full post</a></li>
         {% assign redirect_froms = post.redirect_from %}
@@ -52,7 +55,7 @@ pagination:
        </ol>
        
        <!-- end of photos -->
-       
+       <h3>syndication</h3>
        <ol>  
   {% assign syndications = post.syndication %}
   {% for syndication in syndications %}
