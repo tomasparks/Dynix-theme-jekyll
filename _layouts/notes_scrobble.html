@@ -5,10 +5,11 @@ pagination:
 ---
 
 <div class="note h-entry" style="padding:1em;margin:1em;border:1px solid;">
-    <div class="p-summary p-name e-content">🎧 Listened to {{post.music-title}} ({{post.music-album}}) By {{post.music-artist}}</div>
+    <div class="p-summary p-name e-content">🎧 Listened to {{page.music-title}} ({{page.music-album}}) By {{page.music-artist}}</div>
     
  
 <p class="post-meta align-right">
+
 <div class="post-categories">
 
   {% assign categories = page.categories %}
@@ -18,7 +19,13 @@ pagination:
   {% endfor %}
 </div>
 
- <time class="dt-published" datetime="{{ page.date  | date_to_xmlschema }}" title="{{ page.date  | date_to_xmlschema }}"><a href="{{site.url}}{{ post.url }}" class="u-url">{{ page.date  | date_to_string }}</a></time> </p>
+ <time class="dt-published" datetime="{{ page.date  | date_to_xmlschema }}" title="{{ page.date  | date_to_xmlschema }}"><a href="{{site.url}}{{ post.url }}" class="u-uid u-url">{{ page.date  | date_to_string }}</a></time> </p>
+    <ol><li><a href="https://brid.gy/publish/twitter"></a>posted on twitter</li>
+        {% assign redirect_froms = page.redirect_from %}
+  		{% for redirect_from in redirect_froms %}
+  		<li><a class="u-uid u-url" href="{{redirect_from | prepend: site.baseurl | prepend: site.url }}">{{redirect_from | prepend: site.baseurl | prepend: site.url }}</a></li>
+  		{% endfor %}
+  </ol>
 <p class="post-meta align-right p-author h-card"> <span class="p-name">{{site.author}}</span> <a href="{{site.url}}" class="u-url"><img src="{{site.url}}{{site.image}}" class="u-photo" style="height:1.2em; vertical-align: text-bottom;" alt=""></a> </p>
 </div>
 </div>
