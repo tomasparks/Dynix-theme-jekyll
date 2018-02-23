@@ -17,7 +17,9 @@ pagination:
 {% webmentions_head %}
 </head>
 <body class="h-feed">
+<ol>
     {% for post in paginator.posts %}
+    <li>
    <div class="h-entry">
         <h1 class="p-name">{{ post.title | xml_escape }}</h1>
         <time class="dt-published" datetime="{{ post.date  | date_to_xmlschema }}" title="{{ post.date  | date_to_xmlschema }}">{{ post.date  | date_to_xmlschema }}</time>
@@ -26,7 +28,7 @@ pagination:
         <li><a class="u-uid u-url" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Full post</a></li>
         {% assign redirect_froms = post.redirect_from %}
   		{% for redirect_from in redirect_froms %}
-  		<li><a class="u-uid u-url" href="{{redirect_from | prepend: site.baseurl | prepend: site.url }}" ></a>{{redirect_from | prepend: site.baseurl | prepend: site.url }}</li>
+  		<li><a class="u-uid u-url" href="{{redirect_from | prepend: site.baseurl | prepend: site.url }}" >{{redirect_from | prepend: site.baseurl | prepend: site.url }}</a></li>
   		{% endfor %}
   </ol>
         
@@ -51,15 +53,16 @@ pagination:
        
        <!-- end of photos -->
        
-       <ol>
-       
+       <ol>  
   {% assign syndications = post.syndication %}
   {% for syndication in syndications %}
   <li><a href="{{syndication}}" class="u-syndication" >{{syndication}}</a></li>
   {% endfor %}
   </ol>
-  </div>    
+  </div>
+  </li>    
 {% endfor %}
+</ol>
 <!--
    {% for post in site.posts %}
    <div class="h-entry">
