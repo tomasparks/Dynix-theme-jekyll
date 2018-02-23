@@ -18,13 +18,18 @@ pagination:
 </head>
 <body class="h-feed">
     {% for post in paginator.posts %}
-    {% if post.hidden %}
    <div class="h-entry">
         <h1 class="p-name">{{ post.title | xml_escape }}</h1>
         <time class="dt-published" datetime="{{ post.date  | date_to_xmlschema }}" title="{{ post.date  | date_to_xmlschema }}">{{ post.date  | date_to_xmlschema }}</time>
-        <div class="e-content p-name comment-content">
-        </div>
-        <a class="u-uid u-url" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Full post</a>
+        <div class="e-content">{{post.content}}</div>
+        <ol>
+        <li><a class="u-uid u-url" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Full post</a></li>
+        {% assign redirect_froms = post.redirect_from %}
+  		{% for redirect_from in redirect_froms %}
+  		<li><a class="u-uid u-url" href="{{redirect_from | prepend: site.baseurl | prepend: site.url }}" class="u-syndication" ></a>{{redirect_from | prepend: site.baseurl | prepend: site.url }}</li>
+  		{% endfor %}
+  </ol>
+        
         
         <!-- start of photos -->
         <ol>
@@ -54,7 +59,6 @@ pagination:
   {% endfor %}
   </ol>
   </div>    
-  {% endif %}
 {% endfor %}
 <!--
    {% for post in site.posts %}
