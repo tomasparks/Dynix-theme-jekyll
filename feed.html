@@ -18,6 +18,7 @@ pagination:
 </head>
 <body class="h-feed">
     {% for post in paginator.posts %}
+    {% if !hidden %}
    <div class="h-entry">
         <h1 class="p-name">{{ post.title | xml_escape }}</h1>
         <time class="dt-published" datetime="{{ post.date  | date_to_xmlschema }}" title="{{ post.date  | date_to_xmlschema }}">{{ post.date  | date_to_xmlschema }}</time>
@@ -52,7 +53,8 @@ pagination:
   <li><a href="{{syndication}}" class="u-syndication" >{{syndication}}</a></li>
   {% endfor %}
   </ol>
-  </div>
+  </div>    
+  {% endif %}
 {% endfor %}
 <!--
    {% for post in site.posts %}
