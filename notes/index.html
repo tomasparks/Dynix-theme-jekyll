@@ -5,6 +5,7 @@ permalink: /notes
 pagination:
   per_page: 100
   collection: notes
+  category: all
   permalink: 'notes-:num'
   enabled: true
   extension: html
@@ -47,7 +48,7 @@ play count: {{post.music-play-count}}<br />
  <div class="post-categories">
   {% assign categories = post.categories %}
   {% for category in categories %}
-  <a href="{{site.baseurl}}/notes/{{category|slugize}}" class="p-category" >#{{category}}</a>
+  <a href="{{site.baseurl}}/notes/{{category|slugize}}/" class="p-category" >#{{category}}</a>
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 </div>
