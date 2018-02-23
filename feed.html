@@ -26,7 +26,7 @@ pagination:
         <li><a class="u-uid u-url" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Full post</a></li>
         {% assign redirect_froms = post.redirect_from %}
   		{% for redirect_from in redirect_froms %}
-  		<li><a class="u-uid u-url" href="{{redirect_from | prepend: site.baseurl | prepend: site.url }}" class="u-syndication" ></a>{{redirect_from | prepend: site.baseurl | prepend: site.url }}</li>
+  		<li><a class="u-uid u-url" href="{{redirect_from | prepend: site.baseurl | prepend: site.url }}" ></a>{{redirect_from | prepend: site.baseurl | prepend: site.url }}</li>
   		{% endfor %}
   </ol>
         
