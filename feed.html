@@ -20,11 +20,11 @@ pagination:
 <ol>
     {% for post in paginator.posts %}
     {% if post.type !="scrobble" %}
-    <!-- {% if post.syndication %}post.syndication = true{%else%}post.syndication = true{%endif%} -->
+
+    <li><div class="h-entry">
+        <!-- {% if post.syndication %}post.syndication = true{%else%}post.syndication = true{%endif%} -->
     {% assign syndications = post.syndication %}
     <!-- {% if syndications %}syndications = true{%else%}syndications = true{%endif%} -->
-<!--
-    <li><div class="h-entry">
         <h1 class="p-name">{{ post.title | xml_escape }}</h1>
         <time class="dt-published" datetime="{{ post.date  | date_to_xmlschema }}" title="{{ post.date  | date_to_xmlschema }}">{{ post.date  | date_to_xmlschema }}</time>
         <div class="e-content">{{post.content}}</div>
@@ -65,6 +65,6 @@ pagination:
   </ol>
 	</div>
     {% endfor %}
-  -->
+-->
 </body>
 </html>
