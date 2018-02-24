@@ -5,6 +5,7 @@ permalink: /.
 pagination:
   per_page: 999999999999
   collection: notes
+  category: twitter, reply, like
   permalink: 'feed-:num'
   enabled: true
   extension: html
@@ -19,7 +20,6 @@ pagination:
 <body class="h-feed">
 <ol>
     {% for post in paginator.posts %}
-    {% if post.type !="scrobble" %}
 
     <li><div class="h-entry">
         <!-- {% if post.syndication %}post.syndication = true{%else%}post.syndication = true{%endif%} -->
@@ -35,7 +35,7 @@ pagination:
   			{% for redirect_from in redirect_froms %}
   				<li><a class="u-uid u-url" href="{{redirect_from | prepend: site.baseurl | prepend: site.url }}">{{redirect_from | prepend: site.baseurl | prepend: site.url }}</a></li>
 			{% endfor %}
-  		
+  		</ol>
        <h3>syndication</h3>
        <ol>  
 		{% assign syndications = post.syndication %}
@@ -44,7 +44,6 @@ pagination:
 		{% endfor %}
 		</ol>
 		</div></li>  
-{% endif %}
 {% endfor %}
 </ol>
 <!--
