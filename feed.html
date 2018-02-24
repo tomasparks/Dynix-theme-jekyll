@@ -19,6 +19,7 @@ pagination:
 <body class="h-feed">
 <ol>
     {% for post in paginator.posts %}
+    {% unless post.type =="scrobble" %}
     <!-- {% if post.syndication %}post.syndication = true{%else%}post.syndication = true{%endif%} -->
     {% assign syndications = post.syndication %}
     <!-- {% if syndications %}syndications = true{%else%}syndications = true{%endif%} -->
@@ -45,6 +46,7 @@ pagination:
 		</ol>
 		</div></li>
 -->    
+{% endif %}
 {% endfor %}
 </ol>
 <!--
