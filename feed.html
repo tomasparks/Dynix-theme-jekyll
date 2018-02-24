@@ -19,11 +19,12 @@ pagination:
 <body class="h-feed">
 <ol>
     {% for post in paginator.posts %}
+    {% if post.syndication %}
     <li>
    <div class="h-entry">
         <h1 class="p-name">{{ post.title | xml_escape }}</h1>
         <time class="dt-published" datetime="{{ post.date  | date_to_xmlschema }}" title="{{ post.date  | date_to_xmlschema }}">{{ post.date  | date_to_xmlschema }}</time>
-        <div class="e-content">{{post.contents}}</div>
+        <div class="e-content">{{post.content}}</div>
         
         <h2>URLS</h2>
         <h3>permalink</h3>
@@ -63,7 +64,8 @@ pagination:
   {% endfor %}
   </ol>
   </div>
-  </li>    
+  </li>
+  {% endif %}    
 {% endfor %}
 </ol>
 <!--
