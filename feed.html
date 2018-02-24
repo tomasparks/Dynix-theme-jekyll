@@ -31,7 +31,6 @@ pagination:
         <h2>URLS</h2>
         <h3>permalink</h3>
         <ol>
-        	<li><a class="u-uid u-url" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.url | prepend: site.baseurl | prepend: site.url }}</a></li>
         	{% assign redirect_froms = post.redirect_from %}
   			{% for redirect_from in redirect_froms %}
   				<li><a class="u-uid u-url" href="{{redirect_from | prepend: site.baseurl | prepend: site.url }}">{{redirect_from | prepend: site.baseurl | prepend: site.url }}</a></li>
