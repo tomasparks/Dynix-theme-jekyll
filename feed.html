@@ -19,7 +19,8 @@ pagination:
 <body class="h-feed">
 <ol>
     {% for post in paginator.posts %}
-    {% if post.syndication %}
+    {% assign syndications = post.syndication %}
+    {% if syndications != null %}
     <li>
    <div class="h-entry">
         <h1 class="p-name">{{ post.title | xml_escape }}</h1>
