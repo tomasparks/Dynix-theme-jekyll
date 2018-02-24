@@ -3,7 +3,7 @@ title: feed
 layout: null
 permalink: /.
 pagination:
-  per_page: 10
+  per_page: 100
   collection: notes
   permalink: 'feed-:num'
   enabled: true
@@ -19,54 +19,32 @@ pagination:
 <body class="h-feed">
 <ol>
     {% for post in paginator.posts %}
+    <!-- {% if post.syndication %}post.syndication = true{%else%}post.syndication = true{%endif%} -->
     {% assign syndications = post.syndication %}
-    {% if syndications != null %}
-    <li>
-   <div class="h-entry">
+    <!-- {% if syndications %}syndications = true{%else%}syndications = true{%endif%} -->
+<!--
+    <li><div class="h-entry">
         <h1 class="p-name">{{ post.title | xml_escape }}</h1>
         <time class="dt-published" datetime="{{ post.date  | date_to_xmlschema }}" title="{{ post.date  | date_to_xmlschema }}">{{ post.date  | date_to_xmlschema }}</time>
         <div class="e-content">{{post.content}}</div>
-        
         <h2>URLS</h2>
         <h3>permalink</h3>
         <ol>
-        <li><a class="u-uid u-url" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.url | prepend: site.baseurl | prepend: site.url }}</a></li>
-        {% assign redirect_froms = post.redirect_from %}
-  		{% for redirect_from in redirect_froms %}
-  		<li><a class="u-uid u-url" href="{{redirect_from | prepend: site.baseurl | prepend: site.url }}">{{redirect_from | prepend: site.baseurl | prepend: site.url }}</a></li>
-  		{% endfor %}
-  </ol>
-        
-        
-        <!-- start of photos -->
-        <ol>
-          {% for photo in post.photos %}
-          <!--  start of photo loop -->
-          <li>{{ photo.content }}</li>
-          <!--
-          <ol>
- 				{% for ptag in poto.ptag %}
-<li class="u-category h-card">
-<a class="u-url p-name" href="{{ptag.url}}">{{ptag.name}}</a> (<a class="u-url" href="http://www.facebook.com/profile.php?id={{ptag.facebook_id}}">f</a>)
-</li> 
-       {% endfor %}
-       </ol>
-       </li> -->
-       <!--  end  of photo loop -->
-       {% endfor %}
-       </ol>
-       
-       <!-- end of photos -->
+        	<li><a class="u-uid u-url" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.url | prepend: site.baseurl | prepend: site.url }}</a></li>
+        	{% assign redirect_froms = post.redirect_from %}
+  			{% for redirect_from in redirect_froms %}
+  				<li><a class="u-uid u-url" href="{{redirect_from | prepend: site.baseurl | prepend: site.url }}">{{redirect_from | prepend: site.baseurl | prepend: site.url }}</a></li>
+			{% endfor %}
+  		
        <h3>syndication</h3>
        <ol>  
-  {% assign syndications = post.syndication %}
-  {% for syndication in syndications %}
-  <li><a href="{{syndication}}" class="u-syndication" >{{syndication}}</a></li>
-  {% endfor %}
-  </ol>
-  </div>
-  </li>
-  {% endif %}    
+		{% assign syndications = post.syndication %}
+		{% for syndication in syndications %}
+			<li><a href="{{syndication}}" class="u-syndication" >{{syndication}}</a></li>
+		{% endfor %}
+		</ol>
+		</div></li>
+-->    
 {% endfor %}
 </ol>
 <!--
