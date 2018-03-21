@@ -38,6 +38,8 @@ pagination:
   			{% for redirect_from in redirect_froms %}
   				<li><a class="u-uid u-url" href="{{redirect_from | prepend: site.baseurl | prepend: site.url }}">{{redirect_from | prepend: site.baseurl | prepend: site.url }}</a></li>
 			{% endfor %}
+			<li><a href="{{post.url | prepend: site.baseurl | prepend: site.url }}">{{post.url | prepend: site.baseurl | prepend: site.url }}</a></li>
+
   		</ol>
        <h3>syndication</h3>
        <ol>  
