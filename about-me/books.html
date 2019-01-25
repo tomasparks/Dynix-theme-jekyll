@@ -1,0 +1,72 @@
+---
+layout: page
+title: books
+---
+     	<style>
+#gr_updates_widget{
+border-radius: 5px;
+background-color:#fff;
+border:solid #683205 10px;
+-webkit-box-shadow: 0px 0px 4px 1px #595959,
+inset 0px 0px 0px 1px #7D730B;
+-moz-box-shadow: 0px 0px 4px 1px #595959,
+inset 0px 0px 0px 1px #7D730B;
+box-shadow: 0px 0px 4px 1px #595959,
+inset 0px 0px 0px 1px #7D730B;
+padding:15px 0 35px 15px;
+width:250px;
+height:330px;
+}
+#gr_footer{
+margin-bottom:10px;
+}
+#gr_updates_widget p{
+padding:0px;
+margin:0;
+font-size:14px;
+}
+#gr_footer img{
+width:100px;
+float:left;
+}
+#gr_updates_widget img{
+	border-style:none;
+}
+</style>
+	<div id="gr_updates_widget" style="float:right;" >
+	  <iframe id="the_iframe" src="https://www.goodreads.com/widgets/user_update_widget?height=400&num_updates=3&user=59602679&width=250" width="248" height="330" frameborder="0"></iframe>
+		<div id="gr_footer">
+		  <a href="https://www.goodreads.com/"><img alt="Goodreads: Book reviews, recommendations, and discussion" src="https://www.goodreads.com/images/layout/goodreads_logo_140.png" /></a>
+		</div>
+	</div>
+<h3>Ebooks</h3>
+<table id="myTable" class="tablesorter"> 
+<thead>        
+
+<tr> 
+    <th>Title</th> 
+    <th>Authors</th> 
+    <th>ISBN</th> 
+    <th>PubDate</th> 
+    <th>Publisher</th> 
+    <th>year</th>
+</tr>       
+
+</thead> 
+<tbody>
+{% assign sortedebooks = site.data.about-me.ebooks | sort: 'title_sort'%}
+{% for ebooks in sortedebooks  %}
+{% assign pub = site.data.about-me.bookpub[ebooks.publisher] %}
+
+<tr>
+<td><a href="{% if ebooks.website %}{{ ebooks.website }}{% else %}{{ pub.search }}{{ ebooks.title | cgi_escape }}{% endif %}">{{ ebooks.title }} {% if ebooks.series<>"" %} ({{ ebooks.series_index }} of {{ ebooks.series}} ){% endif %}</a></td>
+<td>{{ ebooks.authors }}</td>
+<td>{{ ebooks.isbn}}</td>
+<td>{{ ebooks.pubdate | date_to_long_string}}</td>
+<td>{{ ebooks.publisher}}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+<h3>Dead tree books</h3>
+Comming soon

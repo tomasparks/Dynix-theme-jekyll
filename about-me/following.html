@@ -1,0 +1,43 @@
+<div class="h-card>
+<div class="p-honorific-prefix"></div>
+{% if p-given-name != "" %}
+<div class="p-given-name"></div> <div class="p-additional-name"></div>  <div class="p-family-name"></div>
+{% else %}
+<div class="p-name"></div>
+{% endif %}
+<div class="p-honorific-suffix"></div>
+<div class="p-nickname"></div>
+
+u-email - email address
+u-logo - a logo representing the person or organisation
+u-photo
+u-url - home page
+u-uid - universally unique identifier, typically canonical URL
+p-category - category/tag
+p-adr - postal address, optionally embed an h-adr
+Main article: h-adr
+p-post-office-box
+p-extended-address - apartment/suite/room name/number if any
+p-street-address - street number + name
+p-locality - city/town/village
+p-region - state/county/province
+p-postal-code - postal code, e.g. US ZIP
+p-country-name - country name
+p-label
+p-geo or u-geo, optionally embed an h-geo
+Main article: h-geo
+p-latitude - decimal latitude
+p-longitude - decimal longitude
+p-altitude - decimal altitude
+p-tel - telephone number
+p-note - additional notes
+dt-bday - birth date
+u-key - cryptographic public key e.g. SSH or GPG
+p-org - affiliated organization, optionally embed an h-card
+p-job-title - job title, previously 'title' in hCard, disambiguated.
+p-role - description of role
+u-impp per RFC4770, new in vCard4 (RFC 6350)
+p-sex - biological sex, new in vCard4 (RFC 6350)
+p-gender-identity - gender identity, new in vCard4 (RFC 6350)
+dt-anniversary
+</div>

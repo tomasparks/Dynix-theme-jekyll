@@ -1,8 +1,17 @@
 - title: home
   url: /
 
-- title: Website
-  url: /website/
+- title: Art
+  url: /art/
 
-- title: theme source
-  url: https://github.com/tomasparks/Dynix-theme-jekyll
+- title: Open Questions
+  url: /questions/
+
+- title: Projects
+  url: /projects/
+
+- title: blogroll
+  url: /website/blogroll.html
+  
+- title: Notes
+  url: /notes/

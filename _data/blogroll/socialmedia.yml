@@ -1,0 +1,3085 @@
+--- 
+- 
+  name: "0ctav1us Kitten"
+  social: 
+    email: kitten.octavius@gmail.com
+    facebook: octav1uskitten
+    patreon: octav1us
+    twitch: octav1uskitten
+    twitter: Octav1usKitten
+    youtube: 
+      - 
+        main: UCz5Kx6dP6rHRf9yLY1tnelw
+      - 
+        extra: UCMxfNnDuvI_ex_JkonVYeQg
+  tags: 
+    - youtuber
+- 
+  name: "Nostalgia Nerd"
+  social: 
+    facebook: nostalnerd
+    instagram: nostalgianerd
+    twitch: nostalgianerd
+    twitter: nostalnerd
+    website: "http://www.nostalgianerd.com"
+    youtube: 
+       - main: UC7qPftDWPw9XuExpSgfkmJQ
+       - extra: UC4Wm8OIo9oplFmi_XPZ35-Q
+  tags: 
+    - youtuber
+- 
+  name: "Mr John Robertson"
+  social: 
+    twitter: Robbotron
+  tags: 
+    - youtuber
+    - "stage comdey"
+    - "Dark Room"
+- 
+  name: asciinema
+  social: 
+    twitter: asciinema
+  tags: 
+    - software
+- 
+  name: "Blender Developers"
+  social: 
+    twitter: BlenderDev
+  tags: 
+    - software
+    - developers
+- 
+  name: "Amiga Kit Amiga Store"
+  social: 
+    twitter: Amiga_Store
+  tags: 
+    - software
+    - hardware
+    - amiga
+    - shop
+- 
+  name: "Simon Elvery"
+  social: 
+    twitter: drzax
+- 
+  name: "Amit Patel"
+  social: 
+    twitter: redblobgames
+- 
+  name: "The Photosynth Team"
+  social: 
+    twitter: photosynth
+  tags: 
+    - software
+    - dead
+- 
+  name: "Will Kalif"
+  social: 
+    twitter: willkalif
+- 
+  name: "Alain wildgen"
+  social: 
+    facebook: paperdiorama
+    twitter: PaperDiorama
+  tags: 
+    - papermodeller
+- 
+  name: "The SETI Institute"
+  social: 
+    twitter: SETIInstitute
+- 
+  name: "UC Berkeley SETI"
+  social: 
+    twitter: BerkeleySETI
+- 
+  name: "Internet of Shit"
+  social: 
+    twitter: internetofshit
+- 
+  name: Neomutt
+  social: 
+    twitter: NeoMutt_Org
+  tags: 
+    - software
+- 
+  name: "HWC Baltimore"
+  social: 
+    twitter: HWCBaltimore
+  tags: 
+    - indieweb
+- 
+  name: "Tim Wu"
+  social: 
+    twitter: superwuster
+- 
+  name: "Gordon D. Duke"
+  social: 
+    twitter: ThingUTS
+  tags: 
+    - "rpgmp3 member"
+- 
+  name: "RetroGamer VX"
+  social: 
+    twitter: RetroGamerVX
+- 
+  name: "The Boring Company"
+  social: 
+    twitter: boringcompany
+- 
+  name: foone
+  social: 
+    patreon: foone
+    twitter: Foone
+- 
+  name: "Scott Draves"
+  social: 
+    twitter: scott_draves
+  tags: 
+    - "Electric Sheep"
+    - "Fractal Flames"
+    - fractal
+- 
+  name: "Electric Sheep"
+  social: 
+    twitter: ElectricSHE3P
+  tags: 
+    - "Fractal Flames"
+    - fractal
+- 
+  name: "Channel 9"
+  social: 
+    twitter: Channel9
+  tags: 
+    - australia
+    - "tv station"
+- 
+  name: "60 Minutes Australia"
+  social: 
+    facebook: 60Minutes9
+    twitter: 60Mins
+  tags: 
+    - australia
+    - "tv station"
+- 
+  name: "A Current Affair"
+  social: 
+    twitter: ACurrentAffair9
+  tags: 
+    - australia
+    - "tv show"
+- 
+  name: "Eliza Day"
+  social: 
+    twitter: mselizaday
+- 
+  name: "Blender Network"
+  social: 
+    twitter: BlenderNetwork
+- 
+  name: "Blender Cloud"
+  social: 
+    twitter: Blender_Cloud
+- 
+  name: "Humble Bundle"
+  social: 
+    twitter: humble
+- 
+  name: Blender
+  social: 
+    twitter: blender_org
+- 
+  name: "Ton Roosendaal"
+  social: 
+    twitter: tonroosendaal
+- 
+  name: "Rocket Lab"
+  social: 
+    twitter: RocketLab
+- 
+  name: "Darci Lynne"
+  social: 
+    twitter: ItsDarciLynne
+- 
+  name: "ACI Info"
+  social: 
+    twitter: AirCrash_
+- 
+  name: "Air Disasters"
+  social: 
+    twitter: AirCrashMayday
+- 
+  name: "Mayday / Air Crash"
+  social: 
+    twitter: MaydayAirCrash
+- 
+  name: "Scott Merrill"
+  social: 
+    twitter: smerrill
+- 
+  name: "Sci Hub"
+  social: 
+    twitter: Sci_Hub
+- 
+  name: "Adora Svitak"
+  social: 
+    twitter: adorasv
+- 
+  name: "Chris Huelsbeck"
+  social: 
+    twitter: Chris_Huelsbeck
+- 
+  name: Scamwatch_gov_au
+  social: 
+    twitter: Scamwatch_gov
+- 
+  name: "Kontax Engineering"
+  social: 
+    twitter: KontaxEngines
+- 
+  name: "Bedrooms to Billions"
+  social: 
+    twitter: FromBedrooms
+- 
+  name: "Brian Bagnall"
+  social: 
+    twitter: BrianBagnall1
+- 
+  name: "Storj Labs"
+  social: 
+    twitter: storjproject
+- 
+  name: "Jamie King"
+  social: 
+    patreon: stealthisshow
+    twitter: jamie_jk
+    website: "https://stealthisshow.com"
+- 
+  name: ExploreMars
+  social: 
+    twitter: ExploreMars
+- 
+  name: "The Register"
+  social: 
+    twitter: TheRegister
+- 
+  name: "Emily Wickersham"
+  social: 
+    twitter: EmilyWickersham
+  tags: 
+    - actor
+    - ncis
+- 
+  name: "Duane Henry"
+  social: 
+    twitter: RealDuaneHenry
+- 
+  name: "David Shanske"
+  social: 
+    twitter: dshanske
+- 
+  name: Elementary
+  social: 
+    twitter: Elementary_CBS
+- 
+  name: "Bill Nye"
+  social: 
+    twitter: BillNye‏
+- 
+  name: "DΛVID V3.0.11"
+  social: 
+    twitter: DavidWolfpaw
+- 
+  name: "𝔐𝔦𝔠𝔥𝔞𝔢𝔩 ℜ𝔬𝔰𝔢"
+  social: 
+    twitter: mmistakes
+- 
+  name: "Dr Karl"
+  social: 
+    twitter: DoctorKarl
+- 
+  name: "triple j"
+  social: 
+    twitter: triplej
+  tags: 
+    - australia
+    - "radio station"
+- 
+  name: "Mark Hamill"
+  social: 
+    twitter: HamillHimself
+  tags: 
+    - actor
+    - starwars
+- 
+  name: "Greg McVerry"
+  social: 
+    twitter: jgmac1106
+    webste: "https://jgregorymcverry.com/"
+  tags: 
+    - indieweb
+- 
+  name: "Alcoholiday BBS"
+  social: 
+    twitter: AlcoholidayBBS
+  tags: 
+    - BBS
+    - Fidonet
+- 
+  name: "Aaron Gustafson"
+  social: 
+    twitter: AaronGustafson
+  tags: 
+    - indieweb
+- 
+  name: "Jeremy Keith"
+  social: 
+    twitter: adactio
+  tags: 
+    - indieweb
+- 
+  name: "Adrianne Palicki"
+  social: 
+    twitter: AdriannePalicki
+  tags: 
+    - indieweb
+- 
+  name: HeadGum
+  social: 
+    twitter: headgum
+  tags: 
+    - podcast
+- 
+  name: "Not Another D&D Podcast"
+  social: 
+    twitter: NotAnotherDnD
+  tags: 
+    - podcast
+    - RPG
+    - D&D
+- 
+  name: "Brian Murphy"
+  social: 
+    twitter: chmurph
+- 
+  name: "Streaming Media"
+  social: 
+    twitter: streamingmedia
+- 
+  name: Fastcast
+  social: 
+    twitter: fastcastnz
+- 
+  name: "Vint Cerf"
+  social: 
+    twitter: V_Cerf_332
+- 
+  name: Feross
+  social: 
+    twitter: feross
+- 
+  name: "Jason Scott"
+  social: 
+    twitter: textfiles
+    website: textfiles.com
+- 
+  name: "Archive Team"
+  social: 
+    twitter: archiveteam
+- 
+  name: "Tim Berners-Lee"
+  social: 
+    twitter: timberners_lee
+- 
+  name: "element14 Presents"
+  social: 
+    twitter: e14presents
+- 
+  name: "Tantek Çelik"
+  social: 
+    twitter: t
+- 
+  name: "Elon Musk"
+  social: 
+    twitter: elonmusk
+- 
+  name: Hal
+  social: 
+    twitter: RPGMP3‏
+- 
+  name: "Monty [the rider]"
+  social: 
+    twitter: xiphmont‏
+- 
+  name: "Laine Nooney"
+  social: 
+    twitter: Sierra_OffLine
+- 
+  name: Techmoan
+  social: 
+    twitter: Techmoan
+    youtube: Techmoan
+- 
+  name: "Pushing Up Roses"
+  social: 
+    esty: DysmorphicArt
+    twitter: PushinUpRoses
+- 
+  name: LGR
+  social: 
+    twitter: lazygamereviews
+  tags: 
+    - youtuber
+- 
+  name: InternetHistoryPod
+  social: 
+    twitter: NetHistoryPod
+  tags: 
+    - podcast
+- 
+  name: "Brian McCullough"
+  social: 
+    twitter: brianmcc
+  tags: 
+    - podcaster
+- 
+  name: "Web3D Consortium"
+  social: 
+    twitter: Web3DConsortium
+  tags: 
+    - 3D
+    - "web standard"
+- 
+  name: IndieWebCamp
+  social: 
+    twitter: indiewebcamp
+- 
+  name: "Bill Bennett"
+  social: 
+    twitter: billbennettnz
+- 
+  name: "emily axford"
+  social: 
+    twitter: eaxford
+- 
+  name: "Awesome CSV"
+  social: 
+    twitter: awesomecsv
+- 
+  name: "Kari Byron"
+  social: 
+    twitter: KariByron
+- 
+  name: "Tory Belleci"
+  social: 
+    twitter: ToryBelleci
+- 
+  name: MythBusters
+  social: 
+    twitter: "MythBusters"
+  tags: 
+    - USA
+    - "tv show"
+    - ended?"
+- 
+  name: Telstra
+  social: 
+    twitter: Telstra
+  tags: 
+    - australia
+    - telcom
+- 
+  name: "nbn™ Australia"
+  social: 
+    twitter: NBN_Australia
+  tags: 
+    - australia
+    - telcom
+    - govt
+- 
+  name: Discovery
+  social: 
+    twitter: Discovery
+  tags: 
+    - USA
+    - "tv station"
+- 
+  name: Tested
+  social: 
+    twitter: testedcom
+  tags: 
+    - youtube
+    - podcast
+    - website
+- 
+  name: "Adam Savage"
+  social: 
+    twitter: donttrythis
+---------------------------------------------------
+
+- name: "Robert Hewitt Wolfe"
+  social:
+    twitter: writergeekrhw
+    
+- name: "Nyman Gibson Miralis"
+  social:
+     twitter: NGMLawyers
+
+- name: "Tom the Dancing Bug"
+  social:
+    twitter: RubenBolling
+
+- name: "JD"
+  social:
+    twitter: jarroddicker
+
+- name: "Shoqqed You're Not"
+  social:
+     twitter: Shoq
+      social:\n        twitter: BronGondwana
+
+Bron Gondwana
+    social:\n        twitter: BronGondwana
+      social:\n        twitter: BleckyWhat
+
+Blecky
+    social:\n        twitter: BleckyWhat ‏
+ 
+      social:\n        twitter: a4omedia
+
+Alliance For Open Media
+    social:\n        twitter: a4omedia
+      social:\n        twitter: lbhq
+
+Little Bird Company
+    social:\n        twitter: lbhq ‏
+We empower electronics makers.
+
+ 
+
+      social:\n        twitter: MomsDemand
+
+Moms Demand Action
+    social:\n        twitter: MomsDemand      social:\n        twitter: NCISLA
+
+NCIS LA
+    social:\n        twitter: NCISLA
+      social:\n        twitter: PauleyP
+
+Pauley Perrette
+    social:\n        twitter: PauleyP
+      social:\n        twitter: NCIS_CBS
+
+NCIS
+    social:\n        twitter: NCIS_CBS      social:\n        twitter: bessbell
+
+Bess Kalb
+    social:\n        twitter: bessbell
+      social:\n        twitter: NCISNewOrleans
+
+NCIS: New Orleans
+    social:\n        twitter: NCISNewOrleans
+      social:\n        twitter: ScottBakula
+
+Scott Bakula
+    social:\n        twitter: ScottBakula ‏
+Actor
+
+ 
+      social:\n        twitter: uncarchives
+
+UNC Archives
+    social:\n        twitter: uncarchives
+      social:\n        twitter: SoHistColl_1930
+
+Southern Historical Collection
+    social:\n        twitter: SoHistColl_1930
+      social:\n        twitter: WilsonLibUNC
+
+Wilson Library, UNC
+    social:\n        twitter: WilsonLibUNC      social:\n        twitter: UNCLibrary
+
+UNC Library
+    social:\n        twitter: UNCLibrary
+      social:\n        twitter: dmirams
+
+Doug Mirams
+    social:\n        twitter: dmirams
+      social:\n        twitter: ThisAmerLife
+
+This American Life
+    social:\n        twitter: ThisAmerLife      social:\n        twitter: defcon
+
+DEF CON
+    social:\n        twitter: defcon ‏
+Hacking Conference
+
+ 
+
+      social:\n        twitter: propubnerds
+
+ProPublica Nerds
+    social:\n        twitter: propubnerds ‏
+The News Applications desk at ProPublica.
+
+ 
+
+      social:\n        twitter: ProPublica
+
+ProPublica
+    social:\n        twitter: ProPublica      social:\n        twitter: AaronSwartzDay
+
+Aaron Swartz Day
+    social:\n        twitter: AaronSwartzDay
+      social:\n        twitter: mukurtu
+
+Kim Christen
+    social:\n        twitter: mukurtu ‏
+Director, Center for Digital Scholarship & Curation, Mukurtu &     social:\n        twitter: theSHN
+
+ 
+
+      social:\n        twitter: UCLA
+
+UCLA
+    social:\n        twitter: UCLA      social:\n        twitter: tttkay
+
+bibliotekah
+    social:\n        twitter: tttkay
+      social:\n        twitter: ID_AA_Carmack
+
+John Carmack
+    social:\n        twitter: ID_AA_Carmack ‏
+Oculus VR CTO
+
+ 
+
+      social:\n        twitter: neiltyson
+
+Neil deGrasse Tyson
+    social:\n        twitter: neiltyson ‏
+Astrophysicist
+
+ 
+      social:\n        twitter: MarsCuriosity
+
+Curiosity Rover
+    social:\n        twitter: MarsCuriosity
+      social:\n        twitter: NASAHubble
+
+Hubble
+    social:\n        twitter: NASAHubble
+      social:\n        twitter: NASA
+
+NASA
+    social:\n        twitter: NASA ‏
+Explore the universe and discover our home planet with     social:\n        twitter: NASA. We usually post in EST (UTC-4)
+
+ 
+      social:\n        twitter: virgingalactic
+
+Virgin Galactic
+    social:\n        twitter: virgingalactic
+      social:\n        twitter: respektor
+
+Regina Spektor
+    social:\n        twitter: respektor ‏
+Official Regina Spektor account. My new single Birdsong is out now! https://reginaspektor.lnk.to/Birdsong 
+
+ 
+
+      social:\n        twitter: JoLuijten
+
+Squirrel Monkey
+    social:\n        twitter: JoLuijten ‏
+Father | husband | video creator | Dutchman in Hollywood | Utrecht University alumnus | coffee | retro | robotics | Winner Creative Chair 366…
+
+ 
+      social:\n        twitter: verzuchtendelui
+
+Zucht
+    social:\n        twitter: verzuchtendelui ‏
+ 
+
+      social:\n        twitter: KinnaMcInroe
+
+Kinna Mcinroe
+    social:\n        twitter: KinnaMcInroe ‏
+ 
+
+      social:\n        twitter: Sunnyvalegames
+
+Sunnyvale Games  🕹
+    social:\n        twitter: Sunnyvalegames      social:\n        twitter: HackSpaceMag
+
+HackSpace magazine
+    social:\n        twitter: HackSpaceMag
+      social:\n        twitter: partytimeHXLNT
+
+ 💌 cathode rae
+    social:\n        twitter: partytimeHXLNT
+      social:\n        twitter: Sarahchadwickk
+
+Sarah Chadwick
+    social:\n        twitter: Sarahchadwickk      social:\n        twitter: cameron_kasky
+
+Cameron Kasky
+    social:\n        twitter: cameron_kasky ‏
+Co-Founder of March For Our Lives. Former least intelligent student at Marjory Stoneman Douglas High School. #MSDSTRONG
+
+ 
+
+      social:\n        twitter: SciGuySpace
+
+Eric Berger
+    social:\n        twitter: SciGuySpace ‏
+Senior Space Editor at Ars Technica. I like rockets.
+
+ 
+
+      social:\n        twitter: openstreetmap
+
+OpenStreetMap
+    social:\n        twitter: openstreetmap ‏
+OpenStreetMap is the free editable map of the whole world. It is made by people like you.
+
+ 
+      social:\n        twitter: Rob_Reid
+
+Rob Reid
+    social:\n        twitter: Rob_Reid ‏
+Bestselling Science Fiction Author ("Year Zero" and "After On"). Founded the company that built the Rhapsody music service.
+
+ 
+
+      social:\n        twitter: FBE
+
+FBE
+    social:\n        twitter: FBE ‏
+This is the official FBE Twitter. We make originals for web & TV. Join the conversation!
+
+ 
+
+      social:\n        twitter: MastodonProject
+
+Mastodon
+    social:\n        twitter: MastodonProject ‏
+The social network of the future: No ads, no corporate surveillance, ethical design, and decentralization! Own your data with Mastodon—Try it today for free!
+
+ 
+      social:\n        twitter: schnarfed
+
+Ryan Barrett
+    social:\n        twitter: schnarfed ‏
+ 
+
+      social:\n        twitter: Twitter
+
+Twitter
+    social:\n        twitter: Twitter ‏
+What’s happening?!
+
+ 
+
+      social:\n        twitter: RichardGarriott
+
+Richard Garriott
+    social:\n        twitter: RichardGarriott ‏
+Inventor, explorer, entrepreneur, and author of "Explore/Create". Check out my new book and join me in the world of Shroud of the Avatar! #LBSotA
+
+ 
+      social:\n        twitter: VimlyHost
+
+VimlyHost
+    social:\n        twitter: VimlyHost ‏
+The only web host you will ever need! Start your first website for free with cPanel & Softaculous and upgrade to multisite hosting from as little as…
+
+ 
+
+      social:\n        twitter: ServerCentral
+
+ServerCentral Turing Group
+    social:\n        twitter: ServerCentral ‏
+Hi! We're ServerCentral Turing Group, and we offer cloud-native software development, AWS consulting, cloud infrastructure, and global data center…
+
+ 
+
+      social:\n        twitter: packethost
+
+Packet
+    social:\n        twitter: packethost ‏
+Packet is a bare metal cloud built for developers. Deploy in as little as 60 seconds with full automation support from 18+ data centers around the world.
+
+ 
+      social:\n        twitter: backblaze
+
+Backblaze
+    social:\n        twitter: backblaze ‏
+Online Backup for $5/month. B2 Cloud Storage for $0.005/GB/mo. Learn more & try it at: http://www.backblaze.com 
+
+ 
+
+      social:\n        twitter: KimxxxJustice
+
+Kim Justice
+    social:\n        twitter: KimxxxJustice ‏
+A walking continent of common sense. Someone who allegedly creates videos about old games on the Internet, plays bass and likes to go on stage.
+
+ 
+
+      social:\n        twitter: SassCSS
+
+Sass
+    social:\n        twitter: SassCSS ‏
+The official Sass twitter account. Follow everyone's favorite CSS language for updates, information, and announcements. Mostly run by     social:\n        twitter: nex3.
+
+ 
+      social:\n        twitter: JekyllConf
+
+JekyllConf
+    social:\n        twitter: JekyllConf ‏
+The free, online global conference for all things Jekyll. Best practice, case studies and the future of #Jekyllrb | 7 May 2016
+
+ 
+
+      social:\n        twitter: jekyllrb
+
+jekyll
+    social:\n        twitter: jekyllrb ‏
+Jekyll is a blog-aware, static site generator in Ruby. This account's mentions'r not monitored. Need Help? http://jekyllrb.com/help/ 
+
+ 
+
+      social:\n        twitter: html5liveAT
+
+HTML5Live
+    social:\n        twitter: html5liveAT ‏
+ 
+      social:\n        twitter: kaleycuoco321
+
+Kaley cuoco official
+    social:\n        twitter: kaleycuoco321 ‏
+heyy xx
+
+ 
+
+      social:\n        twitter: Yester_World
+
+Mark's Yesterworld
+    social:\n        twitter: Yester_World ‏
+Hey all, I'm Mark, and Yesterworld is a place where we'll investigate and explore theme parks, films, and entertainment of the past.
+
+ 
+
+      social:\n        twitter: MBeeTech
+
+Microbee Technology
+    social:\n        twitter: MBeeTech ‏
+Shop 30, The Terrace S/C 66 - 74 Brice Avenue, Mooroolbark, Victoria Australia. (03) 9726 5001 http://www.facebook.com/MicrobeeTechnology …
+
+ 
+      social:\n        twitter: AmiKit_Amiga
+
+AmiKit
+    social:\n        twitter: AmiKit_Amiga ‏
+Your Modern Retro Experience!
+
+ 
+
+      social:\n        twitter: VivaAmiga
+
+Viva Amiga
+    social:\n        twitter: VivaAmiga ‏
+In 1985, a motley crew of freaks, geeks and geniuses created the best computer the world had ever seen. This is their story.
+
+ 
+
+      social:\n        twitter: The_NatAmi
+
+NatAmi-Native Amiga
+    social:\n        twitter: The_NatAmi ‏
+This hardware project is dedicated to the still innovative system architecture of the Commodore AMIGA computer.
+
+ 
+      social:\n        twitter: amigakit
+
+Amiga Kit Amiga Store
+    social:\n        twitter: amigakit ‏
+Amiga Kit Amiga Store. Worldwide retailer, distributor and manufacturer of Amiga computer hardware and software.
+
+ 
+
+      social:\n        twitter: acubesystems
+
+ACube Systems Srl
+    social:\n        twitter: acubesystems ‏
+ 
+
+      social:\n        twitter: aeontechltd
+
+A-EON Technology Ltd
+    social:\n        twitter: aeontechltd ‏
+ 
+      social:\n        twitter: retroplatform
+
+RetroPlatform
+    social:\n        twitter: retroplatform ‏
+ 
+
+      social:\n        twitter: menubox
+
+MenuBox
+    social:\n        twitter: menubox ‏
+Home of the finest chromeless browser container for Windows. With extended DOM and smart event intercept.
+
+ 
+
+      social:\n        twitter: dosforever
+
+DOS Forever
+    social:\n        twitter: dosforever ‏
+ 
+      social:\n        twitter: sdirector
+
+Software Director
+    social:\n        twitter: sdirector ‏
+Check for updates from multiple software publishers without sending personal information or details about installed applications.
+
+ 
+
+      social:\n        twitter: cloanto
+
+Cloanto
+    social:\n        twitter: cloanto ‏
+ 
+
+      social:\n        twitter: c64forever
+
+C64 Forever
+    social:\n        twitter: c64forever ‏
+C64 Forever is the official CBM 8-bit emulation, preservation and support series brought to you by Cloanto, Commodore/Amiga developers…
+
+ 
+      social:\n        twitter: amigaforever
+
+Amiga Forever
+    social:\n        twitter: amigaforever ‏
+Amiga Forever is the official Amiga emulation, preservation and support series brought to you by Cloanto, Commodore/Amiga developers…
+
+ 
+
+      social:\n        twitter: BareConductive
+
+Bare Conductive
+    social:\n        twitter: BareConductive ‏
+Bare Conductive makes sensing tools for engineers, designers, and makers.
+
+ 
+
+      social:\n        twitter: encodingdotcom
+
+Encoding.com
+    social:\n        twitter: encodingdotcom ‏
+Follow us for the latest news and trends from the world leader in cloud media services.
+
+ 
+      social:\n        twitter: schmarty
+
+Marty McGuire
+    social:\n        twitter: schmarty ‏
+A nerd about: IndieWeb / web dev / improv / D&D / podcasts
+
+ 
+
+      social:\n        twitter: drainthenra
+
+Drain The NRA
+    social:\n        twitter: drainthenra ‏
+We boycott the NRA's corporate partners, divest from guns & vote NRA puppets out of office. Pass #HR8! http://teepublic.com/stores/drain-the-nra … …
+
+ 
+
+      social:\n        twitter: mozilla
+
+Mozilla
+    social:\n        twitter: mozilla ‏
+A non-profit with one mission: defend the free and open web. Makers of     social:\n        twitter: Firefox. Subscribe to our award-winning podcast, IRL: https://mzl.la/IRL 
+
+ 
+      social:\n        twitter: MitchellBaker
+
+MitchellBaker
+    social:\n        twitter: MitchellBaker ‏
+ 
+
+      social:\n        twitter: OpenSociety
+
+Open Society Foundations
+    social:\n        twitter: OpenSociety ‏
+We work to build vibrant and tolerant democracies whose governments are accountable to their citizens. Community guidelines: http://osf.to/communityguidelines …
+
+ 
+
+      social:\n        twitter: SarahJamieLewis
+
+Sarah Jamie Lewis
+    social:\n        twitter: SarahJamieLewis ‏
+Executive Director     social:\n        twitter: OpenPriv. Enforcing Consent & Resisting Surveillance with Cryptography. Vegan Lesbian, Queer Anarchist. Donate: …
+
+ 
+      social:\n        twitter: unoabraham
+
+Rajiv Abraham
+    social:\n        twitter: unoabraham ‏
+#Christian, #audiophile, #videophile, #foodie, #gamer, #shutterbug, and #geek.
+
+ 
+
+      social:\n        twitter: archivematica
+
+Archivematica
+    social:\n        twitter: archivematica ‏
+Free and open-source digital preservation system designed to maintain standards-based, long-term access to collections of digital objects.
+
+ 
+
+      social:\n        twitter: BoingBoing
+
+Boing Boing
+    social:\n        twitter: BoingBoing ‏
+SUBSCRIBE: http://eepurl.com/dEkrNX 
+
+ 
+      social:\n        twitter: librarycongress
+
+Library of Congress
+    social:\n        twitter: librarycongress ‏
+World’s largest library. Explore collections, services & plan a visit. Follow     social:\n        twitter: LibnOfCongress to meet Carla Hayden, 14th Librarian of Congress.
+
+ 
+
+      social:\n        twitter: johndelancie
+
+John de Lancie
+    social:\n        twitter: johndelancie ‏
+John de Lancie is an American actor, director, and writer. But when all is said and done, would rather be sailing .
+
+ 
+
+      social:\n        twitter: jeffreycombs
+
+jeffrey combs
+    social:\n        twitter: jeffreycombs ‏
+Actor
+
+ 
+      social:\n        twitter: realLindaPark
+
+Linda Park
+    social:\n        twitter: realLindaPark ‏
+actress. activist. writer. maker.
+
+ 
+
+      social:\n        twitter: JoleneBlalock
+
+Jolene Blalock
+    social:\n        twitter: JoleneBlalock ‏
+Iron Man, Hulk and Thor's mommy...long story...and an actress
+
+ 
+
+      social:\n        twitter: Lady_Ada_King
+
+Ada Rose Cannon
+    social:\n        twitter: Lady_Ada_King ‏
+Developer Advocate at Samsung for the Web Browser     social:\n        twitter: SamsungInternet 💜💜💜 Web fangirl. Co-chair of the W3C Immersive Web Working Group.
+
+ 
+      social:\n        twitter: johnjohnston
+
+john johnston
+    social:\n        twitter: johnjohnston ‏
+Primary Teacher Scotland, ADE, blogging, podcasting, rss, web, mac, iOS, walks, fauna, flora, open, #ds106 #GlowBlogs Radio #Edutalk …
+
+ 
+
+      social:\n        twitter: swentel
+
+Kristof De Jaeger
+    social:\n        twitter: swentel ‏
+ 
+
+      social:\n        twitter: megarush1024
+
+((( Amanda )))
+    social:\n        twitter: megarush1024 ‏
+Laying the groundwork for an insanity defense since 1980.
+
+ 
+      social:\n        twitter: loopdouble
+
+Neil M
+    social:\n        twitter: loopdouble ‏
+Keyboard shortcut enthusiast. Tech+data     social:\n        twitter: RestartProject. You can find me on the indieweb (https://doubleloop.net ) or Mastodon (https://social.coop/    social:\n        twitter: neil ).
+
+ 
+
+      social:\n        twitter: raretrack
+
+Rob Fairhead  🇪🇺
+    social:\n        twitter: raretrack ‏
+Lifelong European | Progressive | Green | Humanist | Geek | Indieweb | Photographer | OpenStreetMap | Walker | Cyclist | Railway worker
+
+ 
+
+      social:\n        twitter: brianrainey
+
+Brian Rainey
+    social:\n        twitter: brianrainey ‏
+Northern Ireland boy in the land of the free / home of the brave. #gawa #nerevs #netrunner #indieweb
+
+ 
+      social:\n        twitter: indiewebdomains
+
+IndieWeb.co
+    social:\n        twitter: indiewebdomains ‏
+Domain names, hosting, web builders, and SEO.. on the cheap!
+
+ 
+
+      social:\n        twitter: miklb
+
+Michael Bishop
+    social:\n        twitter: miklb ‏
+I used to wash dishes, now I’m a digital plumber. Proud #Tampa native. Public Interest technologist #civictech Sports fan, music lover. he/him
+
+ 
+
+      social:\n        twitter: Indiewebhost
+
+*Indieweb Hosting*
+    social:\n        twitter: Indiewebhost ‏
+Official Account http://Indieweb.biz  | Layanan Webhosting, Registrasi Domain & Jasa Pembuatan Website.
+
+ 
+      social:\n        twitter: growdigital
+
+Jake Rayson
+    social:\n        twitter: growdigital ‏
+Frontend. Simple is a feature. #PrivacyByDefault Creator of     social:\n        twitter: IndiegoHugo, #IndieWeb starter kit for     social:\n        twitter: gohugoio. He/they.…
+
+ 
+
+      social:\n        twitter: dissolve333
+
+Ben Roberts
+    social:\n        twitter: dissolve333 ‏
+Developer, technologist, father and husband. Author of the JF2 spec and indieweb developer.
+
+ 
+
+      social:\n        twitter: jonnybarnes
+
+Jonny Barnes
+    social:\n        twitter: jonnybarnes ‏
+Mancunian music lover, IndieWeb builder, Developer     social:\n        twitter: BuildEmpireLtd
+
+ 
+      social:\n        twitter: xtof_party
+
+Christophe Ducamp
+    social:\n        twitter: xtof_party ‏
+life, design & technology. R&D #indieweb et accompagnement TPE PME sur le design social. Passions : mer & navigation hauturière.
+
+ 
+
+      social:\n        twitter: thbo
+
+Thomas Boom
+    social:\n        twitter: thbo ‏
+Dad, husband, technologist and economist, interested in proper design, architecture, sailing yachts, sane transportation, indieweb, etc.
+
+ 
+
+      social:\n        twitter: nicolas2fr
+
+ 🐗 Nicolas Bermond
+    social:\n        twitter: nicolas2fr ‏
+Nicolas Bermond In Paris, druide     social:\n        twitter: agence50A #curieux #amoureux #entrepreneur #Famille #Hacking #Securité #IndieWeb #Decentralisation
+
+ 
+      social:\n        twitter: shawndrape
+
+Shawn Drape
+    social:\n        twitter: shawndrape ‏
+I'm a Christian web dev working in EdTech to make teaching fun and effective. I'm also interested in indie games, #indieWeb movement,…
+
+ 
+
+      social:\n        twitter: m_ott
+
+Matthias Ott
+    social:\n        twitter: m_ott ‏
+Independent UX designer, UI engineer, and speaker. I curate     social:\n        twitter: PrototypingNews and teach Interface Prototyping at     social:\n        twitter: MuthesiusMA. #ux #prototyping …
+
+ 
+
+      social:\n        twitter: LarryKooper
+
+Larry Kooper
+    social:\n        twitter: LarryKooper ‏
+Software developer at http://www.605.tv . Spark, Scala, Redshift, Ruby, Python, PostgreSQL. Proponent of #indieweb. I ♥     social:\n        twitter: imarybethnyc
+
+ 
+      social:\n        twitter: barryf
+
+Barry Frost
+    social:\n        twitter: barryf ‏
+CTO at     social:\n        twitter: Gumtree, eBay Classifieds Group. Tweets about web dev, UX, #indieweb and #arsenal
+
+ 
+
+      social:\n        twitter: zebel
+
+Sebastian Ziebell
+    social:\n        twitter: zebel ‏
+Software developer at     social:\n        twitter: asquera, Ruby, Rust, JavaScript, WebAssembly & WebGL. indie / video games • speed runs • photography • music • literature
+
+ 
+
+      social:\n        twitter: IndieWebSummit
+
+IndieWeb Summit • June 26-27 in Portland
+    social:\n        twitter: IndieWebSummit ‏
+June 26-27, 2018
+
+ 
+      social:\n        twitter: pfefferle
+
+Matthias Pfefferle
+    social:\n        twitter: pfefferle ‏
+Full stack developer, blogger, #openweb advocate and citizen of the #indieweb.     social:\n        twitter: OpenWebPodcast |     social:\n        twitter: 12_things | #activitypub, #ostatus, #indieweb for …
+
+ 
+
+      social:\n        twitter: khurtwilliams
+
+Khürt Williams
+    social:\n        twitter: khurtwilliams ‏ Follows you
+Human being, husband, father, infosec professional, and avid photographer. #NJCB and #F1 fan. #IndieWeb proponent. #PWD #T1D #Vincy
+
+ 
+
+      social:\n        twitter: artlung
+
+Joe Crawford
+    social:\n        twitter: artlung ‏
+Software engineer | Indieweb | Toy robot collector | Bodysurfer | Respiratory | Bad drawing | Peace, love, resistance
+
+ 
+      social:\n        twitter: calum_ryan
+
+Calum Ryan | calumryan.com
+    social:\n        twitter: calum_ryan ‏
+Making the web a better place     social:\n        twitter: WeCreateDigital and in my own time with #indieweb #musetech #codebar. Co-organiser of     social:\n        twitter: Tonbridigital and …
+
+ 
+
+      social:\n        twitter: IndieWebCampUK
+
+IndieWebCampUK
+    social:\n        twitter: IndieWebCampUK ‏
+Own your data. Create and share open web technologies, and empower users to own their own identities & content on the indieweb. Tweets by …
+
+ 
+
+      social:\n        twitter: BarnabyWalters
+
+Grand Moﬀ Darth Salt REACTIONS ARCHIVED TO MY SITE
+    social:\n        twitter: BarnabyWalters ‏
+Music/tech minded individual. Trained as a luthier, working on web surveys at Vísar, Iceland. Building the #indieweb of the future. Hiking, climbing, gurdying.
+
+ 
+      social:\n        twitter: martijnvdven
+
+Martĳn van der Ven
+    social:\n        twitter: martijnvdven ‏
+#indieweb IRC fleet commander. Public outreach for everything #microformats. Mastered the art of the h-card. He or they: https://vanderven.se/martijn/gender/ 
+
+ 
+
+      social:\n        twitter: sdepolo
+
+Stacey DePolo  🌻
+    social:\n        twitter: sdepolo ‏
+Social #CustomerAdvocacy Mgr     social:\n        twitter: GoDaddy | connection catalyst | agent of change | #Stand4something! me: 🚴 ☮ ♀🏳️‍🌈🌍 #IndieWeb #coop …
+
+ 
+
+      social:\n        twitter: jkphl
+
+Joschi Kuphal 吉
+    social:\n        twitter: jkphl ‏
+#IndieWeb architect ·     social:\n        twitter: tollwerk     social:\n        twitter: CoderDojoNBG     social:\n        twitter: a11yclub http://material.is  · #TYPO3, Open Source, Tools, Events · Way too many things · PGP 0x09942201
+
+ 
+      social:\n        twitter: CaptScottJr
+
+Scott Campbell Jr
+    social:\n        twitter: CaptScottJr ‏
+Captain of the F/V Seabrooke on Deadliest Catch. (Season 10) also co-author of Giving The Finger...
+
+ 
+
+      social:\n        twitter: AllisterBrimble
+
+Allister
+    social:\n        twitter: AllisterBrimble ‏
+I create music & sound effects for computer games. I love home cooking & wine tasting. Also love badminton and cycling.
+
+ 
+
+      social:\n        twitter: StarTrek
+
+Star Trek
+    social:\n        twitter: StarTrek ‏
+Welcome to the OFFICIAL Star Trek Twitter Page!
+
+ 
+      social:\n        twitter: Linkara19
+
+Linkara
+    social:\n        twitter: Linkara19 ‏
+This comic sucks and I'm going to review it. http://atopthefourthwall.com  http://www.patreon.com/at4w  http://atopfourthwall.tumblr.com 
+
+ 
+
+      social:\n        twitter: realmikefox
+
+Michael J. Fox
+    social:\n        twitter: realmikefox ‏
+Michael Fox is a father, husband, actor, writer, activist, and purveyor of fine cheeses.
+
+ 
+
+      social:\n        twitter: Vlahn
+
+Andrew Ford
+    social:\n        twitter: Vlahn ‏
+ 
+      social:\n        twitter: TheAlphaQuadrnt
+
+TheAlphaQuadrant
+    social:\n        twitter: TheAlphaQuadrnt ‏
+A Webcast covering all things Trek
+
+ 
+
+      social:\n        twitter: lauren_hoggs
+
+Lauren Hogg
+    social:\n        twitter: lauren_hoggs ‏
+MSD class of 2021. 15 yr old activist, student, and author. Exist loudly💛Vote wisely 2.14.18 #Marchforourlives
+
+ 
+
+      social:\n        twitter: LeaKThompson
+
+Lea Thompson
+    social:\n        twitter: LeaKThompson ‏
+See my feature directorial debut THE YEAR OF SPECTACULAR MEN on AMAZON iTunes and HULU
+
+ 
+      social:\n        twitter: jeremyreimer
+
+Jeremy Reimer
+    social:\n        twitter: jeremyreimer ‏
+Sci-fi writer and web dev. Writer for Ars Technica (http://bit.ly/16842d0 ) Creator of newLISP on Rockets, and the Masters Trilogy (http://amzn.to/1blqK5i )
+
+ 
+
+      social:\n        twitter: glynmoody
+
+Glyn Moody
+    social:\n        twitter: glynmoody ‏
+writer (Rebel Code), journalist, blogger. on openness, the commons, copyright, patents and digital rights. email: glyn.moody    social:\n        twitter: gmail.com; PGP:…
+
+ 
+
+      social:\n        twitter: EMSL
+
+Evil Mad Scientist
+    social:\n        twitter: EMSL ‏
+Making the World a Better Place, One Evil Mad Scientist at a Time. Makers of exceptional writing and drawing machines including AxiDraw.
+
+ 
+      social:\n        twitter: AMarch4OurLives
+
+March For Our Lives
+    social:\n        twitter: AMarch4OurLives ‏
+Let’s create a safer America. Text CHANGE to 954-954 to join the movement.
+
+ 
+
+      social:\n        twitter: RasPiTV
+
+RasPi.TV
+    social:\n        twitter: RasPiTV ‏
+Raspberry Pi tips, reviews, tutorials & videos, electronics and making things 😀
+
+ 
+
+      social:\n        twitter: adafruit
+
+adafruit industries
+    social:\n        twitter: adafruit ‏
+Electronics, community, art, learning, and sharing.
+
+ 
+      social:\n        twitter: TheMagPi
+
+The MagPi magazine
+    social:\n        twitter: TheMagPi ‏
+The official     social:\n        twitter: Raspberry_Pi magazine. It's available free as a Creative Commons PDF download.
+
+ 
+
+      social:\n        twitter: arduino
+
+Arduino
+    social:\n        twitter: arduino ‏
+Arduino is an open-source hardware, software, and content platform with a worldwide community of over 30 million active users.
+
+ 
+
+      social:\n        twitter: Raspberry_Pi
+
+Raspberry Pi
+    social:\n        twitter: Raspberry_Pi ‏
+The official Twitter account for the Raspberry Pi Foundation. News and info about our low-cost mini PC.
+
+ 
+      social:\n        twitter: archivalistic
+
+sara
+    social:\n        twitter: archivalistic ‏
+Librarian and archivist and enthusiast. Sportsfan. Open source software maker. She/her. CC-BY. Avi by     social:\n        twitter: apocalizzy.
+
+ 
+
+      social:\n        twitter: letsencrypt
+
+Let's Encrypt
+    social:\n        twitter: letsencrypt ‏
+A free, automated, and open Certificate Authority (CA).
+
+ 
+
+      social:\n        twitter: playfabrik
+
+Fabrik
+    social:\n        twitter: playfabrik ‏
+🏭 A Low Poly Factory Video game 🎮 #Indiedev #playfabrik #gamedev #lowpoly #simulator #funding #crowdfunding #strategy #Kickstarter
+
+ 
+      social:\n        twitter: FlatEarthOrg
+
+Flat Earth Society
+    social:\n        twitter: FlatEarthOrg ‏
+Encouraging the spread of ideas and free thought since 1865! Read the FAQ: https://faq.tfes.org/  Visit us: https://www.tfes.org/ 
+
+ 
+
+      social:\n        twitter: at_warrior
+
+ArchiveTeam Warrior
+    social:\n        twitter: at_warrior ‏
+Updates from Warrior HQ about the ArchiveTeam Warrior or projects running under the warrior.
+
+ 
+
+      social:\n        twitter: 70sscifiart
+
+70s Sci-Fi Art
+    social:\n        twitter: 70sscifiart ‏
+Created & curated by: http://patreon.com/adamrowe  I also gotta newsletter on genre fiction: https://tinyletter.com/madddscience 
+
+ 
+      social:\n        twitter: Pingraffix
+
+PinGraffix
+    social:\n        twitter: Pingraffix ‏
+We create custom #PinBlades®, #PinAprons®, #BladeSkins®, #PinGrills® (speaker grills) #pinballmods for your #Pinball Machine
+
+ 
+
+      social:\n        twitter: TammyTuckey
+
+Tammy Tuckey
+    social:\n        twitter: TammyTuckey ‏
+Host of The     social:\n        twitter: TiaraTalkShow &     social:\n        twitter: HerInteractive's Unlocked! Emmy Award-winner. “YOU'LL FIND ME ON MAIN STREET” out now! …
+
+ 
+
+      social:\n        twitter: TNT_Amusements
+
+TNT Amusements Inc.
+    social:\n        twitter: TNT_Amusements ‏
+Official Twitter account for TNT Amusements, owned by     social:\n        twitter: ToddTuckey. Instagram:     social:\n        twitter: TNTAmusements; http://Facebook.com/TNTAmusementsInc …
+
+ 
+      social:\n        twitter: ToddTuckey
+
+Todd Tuckey
+    social:\n        twitter: ToddTuckey ‏
+President of TNT Amusements Inc.; Facebook: http://www.Facebook.com/TNTAmusementsInc … ~ Instagram:     social:\n        twitter: tntamusementsinc
+
+ 
+
+      social:\n        twitter: ViperCardDotNet
+
+ViperCard
+    social:\n        twitter: ViperCardDotNet ‏
+ViperCard is an open source rewrite of 1987's HyperCard. You can use it to make animations, games, and interactive art!
+
+ 
+
+      social:\n        twitter: robertbeltran74
+
+Robert Beltran
+    social:\n        twitter: robertbeltran74 ‏
+Born and raised in California. I'm a work in progress. Creativity is what keeps me happy.
+
+ 
+      social:\n        twitter: timruss2
+
+tim russ
+    social:\n        twitter: timruss2 ‏
+I have been working as an actor, director, musician, and voice-over artist for the past 30 years here in Los Angeles.
+
+ 
+
+      social:\n        twitter: GarrettRWang
+
+Garrett Wang (王 以 瞻)
+    social:\n        twitter: GarrettRWang ‏
+Actor, Host, Traveler, Polyglot, Pescatarian, Sagittarius Monkey, Taken. Be humble. Be kind. Be Respectful. All tweets are mine.
+
+ 
+
+      social:\n        twitter: AronEisenberg
+
+Aron Eisenberg
+    social:\n        twitter: AronEisenberg ‏
+Proud father, actor and filmmaker. Still working on making that film. Oh, and I’m the Ferengi kid from Star Trek: Deep space Nine. Where’s my whip?!
+
+ 
+      social:\n        twitter: Nikki_deboer
+
+Nicole deBoer
+    social:\n        twitter: Nikki_deboer ‏
+Mother. Actor. Traveller. Optimist. #EzriDax on #startrekdeepspacenine /Becca on #PrivateEyes
+
+ 
+
+      social:\n        twitter: adam_nimoy
+
+Adam Nimoy
+    social:\n        twitter: adam_nimoy ‏
+Director, Writer, Father to 3, Step-Father to 2, One-Quarter Vulcan (but who's counting), married to a Trill. #LLAP 🖖
+
+ 
+
+      social:\n        twitter: TheRealNimoy
+
+Leonard Nimoy
+    social:\n        twitter: TheRealNimoy ‏
+Born in Boston.Went to Hollywood at 18. 16 years later cast as Spock in Star Trek. https://twitter.com/shopllap 
+
+ 
+      social:\n        twitter: beetlesbot
+
+beetles bot
+    social:\n        twitter: beetlesbot ‏
+generative beetle bot by     social:\n        twitter: bleeptrack Posting 4 funny bugs a day. Click your own random bug here: http://beetles.bleeptrack.de 
+
+ 
+
+      social:\n        twitter: PlotterTweeter
+
+Plotter Bot
+    social:\n        twitter: PlotterTweeter ‏
+Retweets #plottertwitter. Follow me to see all those gorgeous plotter drawings!
+
+ 
+
+      social:\n        twitter: paulrickards
+
+Paul Rickards
+    social:\n        twitter: paulrickards ‏
+Maker iso vintage vinyl, photography, synths, Arduino, ESP-8266, #plottertwitter, 3D printers, retro computing, C64, Amiga. Love my…
+
+ 
+      social:\n        twitter: Turnout_Tuesday
+
+#TurnoutTuesday
+    social:\n        twitter: Turnout_Tuesday ‏
+ 
+
+      social:\n        twitter: 4TerryFarrell
+
+Terry Farrell
+    social:\n        twitter: 4TerryFarrell ‏
+Actor, adventurer, wife, mom, step mom, friend. Not necessarily in that order. Grateful person.
+
+ 
+
+      social:\n        twitter: StarringTheComp
+
+James Carter
+    social:\n        twitter: StarringTheComp ‏ Follows you
+Starring the Computer is a website dedicated to the use of computers in film and television.     social:\n        twitter: carterjf
+
+ 
+      social:\n        twitter: jasonmarshallca
+
+Jason C. Marshall
+    social:\n        twitter: jasonmarshallca ‏
+Filmmaker, Screenwriter, creator of Guerrilla Cinema: the how to source for beginner & intermediate film creators.
+
+ 
+
+      social:\n        twitter: fiberopticstore
+
+Fiber Optic Store
+    social:\n        twitter: fiberopticstore ‏
+We sell the fiber optic supplies you need to make dynamic models, realistic displays, star-filled ceilings, and anything else your imagination creates!
+
+ 
+
+      social:\n        twitter: eas_trek
+
+Ex Astris Scientia
+    social:\n        twitter: eas_trek ‏
+The world's leading Treknology resource.
+
+ 
+      social:\n        twitter: davidhogg111
+
+David Hogg
+    social:\n        twitter: davidhogg111 ‏
+#MarchForOurLives to get involved text change to 954954 Also I’m pro 2A & gunsense contact: contactdavidhogg    social:\n        twitter: gmail.com
+
+ 
+
+      social:\n        twitter: Emma4Change
+
+Emma González
+    social:\n        twitter: Emma4Change ‏
+Change ? in my country ? it's more likely than you think.
+
+ 
+
+      social:\n        twitter: kopimi
+
+    social:\n        twitter: mazanga ∆     social:\n        twitter: kopimi ∆
+    social:\n        twitter: kopimi ‏ Follows you
+#Kopimi #Radio #kopimiradio 🎧#Live #Mashup #Bootleg #Remix ∆ Ctrl+C ☠ Ctrl+V ∆ #Kopimist #Anonymous #Kopimism #dailymotion …
+
+ 
+      social:\n        twitter: RMac18
+
+Ryan Mac
+    social:\n        twitter: RMac18 ‏
+.    social:\n        twitter: BuzzFeedNews tech reporter. ryan.mac    social:\n        twitter: buzzfeed.com. DMs open. On Signal--ask for my number.
+
+ 
+
+      social:\n        twitter: fsteeg
+
+Fabian Steeg
+    social:\n        twitter: fsteeg ‏
+Building open source/data/web technology for academic libraries     social:\n        twitter: lobidorg #lodlam | ♥️ Eclipse, Mozilla, Linux | #indieweb http://micro.blog  🌻💞
+
+ 
+
+      social:\n        twitter: IndieWebCampDE
+
+IndieWebCamp
+    social:\n        twitter: IndieWebCampDE ‏
+Aktuelles, Events und Diskussionen rund um's Veröffentlichen im #IndieWeb — Dein Netz, Deine Daten! (Tweets von     social:\n        twitter: jkphl et al.)
+
+ 
+      social:\n        twitter: withknown
+
+Known
+    social:\n        twitter: withknown ‏
+Known is a social publishing platform for communities and individuals. #indieweb #decentralized
+
+ 
+
+      social:\n        twitter: fchollet
+
+François Chollet
+    social:\n        twitter: fchollet ‏
+Deep learning     social:\n        twitter: google. Creator of Keras, neural networks library. Author of 'Deep Learning with Python'. Opinions are my own.
+
+ 
+
+      social:\n        twitter: olebegemann
+
+Ole Begemann
+    social:\n        twitter: olebegemann ‏
+Co-author of Advanced Swift: https://oleb.net/advanced-swift . Unicode enthusiast.
+
+ 
+      social:\n        twitter: kevinmarks
+
+Kevin Marks
+    social:\n        twitter: kevinmarks ‏
+📖Reading your thoughts. ✍️If you write them first. 🕸http://known.kevinmarks.com  Want to hire me to consult, write or speak? 📩dm me
+
+ 
+
+      social:\n        twitter: mapkyca
+
+Marcus Povey
+    social:\n        twitter: mapkyca ‏
+Artisanal bit wrangler,     social:\n        twitter: elgg &     social:\n        twitter: withknown expert. Hacker, Wanderer, Citizen of Nowhere. Have laptop, will travel. (Blog: http://www.marcus-povey.co.uk )
+
+ 
+
+      social:\n        twitter: ChrisAldrich
+
+Chris Aldrich
+    social:\n        twitter: ChrisAldrich ‏ Follows you
+Biomedical Engineer loves: information theory, complexity, math, biology, #IndieWeb, journalism, education, entertainment industry …
+
+ 
+      social:\n        twitter: sl007
+
+Sebastian Lasse
+    social:\n        twitter: sl007 ‏
+Sebastian Lasse is a photojournalist (concerned photography), filmmaker and developer. Currently building a decentralized FLOSS CMS based on…
+
+ 
+
+      social:\n        twitter: kartik_prabhu
+
+Kartik Prabhu
+    social:\n        twitter: kartik_prabhu ‏
+I think, discover, compute, make, build, code, design, write, paint, photograph, am! All responses backfed to my site.
+
+ 
+
+      social:\n        twitter: Official_GDC
+
+Official_GDC
+    social:\n        twitter: Official_GDC ‏
+Game Developers Conference® (GDC) is the world’s largest professional game industry event, March 18-22, 2019.
+
+ 
+      social:\n        twitter: ty
+
+Tyson Rosage
+    social:\n        twitter: ty ‏
+It doesn't matter how smart you are unless you stop and think.
+
+ 
+
+      social:\n        twitter: PodcastActivate
+
+ACTIVATE! Podcast
+    social:\n        twitter: PodcastActivate ‏
+Download Activate! The Robot Wars Podcast on iTunes and SoundCloud
+
+ 
+
+      social:\n        twitter: hexayurt
+
+Vinay Gupta/Hexayurt
+    social:\n        twitter: hexayurt ‏
+Vinay Gupta is a refugee shelter designer, Ethereum blockchain innovator, and venture capitalist. http://hexayurt.capital  http://hexayurt.com 
+
+ 
+      social:\n        twitter: leashless
+
+Vinay Gupta
+    social:\n        twitter: leashless ‏
+Ran $20bn     social:\n        twitter: Ethereum launch. CEO of     social:\n        twitter: Mattereum Forbes http://www.forbes.com/sites/rahulsingireddy/2017/10/18/vinay-gupta-on-why-ethereum-is-the-future/#85ae31356f29 …     social:\n        twitter: hexayurt maker
+
+ 
+
+      social:\n        twitter: CamAnalytica
+
+Cambridge Analytica
+    social:\n        twitter: CamAnalytica ‏
+Big Data. Behavioral Microtargeting. Political Campaign Support. Digital Support.
+
+ 
+
+      social:\n        twitter: carolecadwalla
+
+Carole Cadwalladr
+    social:\n        twitter: carolecadwalla ‏
+Late adopter. Late giver-upper. Guardian & Observer writer.
+
+ 
+      social:\n        twitter: Maker_Karen
+
+MakerKaren
+    social:\n        twitter: Maker_Karen ‏
+Social Media Ninja. Maker extraordinaire. Geek with a smile. Racer of Powerwheels.
+
+ 
+
+      social:\n        twitter: sudoSergeant
+
+Felix
+    social:\n        twitter: sudoSergeant ‏
+ 
+
+      social:\n        twitter: retrowaretv
+
+Retroware
+    social:\n        twitter: retrowaretv ‏
+The Source for Classic Gaming Videos & Knowledge. Home of the best retro video game content online.
+
+ 
+      social:\n        twitter: PatTheNESpunk
+
+Pat Contri
+    social:\n        twitter: PatTheNESpunk ‏
+My book: http://UltimateNES.com  Writer. NES & gaming enthusiast. #CUPodcast, Pat the NES Punk, Flea Market Madness, #NotSoCommon Podcast. Profiled in …
+
+ 
+
+      social:\n        twitter: OpenRightsGroup
+
+Open Rights Group
+    social:\n        twitter: OpenRightsGroup ‏
+Open Rights Group exists to preserve and promote your rights in the digital age. We are funded by individuals who care about digital rights. #IPBill #DEBill
+
+ 
+
+      social:\n        twitter: Senficon
+
+Julia Reda
+    social:\n        twitter: Senficon ‏
+MEP for     social:\n        twitter: Piratenpartei and the European Pirate Party (PPEU) | Vice-Chair of     social:\n        twitter: GreensEP group
+
+ 
+      social:\n        twitter: GamingHistorian
+
+Norman Caruso
+    social:\n        twitter: GamingHistorian ‏
+Creator of Gaming Historian. BA in History from     social:\n        twitter: ECSU. Husband of     social:\n        twitter: Kristin_MP 😍
+
+ 
+
+      social:\n        twitter: STEAL_THIS_SHOW
+
+STEAL THIS SHOW
+    social:\n        twitter: STEAL_THIS_SHOW ‏
+A podcast hosted by     social:\n        twitter: jamie_jk in collaboration with     social:\n        twitter: TorrentFreak. Conversations about P2P, decentralization & the future of the…
+
+ 
+
+      social:\n        twitter: DuckDuckGo
+
+DuckDuckGo
+    social:\n        twitter: DuckDuckGo ‏
+We are the Internet privacy company that lets you take control of your information, without any tradeoffs. Welcome to the Duck Side!
+
+ 
+      social:\n        twitter: chrisinsilico
+
+Christopher Wylie  🏳️‍🌈
+    social:\n        twitter: chrisinsilico ‏
+I make cool stuff with data. Pink hair, don't care. Immigrant. Queer. Enquiries: t.allen[at]bindmans[dot]com | Speaking: LReiter[at]wmeentertainment[dot]com
+
+ 
+
+      social:\n        twitter: Unawesomes
+
+Better Than Awesome — Unawesome
+    social:\n        twitter: Unawesomes ‏
+Formerly the official TGWTG Twitter. Bringing you the best of nerdy goodness in all forms from across the spectrum. Want us to promote you? Click the link!
+
+ 
+
+      social:\n        twitter: OKFN
+
+Open Knowledge Intl
+    social:\n        twitter: OKFN ‏
+See how data can change the world
+
+ 
+      social:\n        twitter: DalaiLama
+
+Dalai Lama
+    social:\n        twitter: DalaiLama ‏
+Welcome to the official twitter page of the Office of His Holiness the 14th Dalai Lama.
+
+ 
+
+      social:\n        twitter: AdamRuins
+
+Adam Ruins Everything
+    social:\n        twitter: AdamRuins ‏
+Everything you didn't want to need to know. New episodes Tuesdays at 10/9c. Full episodes on the free     social:\n        twitter: truTV app or http://truTV.com . #AdamRuins
+
+ 
+
+Unmute     social:\n        twitter: adamconover
+      social:\n        twitter: adamconover
+
+Adam Conover
+    social:\n        twitter: adamconover ‏
+I make a show called Adam Ruins Everything on     social:\n        twitter: TruTV. Twitch: http://twitch.tv/adamconover  Also do voices on Bojack!
+
+ 
+      social:\n        twitter: startrektour
+
+    social:\n        twitter: startrektour
+    social:\n        twitter: startrektour ‏
+Tour an exact(Licensed by CBS) replica of the interior sets of the U.S.S. Enterprise from the original series Feel/see what it's like to be on a…
+
+ 
+
+      social:\n        twitter: iCE_Ads
+
+iCE Advertisements
+    social:\n        twitter: iCE_Ads ‏
+The original BBS-era ANSI art group iCE!
+
+ 
+
+      social:\n        twitter: UKRobotWars
+
+Robot Wars
+    social:\n        twitter: UKRobotWars ‏
+Official Feed for BBC's Robot Wars hosted by Mentorn Media.
+
+ 
+      social:\n        twitter: RobotWarsUK
+
+Robot Wars UK
+    social:\n        twitter: RobotWarsUK ‏
+Not run by the BBC or Mentorn TV.
+
+ 
+
+      social:\n        twitter: mamedev_org
+
+The MAME Team
+    social:\n        twitter: mamedev_org ‏
+The official Twitter feed of the team behind the emulator. Check here, our webpage, or our Github for news and updates about MAME.
+
+ 
+
+      social:\n        twitter: TopHatGamingMan
+
+Top Hat Gaming Man
+    social:\n        twitter: TopHatGamingMan ‏
+YouTuber with over 31k Subscribers. Highly Experienced Pro Wrestling Villain - Richard Parliament. A furious man who likes the finer things in life.
+
+ 
+      social:\n        twitter: StarTrekNetflix
+
+Star Trek: Discovery
+    social:\n        twitter: StarTrekNetflix ‏
+Discover the unknown. #StarTrekDiscovery Season 1 now streaming on Netflix. Season 2 arrives 18.01.19. Follow     social:\n        twitter: startrekcbs for…
+
+ 
+
+      social:\n        twitter: StarTrekRoom
+
+Star Trek Writers
+    social:\n        twitter: StarTrekRoom ‏
+Official Twitter account for the writers room of Star Trek: Discovery. Season 2 begins January 17, 2019!
+
+ 
+
+      social:\n        twitter: FreedomofPress
+
+Freedom of the Press
+    social:\n        twitter: FreedomofPress ‏
+Defending and supporting cutting-edge transparency journalism in the face of adversity.
+
+ 
+      social:\n        twitter: Snowden
+
+Edward Snowden
+    social:\n        twitter: Snowden ‏
+I used to work for the government. Now I work for the public. President at     social:\n        twitter: FreedomofPress.
+
+ 
+
+      social:\n        twitter: startrekcbs
+
+Star Trek: Discovery
+    social:\n        twitter: startrekcbs ‏
+#StarTrekDiscovery Season 1 now streaming on     social:\n        twitter: CBSAllAccess. Season 2 premieres Jan 17, 2019. Follow     social:\n        twitter: startreknetflix for outside the US.
+
+ 
+
+      social:\n        twitter: MikeOkuda
+
+Michael Okuda
+    social:\n        twitter: MikeOkuda ‏
+Graphic designer. Science fan. Space geek. Tweets and opinions my own. Evidence matters. Resistance is not futile.
+
+ 
+      social:\n        twitter: berman_rick
+
+Rick Berman
+    social:\n        twitter: berman_rick ‏
+Executive Producer of four Star Trek series and four Star Trek films. Writer, Photographer, Scuba Diver, Husband and Father
+
+ 
+
+      social:\n        twitter: Horsenburger
+
+Horsenburger
+    social:\n        twitter: Horsenburger ‏
+Teletext pixel-artist by day and Teletext kunst by night. Please consider supporting me at http://patreon.com/horsenburger 
+
+ 
+
+      social:\n        twitter: TheOrville
+
+The Orville
+    social:\n        twitter: TheOrville ‏
+From Seth MacFarlane, #TheOrville is a space adventure series that follows the U.S.S. Orville. Catch Season 2 on Thursdays at 9/8c.
+
+ 
+      social:\n        twitter: BrannonBraga
+
+Brannon Braga
+    social:\n        twitter: BrannonBraga ‏
+Writer/Executive Producer/Director/Self-Loather. Star Trek/Cosmos: Possible Worlds/The Orville
+
+ 
+
+      social:\n        twitter: Octav1usKitten
+
+Foul Queen Octav1us  ❤
+    social:\n        twitter: Octav1usKitten ‏
+🐱 Retro gaming Youtuber ❤ Team Digitiser 🍕 rat mum 🐀 anxiety queen 🥧 Email: kitten.octavius    social:\n        twitter: gmail.com
+
+ 
+
+      social:\n        twitter: slashdot
+
+Slashdot
+    social:\n        twitter: slashdot ‏
+Slashdot News Feed. News for Nerds, Stuff that Matters. #tech #news #technews #linux #apple #google #msft #space #hardware #cryptocurrency …
+
+ 
+      social:\n        twitter: cmdrtaco
+
+Rob 'CmdrTaco' Malda
+    social:\n        twitter: cmdrtaco ‏
+Ran Slashdot for 14 years as best I could.
+
+ 
+
+      social:\n        twitter: brianstorms
+
+Brian Dear
+    social:\n        twitter: brianstorms ‏
+Bass & keyboards. Author of THE FRIENDLY ORANGE GLOW: The Untold Story of the PLATO System... (Pantheon Books, Nov 2017); Order here: …
+
+ 
+
+      social:\n        twitter: AmigaUserInt
+
+Amiga User International
+    social:\n        twitter: AmigaUserInt ‏
+Amiga User International (AUI) was the first ever European magazine for the Commodore Amiga computer. Now it's regenerating - as a retro tribute website!
+
+ 
+      social:\n        twitter: davewiner
+
+scripting.com
+    social:\n        twitter: davewiner ‏
+I started blogging, podcasting and RSS.
+
+ 
+
+      social:\n        twitter: om
+
+OM
+    social:\n        twitter: om ‏
+I was a reporter once. Now I have opinions about tech. I write. I make photos. I invest     social:\n        twitter: TrueVentures & blog at http://om.co .
+
+ 
+
+      social:\n        twitter: radzik_pl
+
+Krzysiek Radzikowski
+    social:\n        twitter: radzik_pl ‏
+Podcaster & Blogger...
+
+ 
+      social:\n        twitter: NanaVisitor
+
+Nana Visitor
+    social:\n        twitter: NanaVisitor ‏
+adorer of Matthew, Buster and Django, Mo the Beautiful and Grand Guardian of Little Pearl, cook, actor, writer, spontaneous dancer, meditator,…
+
+ 
+
+      social:\n        twitter: roxdaws
+
+Roxann Dawson
+    social:\n        twitter: roxdaws ‏
+Director, producer, sometimes i still act . Student of life.
+
+ 
+
+      social:\n        twitter: GineokwKoenig
+
+Walter Koenig
+    social:\n        twitter: GineokwKoenig ‏
+Actor- Star Trek, Babylon 5. Writer-Warped Factors, Chekov's Enterprise, Buck Alice and the Actor-Robot, Things To Come (graphic novel)
+
+ 
+      social:\n        twitter: ShimermanArmin
+
+Armin Shimerman
+    social:\n        twitter: ShimermanArmin ‏
+Shakespearian space alien, novelist, actor,luddite
+
+ 
+
+      social:\n        twitter: reneauberjonois
+
+Rene Auberjonois
+    social:\n        twitter: reneauberjonois ‏
+Actor & artist: Tweets from René (& sometimes helpers, in parens) read FAQs here! http://renefiles.com/facts-biography/frequently-asked-questions …
+
+ 
+
+      social:\n        twitter: TheDeniseCrosby
+
+Denise Crosby
+    social:\n        twitter: TheDeniseCrosby ‏
+ 
+      social:\n        twitter: RobertPicardo
+
+Robert Picardo
+    social:\n        twitter: RobertPicardo ‏
+Actor, collectible, Planetary Society Board Member and host of The Planetary Post.
+
+ 
+
+      social:\n        twitter: akaWorf
+
+Michael Dorn
+    social:\n        twitter: akaWorf ‏
+The Official Twitter Account of Michael Dorn aka Worf
+
+ 
+
+      social:\n        twitter: JeriLRyan
+
+Jeri Ryan
+    social:\n        twitter: JeriLRyan ‏
+Actress, wife, mom, foodie, and gardener. Not necessarily in that order. Occasional binge-tweeter.
+
+ 
+      social:\n        twitter: 3GS
+
+Gregg Spiridellis
+    social:\n        twitter: 3GS ‏
+Builder of things at the intersection of art, technology and fun. CEO of     social:\n        twitter: StoryBots. Voice of Boop. Co-founder of     social:\n        twitter: JibJab. Board member at     social:\n        twitter: wickedcooltoys.
+
+ 
+
+      social:\n        twitter: fileformatology
+
+Kate Murray
+    social:\n        twitter: fileformatology ‏
+Digital preservation, file formats, all things #FADGI at the Library of Congress. All (good/bad) opinions my own. RT ≠ endorsement.
+
+ 
+
+      social:\n        twitter: TheGuruMeditate
+
+AmigaBill_TheGuruMeditation
+    social:\n        twitter: TheGuruMeditate ‏
+We are a YouTube channel about the Commodore Amiga and an Amiga user group in Westchester County, NY named WAUG
+
+ 
+      social:\n        twitter: llamasoft_ox
+
+a stinky ox  🐂
+    social:\n        twitter: llamasoft_ox ‏
+I am an ox that makes games and lightsynths.
+
+ 
+
+      social:\n        twitter: film_girl
+
+Christina Warren
+    social:\n        twitter: film_girl ‏
+Sr Cloud Dev Advocate Microsoft was:     social:\n        twitter: Gizmodo     social:\n        twitter: Mashable hosts:     social:\n        twitter: ovrtrd     social:\n        twitter: _RocketFM     social:\n        twitter: bbgtl. Loves media and tech. I rule. opinions = own…
+
+ 
+
+      social:\n        twitter: RFGeeksBBS
+
+RFGeeks BBS
+    social:\n        twitter: RFGeeksBBS ‏
+Ham Radio telnet Bulletin Board System. If you like Ham Radio, Minecraft and Geekery. Connect today and try us out! We have podcasts too!
+
+ 
+      social:\n        twitter: donmelton
+
+Don Melton
+    social:\n        twitter: donmelton ‏
+Just another Web geek playing with the Web
+
+ 
+
+      social:\n        twitter: Acronova_Tech
+
+Acronova
+    social:\n        twitter: Acronova_Tech ‏
+Developer and manufacturer of automated CD, DVD, and Blu-Ray disc loading equipments including duplicators, rippers, printers and software.
+
+ 
+
+      social:\n        twitter: sixteencolors
+
+Sixteen Colors
+    social:\n        twitter: sixteencolors ‏
+Sixteen Colors is an online ANSI and ASCII Art Gallery collecting all of the art packs released since the early 1990s
+
+ 
+      social:\n        twitter: MagickaBBS
+
+MagickaBBS
+    social:\n        twitter: MagickaBBS ‏
+MagickaBBS is a Bulletin Board System for Linux/FreeBSD
+
+ 
+
+      social:\n        twitter: AssangeDefence
+
+Assange Defence
+    social:\n        twitter: AssangeDefence ‏
+Account run by the legal campaign to free     social:\n        twitter: JulianAssange
+
+ 
+
+      social:\n        twitter: RetroGamer_Mag
+
+Retro Gamer
+    social:\n        twitter: RetroGamer_Mag ‏
+This is the official account of Retro Gamer magazine. Love Retro Games? Then this is the place to be. Tweets from the mag team.
+
+ 
+      social:\n        twitter: KimDotcom
+
+Kim Dotcom
+    social:\n        twitter: KimDotcom ‏
+Entrepreneur, Innovator, Gamer, Artist, Internet Freedom Fighter & Father of 5
+
+ 
+
+      social:\n        twitter: Wikimedia
+
+Wikimedia
+    social:\n        twitter: Wikimedia ‏
+The official account of the Wikimedia Foundation, the non-profit that operates     social:\n        twitter: Wikipedia.
+
+ 
+
+      social:\n        twitter: erniecline
+
+Ernie Cline
+    social:\n        twitter: erniecline ‏
+Screenwriter. Novelist. Time Traveler. Bestselling author of Ready Player One and ARMADA.
+
+ 
+      social:\n        twitter: BobNewhart
+
+Bob Newhart
+    social:\n        twitter: BobNewhart ‏
+Official Twitter Page for Bob Newhart - comedian / actor / all around nice guy Also on Facebook http://www.facebook.com/pages/Bob-Newhart/147547279204 …
+
+ 
+
+      social:\n        twitter: AnnaKFaris
+
+Anna Faris
+    social:\n        twitter: AnnaKFaris ‏
+Does this picture make me look like a dude?
+
+ 
+
+      social:\n        twitter: itslauraspencer
+
+Laura Spencer
+    social:\n        twitter: itslauraspencer ‏
+honestly better at Instagram     social:\n        twitter: itslauraspencer
+
+ 
+      social:\n        twitter: MelissaRauch
+
+Melissa Rauch
+    social:\n        twitter: MelissaRauch ‏
+Official Regulation Size Jersey Girl INSTAGRAM:     social:\n        twitter: themelissarauch http://www.facebook.com/Melissarauchfanpage …
+
+ 
+
+      social:\n        twitter: billprady
+
+Bill Prady
+    social:\n        twitter: billprady ‏
+Executive Producer, The Big Bang Theory. Instagram:     social:\n        twitter: billprady
+
+ 
+
+      social:\n        twitter: KevinSussman
+
+Kevin Sussman
+    social:\n        twitter: KevinSussman ‏
+Actor, writer, primate. I play Stuart on The Big Bang Theory.
+
+ 
+      social:\n        twitter: SpaceX
+
+SpaceX
+    social:\n        twitter: SpaceX ‏
+SpaceX designs, manufactures and launches the world’s most advanced rockets and spacecraft
+
+ 
+
+      social:\n        twitter: JohnCleese
+
+John Cleese
+    social:\n        twitter: JohnCleese ‏
+Yes, I am still indeed alive, contrary to rumour, and am performing the silly walk in my new app http://www.thesillywalk.com 
+
+ 
+
+      social:\n        twitter: stephenfry
+
+Stephen Fry
+    social:\n        twitter: stephenfry ‏
+How can I tell you what I think until I’ve heard what I’m going to say? 🏳️‍🌈 (Never read DMs I’m afraid)
+
+ 
+      social:\n        twitter: SethMacFarlane
+
+Seth MacFarlane
+    social:\n        twitter: SethMacFarlane ‏
+The Official Twitter Page of Seth MacFarlane - "THE ORVILLE" Thursdays at 9/8c on Fox
+
+ 
+
+      social:\n        twitter: BrentSpiner
+
+Brent Spiner
+    social:\n        twitter: BrentSpiner ‏
+ 
+
+      social:\n        twitter: levarburton
+
+LeVar Burton
+    social:\n        twitter: levarburton ‏
+Actor, Director, Educator, Student, Kunta, Geordi, Reading Rainbow guy... IG: levar.burton
+
+ 
+      social:\n        twitter: jonathansfrakes
+
+Jonathan Frakes
+    social:\n        twitter: jonathansfrakes ‏
+father, husband, director, producer, recovering actor
+
+ 
+
+      social:\n        twitter: JohnLithgow
+
+John Lithgow
+    social:\n        twitter: JohnLithgow ‏
+Serial killer, alien high commander, transgender football player, children's book writer.
+
+ 
+
+      social:\n        twitter: WilliamShatner
+
+William Shatner
+    social:\n        twitter: WilliamShatner ‏
+Philanthropist, Actor, Producer, Father, Husband, & Canadian! My Calendar: http://bit.ly/BillsCalendar  Not political-be warned! My charity: http://HorseShow.org 
+
+ 
+      social:\n        twitter: scottsbakula
+
+Scott Bakula
+    social:\n        twitter: scottsbakula ‏
+The great thing about show business is that there's no mandatory retirement age.
+
+ 
+
+      social:\n        twitter: gates_mcfadden
+
+Gates McFadden
+    social:\n        twitter: gates_mcfadden ‏
+Actress, Director, tap dancer, takes care of lazy, smart aleck cats, plays with her action figure wayyy too much, first one out in spelling bee
+
+ 
+
+      social:\n        twitter: Marina_Sirtis
+
+Marina Sirtis
+    social:\n        twitter: Marina_Sirtis ‏
+Official Twitter Account For Actress Marina Sirtis. Please let's try to keep things civil. Instagram #The_real_marina_sirtis
+
+ 
+      social:\n        twitter: JeremyClarkson
+
+Jeremy Clarkson
+    social:\n        twitter: JeremyClarkson ‏
+I am a still small voice of calm and reason.
+
+ 
+
+      social:\n        twitter: deanjnorris
+
+dean norris
+    social:\n        twitter: deanjnorris ‏
+Actor. Poet. Nook, nook
+
+ 
+
+      social:\n        twitter: WhoopiGoldberg
+
+Whoopi Goldberg
+    social:\n        twitter: WhoopiGoldberg ‏
+ 
+      social:\n        twitter: SirPatStew
+
+Patrick Stewart
+    social:\n        twitter: SirPatStew ‏
+ 
+
+      social:\n        twitter: GrokNation
+
+Grok Nation
+    social:\n        twitter: GrokNation ‏
+Change your little corner of the world. Founded by     social:\n        twitter: missmayim
+
+ 
+
+      social:\n        twitter: GeorgeTakei
+
+George Takei
+    social:\n        twitter: GeorgeTakei ‏
+Some know me as Mr. Sulu from Star Trek but I hope all know me as a believer in, and a fighter for, the equality and dignity of all human beings.
+
+ 
+      social:\n        twitter: simonhelberg
+
+Simon Helberg
+    social:\n        twitter: simonhelberg ‏
+i act. i play music. i was born two years before my siamese twin...so annoying. and i have an autographed first edition of the Bible.
+
+ 
+
+      social:\n        twitter: kunalnayyar
+
+Kunal Nayyar
+    social:\n        twitter: kunalnayyar ‏
+I play Raj on the Big Bang Theory. I love playing Ping Pong, and long walks on the beach. Thats about all I like doing, especially on the sand.
+
+ 
+
+      social:\n        twitter: jimparsonspriv
+
+jim parsons
+    social:\n        twitter: jimparsonspriv ‏
+ 
+      social:\n        twitter: HillstrandScott
+
+Scott Hillstrand
+    social:\n        twitter: HillstrandScott ‏
+grew up in alaska fished most of my life spent the last ten yrs sharring our memorys on the discovery channel like to burn gas a hual ass!
+
+ 
+
+      social:\n        twitter: justsexin
+
+JUSTsexIN HALL
+    social:\n        twitter: justsexin ‏
+Online writer Justin Hall     social:\n        twitter: jah experiments with sex & intimacy and decided to tweet about that from this handle! And write about it on …
+
+ 
+
+      social:\n        twitter: jah
+
+Justin Hall
+    social:\n        twitter: jah ‏
+CTO of http://bud.com . Made a film about my life on the early web: http://overshare.links.net/  & a Justin Hall Show http://justinhallshow.com  & infant parent
+
+ 
+      social:\n        twitter: DeadliestCatch
+
+Deadliest Catch
+    social:\n        twitter: DeadliestCatch ‏
+Let the games begin! #DeadliestCatch
+
+ 
+
+      social:\n        twitter: fvnorthwestern
+
+F/V Northwestern
+    social:\n        twitter: fvnorthwestern ‏
+Northwestern was built in 1977 at Marco Shipyards in Seattle. Other accounts:    social:\n        twitter: northwesternsig     social:\n        twitter: northwesternpat
+
+ 
+
+      social:\n        twitter: JakeVAnderson
+
+Jake Anderson
+    social:\n        twitter: JakeVAnderson ‏
+Commercial fisherman, captain of the F/V Saga, skateboarder. Sponsored by Volcom, DVS, and Stidd Systems Captains Chairs.
+
+ 
+      social:\n        twitter: northwesternsig
+
+Sig Hansen
+    social:\n        twitter: northwesternsig ‏
+The Captain
+
+ 
+
+      social:\n        twitter: captwildbill
+
+Bill Wichrowski
+    social:\n        twitter: captwildbill ‏
+Captain of the FV Summer Bay on Discovery's #DeadliestCatch. Avid sports fisherman. Advocate for teaching youth to fish.
+
+ 
+
+      social:\n        twitter: FVTimeBandit
+
+F/V Time Bandit
+    social:\n        twitter: FVTimeBandit ‏
+Bad Boys of the Bering Sea #TIMEBANDIT
+
+ 
+      social:\n        twitter: crabwizard
+
+Capt Keith Colburn
+    social:\n        twitter: crabwizard ‏
+F/V Wizard-🦀Deadliest Catch,👨🏼‍🍳Chef, 📈entrepreneur,🎙speaker, 🎣safety advocate.📷:captainkeithcolburn FB:CaptainKeithColburn
+
+ 
+
+      social:\n        twitter: capt_andy
+
+Andy Hillstrand
+    social:\n        twitter: capt_andy ‏
+Opilio Crab Captain on the F/V Time Bandit
+
+ 
+
+      social:\n        twitter: captjohnathan
+
+Johnathan Hillstrand
+    social:\n        twitter: captjohnathan ‏
+king crab captain
+
+ 
+      social:\n        twitter: LisaKellyIRT
+
+Lisa Kelly
+    social:\n        twitter: LisaKellyIRT ‏
+Live your dreams. Change the world. You really can. I also stand in for the Ellen Show when she is out sick.
+
+ 
+
+      social:\n        twitter: IceRoadAlex
+
+Alex Debogorski
+    social:\n        twitter: IceRoadAlex ‏
+https://www.facebook.com/TheIceRoadAlex  To Book me contact: dianegibson    social:\n        twitter: xplornet.ca. Follow me on Instagram     social:\n        twitter: iceroadalex
+
+ 
+
+      social:\n        twitter: IRTruckers
+
+Ice-Road-Truckers
+    social:\n        twitter: IRTruckers ‏
+ 
+      social:\n        twitter: darrellwardIRT
+
+Darrell Ward
+    social:\n        twitter: darrellwardIRT ‏
+Montana Legend Ice Road Trucker#WWDD
+
+ 
+
+      social:\n        twitter: ToddDeweyIRT
+
+Iceroad trucker todd
+    social:\n        twitter: ToddDeweyIRT ‏
+Ice Road Trucker, Heavy Hauler & Log Hauler
+
+ 
+
+      social:\n        twitter: SlopesGameRoom
+
+Daniel Ibbertson AKA DJ Slope
+    social:\n        twitter: SlopesGameRoom ‏
+I Love RETRO Gaming & telling peeps about the history of retro games, CHECK MY YOUTUBE TO FIND OUT MORE
+
+ 
+      social:\n        twitter: missmayim
+
+Mayim Bialik
+    social:\n        twitter: missmayim ‏
+This is the official Twitter page for actress Mayim Bialik. Really; it's me.
+
+ 
+
+      social:\n        twitter: JimParsonsWeb
+
+Jim Parsons Web
+    social:\n        twitter: JimParsonsWeb ‏
+Twitter account for Jim Parsons Web (http://www.jim-parsons.com ). Follow us to get the latest news and updates first hand in your timeline!
+
+ 
+
+      social:\n        twitter: SheldonSaid
+
+Sheldon Cooper
+    social:\n        twitter: SheldonSaid ‏
+Possibly the most intelligent human being on the planet. not affiliated with #BigBangTheory Bazinga!
+
+ 
+      social:\n        twitter: bigbangtheory
+
+The Big Bang Theory
+    social:\n        twitter: bigbangtheory ‏
+The #BigBangTheory airs Thursdays at 8/7c on     social:\n        twitter: CBS
+
+ 
+
+      social:\n        twitter: syncthing
+
+Syncthing
+    social:\n        twitter: syncthing ‏
+Open Source File Synchronization! This account served occasionally by     social:\n        twitter: jakobborg.
+
+ 
+
+      social:\n        twitter: ResilioInc
+
+Resilio Inc.
+    social:\n        twitter: ResilioInc ‏
+Sync Anything. Have a question? Visit our forum http://forum.resilio.com  for fast answers. Interested in business solutions? See https://resilio.com/connect 
+
+ 
+      social:\n        twitter: BitTorrent
+
+BitTorrent Inc.
+    social:\n        twitter: BitTorrent ‏
+A better Internet, powered by people. Follow along for the latest updates from our San Francisco office
+
+ 
+
+      social:\n        twitter: torrentfreak
+
+TF
+    social:\n        twitter: torrentfreak ‏
+Have tips, news, comments, or need an answer? Send an email. We tend to miss stuff on Twitter.
+
+ 
+
+      social:\n        twitter: brutalmoose
+
+ian
+    social:\n        twitter: brutalmoose ‏
+videos►http://youtube.com/brutalmoose  stream►http://twitch.tv/brutalmoose  music►http://soundcloud.com/brutalmoose  art►https://brutalmoose.com/tagged/art 
+
+ 
+      social:\n        twitter: aac_section
+
+SAA AAC Section
+    social:\n        twitter: aac_section ‏
+The Archivists and Archives of Color Section is an interest group within the Society of American Archivists.
+
+ 
+
+      social:\n        twitter: internetarchive
+
+Internet Archive
+    social:\n        twitter: internetarchive ‏
+Internet Archive is a non-profit digital library offering millions of free books, movies, & audio files, plus billions of saved web pages in the Wayback…
+
+ 
+
+      social:\n        twitter: VioletPeacock
+
+VioletPeacock
+    social:\n        twitter: VioletPeacock ‏
+Fashion Designer & Milliner, trying to make my mark on the world! Proud to be on Etsy!
+
+ 
+      social:\n        twitter: JencilMonkey
+
+Pencil-Monkey Jensen
+    social:\n        twitter: JencilMonkey ‏
+If you'd like to see more of my drawings, visit http://pencilhyphenmonkey.tumblr.com/  or https://mokkurkalfe.deviantart.com/ .
+
+ 
+
+      social:\n        twitter: sceneorg
+
+Scene.org
+    social:\n        twitter: sceneorg ‏
+http://Scene.org  is a non-profit organization aimed at providing the 'electronic art scene' with a forum for communication and for sharing their work.
+
+ 
+
+      social:\n        twitter: pouetdotnet
+
+pouët.net
+    social:\n        twitter: pouetdotnet ‏
+Pouët is a multi-platform database of news, groups, productions and fisticuffs from the demoscene. This is our official Twitter account.
+
+ 
+      social:\n        twitter: SoftPresNetwork
+
+SPN
+    social:\n        twitter: SoftPresNetwork ‏
+SPN is building community infrastructure to support software preservation at scale as part of the larger effort to ensure long-term access to digital objects.
+
+ 
+
+      social:\n        twitter: RetroEarl
+
+Earl Evans
+    social:\n        twitter: RetroEarl ‏
+Hi! I'm Earl, host of the Retrobits Podcast, and avid retro computing enthusiast.
+
+ 
+
+      social:\n        twitter: NathanLatka
+
+Nathan Latka
+    social:\n        twitter: NathanLatka ‏
+Runs on Nuclear Power. Exited SaaS Founder. Private equity. My Biz Podcast "The Top Entrepreneurs" passed 10m downloads. Click link below to listen
+
+ 
+      social:\n        twitter: ShelleyCraft
+
+Shelley Craft
+    social:\n        twitter: ShelleyCraft ‏
+Me, Myself and I. Wife and Mum. Hero and Villain.Typical Gemini
+
+ 
+
+      social:\n        twitter: TheBlock
+
+The Block
+    social:\n        twitter: TheBlock ‏
+Official Twitter account for     social:\n        twitter: Channel9's #9TheBlock! Community Guidelines: http://9Soci.al/amu530ngNwI 
+
+ 
+
+      social:\n        twitter: ScottyCam9
+
+Scotty Cam
+    social:\n        twitter: ScottyCam9 ‏
+Host of the Nine Network's award- winning series, The Block. http://bit.ly/ScottyCamFacebook … http://bit.ly/ScottyCamWebsite …
+
+ 
+      social:\n        twitter: doctorow
+
+son of an asylum seeker, father of an immigrant
+    social:\n        twitter: doctorow ‏
+Writer, blogger, activist. If you want a reply, use email. Blog suggestions here: http://boingboing.net/s  0BC4 700A 06E2 072D 3A77 F8E2 9026 DBBE 1FC2 37AF
+
+ 
+
+      social:\n        twitter: efa_oz
+
+EFA
+    social:\n        twitter: efa_oz ‏
+Electronic Frontiers Australia - promoting and protecting digital rights in Australia since 1994. Support us, become a member Tw:     social:\n        twitter: ok_lyndsey & …
+
+ 
+
+      social:\n        twitter: nlagovau
+
+National Library Aus
+    social:\n        twitter: nlagovau ‏
+We collect, preserve and make accessible the best Australian stories. Read all about it.
+
+ 
+      social:\n        twitter: EFFLive
+
+EFF Live Tweets
+    social:\n        twitter: EFFLive ‏
+Live tweeting events of interest to the     social:\n        twitter: EFF community. We fight for your digital civil liberties.
+
+ 
+
+      social:\n        twitter: EFF
+
+EFF
+    social:\n        twitter: EFF ‏
+We're the Electronic Frontier Foundation. We defend your civil liberties in a digital world.
+
+ 
+
+      social:\n        twitter: benheck
+
+Ben Heckendorn
+    social:\n        twitter: benheck ‏
+Former host of The Ben Heck Show. Now I'm back to full-time prototyping! Follow me for lots of random rambling and other nonsense!
+
+ 
+      social:\n        twitter: realDonaldTrump
+
+Donald J. Trump
+    social:\n        twitter: realDonaldTrump ‏
+45th President of the United States of America🇺🇸
+
+ 
+
+      social:\n        twitter: paulhayton
+
+Paul Hayton
+    social:\n        twitter: paulhayton ‏ Follows you
+My day job spans marketing, communications, social and web. I enjoy retro tech and run http://bbs.nz  & http://totalfm.nz  Opinions are my own.
+
+ 
+
+      social:\n        twitter: deweydecimasher
+
+ ✨ ｓｔａｃｅｙ  ✨
+    social:\n        twitter: deweydecimasher ‏
+Digital archivist, bubblegum existentialist, sonic reducer. Preserving the flotsam and jetsam of yesteryear.
+
+ 
+      social:\n        twitter: smbrms
+
+Samantha Abrams
+    social:\n        twitter: smbrms ‏
+Web archivist for     social:\n        twitter: ivypluslib at     social:\n        twitter: columbialib / reads a lot / she, her
+
+ 
+
+      social:\n        twitter: k_bubbs
+
+snarky wakandan archivist
+    social:\n        twitter: k_bubbs ‏
+archivist | writer | chief of engineering in the star trek verse | southerner | christian | #thatarchiveslife | #ArchivesAreNotNeutral |Tweets =…
+
+ 
+
+      social:\n        twitter: linuxdotcom
+
+Linux.com
+    social:\n        twitter: linuxdotcom ‏
+http://Linux.com  is the go-to resource for #opensource pros to learn about the latest in Linux & open source tech, careers, best practices, & trends.
+
+ 
+      social:\n        twitter: Canonical
+
+Canonical Ltd
+    social:\n        twitter: Canonical ‏
+Canonical's Twitter feed full of fun, facts, links and news from the company that wants the world to know and use Ubuntu.
+
+ 
+
+      social:\n        twitter: ubuntu
+
+Ubuntu
+    social:\n        twitter: ubuntu ‏
+Ubuntu is an open source software operating system that runs from the desktop, to the cloud, to all your internet connected things
+
+ 
+
+      social:\n        twitter: OpenSourceOrg
+
+OpenSourceInitiative
+    social:\n        twitter: OpenSourceOrg ‏
+Global non-profit: promotes and protects open source software, development & communities through education and advocacy. Yes, we coined the term!
+
+ 
+      social:\n        twitter: fsf
+
+Free Software Fndn.
+    social:\n        twitter: fsf ‏
+Fighting for essential rights and freedoms for computer users since 1985.
+
+ 
+
+      social:\n        twitter: WebArchivists
+
+WebArchivists
+    social:\n        twitter: WebArchivists ‏
+http://WebArchivists.org  is a non-profit organization. Collaborative resource for web-archives news & projects.
+
+ 
+
+      social:\n        twitter: NDSA2
+
+NDSA
+    social:\n        twitter: NDSA2 ‏
+We're the National Digital Stewardship Alliance, hosted by     social:\n        twitter: CLIRDLF! Join us for #digipres19: Digital Preservation 2019, Oct 16-17, just after the …
+
+ 
+      social:\n        twitter: AskArchivists
+
+Ask Archivists
+    social:\n        twitter: AskArchivists ‏
+Always wanted to ask archivists about their job and collections in archives? Ask away using hashtag #askarchivists. Discover archives during special events!
+
+ 
+
+      social:\n        twitter: AskAnArchivist
+
+Ask An Archivist
+    social:\n        twitter: AskAnArchivist ‏
+Trying to organize an Ask An Archivist network that goes beyond just one day on Twitter. Follow me for details!
+
+ 
+
+      social:\n        twitter: WebTorrentApp
+
+WebTorrent
+    social:\n        twitter: WebTorrentApp ‏
+Streaming torrent client for the web, Mac, Windows, Linux, and Node.js.
+
+ 
+      social:\n        twitter: C64tapes
+
+C64 Tape Archivist
+    social:\n        twitter: C64tapes ‏
+Preserving Commodore 64 budget tapes for posterity
+
+ 
+
+      social:\n        twitter: sextfiles
+
+Nathan PitCoC
+    social:\n        twitter: sextfiles ‏
+ 
+
+      social:\n        twitter: meau
+
+Maureen
+    social:\n        twitter: meau ‏
+New New Englander, standards-aligned archivist, opinionated curator, happy eater, reader, ambitious maker of food. I speak for myself. Χάρις.
+
+ 
+      social:\n        twitter: elenArchivist
+
+Elena Colón-Marrero
+    social:\n        twitter: elenArchivist ‏
+A Queer Latinx Digital Archivist working in the software world. Loves fuzzy cats, simulation games, and comics. My opinions. she/her
+
+ 
+
+      social:\n        twitter: A2_Canada
+
+A2Can
+    social:\n        twitter: A2_Canada ‏
+Tasty nibbles along the road of Apple II software history and preservation
+
+ 
+
+      social:\n        twitter: AmigaLoManiac
+
+SimonV
+    social:\n        twitter: AmigaLoManiac      social:\n        twitter: beet_keeper
+
+Where in the world is Ross Sandiego?
+    social:\n        twitter: beet_keeper
+      social:\n        twitter: nataliembaur
+
+natalie baur
+    social:\n        twitter: nataliembaur
+      social:\n        twitter: TheRetroManCave
+
+Retro Man Cave
+    social:\n        twitter: TheRetroManCave ‏
+YouTube: http://youtube.com/retromancave 
+
+ 
+      social:\n        twitter: nostalnerd
+
+Nostalgia Nerd
+    social:\n        twitter: nostalnerd
+      social:\n        twitter: LarryBundyJr
+
+Larry Bundy Jr
+    social:\n        twitter: LarryBundyJr
+      social:\n        twitter: aaronpk
+
+Aaron Parecki
+    social:\n        twitter: aaronpk      social:\n        twitter: softpres
+
+The Softpres Team
+    social:\n        twitter: softpres ‏
+ 
+
+      social:\n        twitter: FarcicalConure
+
+Needles the Parrot
+    social:\n        twitter: FarcicalConure
+      social:\n        twitter: Defunctland
+
+Defunctland
+    social:\n        twitter: Defunctland      social:\n        twitter: a2_4am
+
+4am
+    social:\n        twitter: a2_4am
+      social:\n        twitter: mmasnick
+
+Mike Masnick
+    social:\n        twitter: mmasnick ‏
+ 
+
+      social:\n        twitter: ChannelAwesome
+
+Channel Awesome
+    social:\n        twitter: ChannelAwesome      social:\n        twitter: MetalJesusRocks
+
+Metal Jesus Rocks
+    social:\n        twitter: MetalJesusRocks
+      social:\n        twitter: cinemassacre
+
+cinemassacre
+    social:\n        twitter: cinemassacre
+      social:\n        twitter: Mike_Matei
+
+Mike Matei
+    social:\n        twitter: Mike_Matei      social:\n        twitter: archivecorps
+
+Archive Corps
+    social:\n        twitter: archivecorps
+      social:\n        twitter: indiewebcat
+
+Dora
+    social:\n        twitter: indiewebcat
+      social:\n        twitter: 100daysindieweb
+
+100 Days of IndieWeb
+    social:\n        twitter: 100daysindieweb ‏
+by     social:\n        twitter: aaronpk
+
+ 
+      social:\n        twitter: fastcastnz
+
+

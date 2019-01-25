@@ -1,0 +1,12 @@
+Packt Publishing:
+    name: Packt Publishing
+    url: https://www.packtpub.com/
+    search: https://www.packtpub.com/all?search=
+O'Reilly Media:
+    name: O'Reilly Media
+    url: http://www.oreilly.com/
+    search: http://ssearch.oreilly.com/?q=
+The New Press:
+    name: The New Press
+    url: http://thenewpress.com/
+    search: http://thenewpress.com/books2?search_api_views_fulltext=

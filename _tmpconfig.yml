@@ -1,0 +1,327 @@
+## BASE.YML
+# Blog settings
+url: https://tomasparks.name
+
+keep_files:   [".git"]
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE","build.sh","Gemfile.lock","Gemfile","*.yml"]
+
+strict_front_matter: true
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+
+defaults:
+  
+  # all posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+  # all _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      
+collections:
+   gallery:
+     layout: page
+     output: true
+     permalink: /gallery/:path/
+   projects:
+     output: true
+     layout: project_page
+     permalink: /projects/:year:month:day-:slug.html
+   dtn-ebook:
+     output: true
+     layout: ebook
+     permalink: /projects/alt-dtn/ebook/:slug.html
+   notes:
+     output: true
+     permalink: /notes/
+   mindmap:
+     output: true
+#    permalink: /mindmap/:path/
+#  computers:
+#    layout: page
+#    output: true
+#    permalink: /about-me/computers/:name.html
+#  questions:
+#    layout: page
+#    output: true
+#    permalink: /questions/:path/
+
+
+
+plugins: 
+# - 'jekyll-lunr-js-search' [UNSUPPORTED] 
+ - 'jekyll-seo-tag' # setting in seo.yml
+ - 'jekyll/responsive_image' # settings in responsive_image.yml
+ - 'jekyll-redirect-from' # https://github.com/jekyll/jekyll-redirect-from
+ - 'jekyll-paginate-v2' # https://github.com/sverrirs/jekyll-paginate-v2
+ - 'jekyll-last-modified-at'
+ - 'jekyll-webmention_io' # setting in webmentions.yml
+ - 'jekyll/scholar' # settings in scholar.yml
+# - 'jekyll/scholar/extras' # settings in scholar.yml
+ - jekyll_github_sample
+# - jekyll-mentions
+# - 'jekyll-galleries'
+# - 'jekyll-gallery-generator' # https://github.com/ggreer/jekyll-gallery-generator
+## EOF BASE.YML
+
+#gallery:
+#  dir: gallery              # Path to the gallery
+#  symlink: false            # false: copy images into _site. true: create symbolic links (saves disk space)
+#  title: "gallery"           # Title for gallery index page
+#  title_prefix: "gallery: "  # Title prefix for gallery pages. Gallery title = title_prefix + gallery_name
+#  sort_field: "date_time"   # How to sort galleries on the index page.
+                            # Possible values are: title, date_time, best_image
+ # thumbnail_size:
+ #   x: 400                  # max width of thumbnails (in pixels)
+  #  y: 400                  # max height of thumbnails (in pixels)
+
+
+## jekyll-mentions ##
+#jekyll-mentions:
+#  base_url: https://twitter.com
+
+## JEKYLL DATADPAGE GEN.YML
+#page_gen-dirs: true # uncomment, if you prefer to generate named folders
+#page_gen:
+#    - data: comments
+#      template: 'single-comment'
+#      name: _id
+#      dir: comments
+#    - data: notes
+#      template: 'page'
+#      name: date
+#      dir: notes
+## EOF JEKYLL DATADPAGE GEN.YML
+
+## STATICMAN.YML
+staticman:
+  branch: "master"
+## EOF STATICMAN.YML
+
+## _CONFIG.YML
+
+# GitHub
+username:             tomasparks
+repo:                 website
+repo_branch:          master
+dest_repo:            tomasparks.github.io
+dest_branch:          master
+
+# Jekyll source / destination
+source:               .
+destination:          _site
+
+keep_files:   [".git"]
+include: [".htaccess"]
+exclude: ["*.orig","README.md", "LICENSE","Gemfile.lock","Gemfile","*.yml"]
+
+
+
+strict_front_matter: true
+
+# Markdown
+markdown: kramdown
+kramdown:
+  auto_ids:       true
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  input:          GFM
+  hard_wrap:      false
+  footnote_nr:    1
+highlighter: rouge
+## EOF _CONFIG.YML
+
+## RESPONSIVE_IMAGE.YML
+# jekyll-responsive-image
+# https://github.com/wildlyinaccurate/jekyll-responsive-image
+responsive_image:
+  # [Required]
+  # Path to the image template.
+  template: _includes/responsive-image.html
+
+  # [Optional, Default: 85]
+  # Quality to use when resizing images.
+  default_quality: 95
+
+  # [Optional, Default: []]
+  # An array of resize configuration objects. Each object must contain at least
+  # a `width` value.
+  sizes:
+  #  - width: 160  # [Required] How wide the resized image will be.
+  #    quality: 80 # [Optional] Overrides default_quality for this size.
+    - width: 320
+    - width: 640
+    - width: 800
+    - width: 1024
+    - width: 1920
+
+
+  # [Optional, Default: assets]
+  # The base directory where assets are stored. This is used to determine the
+  # `dirname` value in `output_path_format` below.
+  base_path: /\assets/img/_originals/
+
+  # [Optional, Default: assets/resized/%{filename}-%{width}x%{height}.%{extension}]
+  # The template used when generating filenames for resized images. Must be a
+  # relative path.
+  #
+  # Parameters available are:
+  #   %{dirname}     Directory of the file relative to `base_path` (assets/sub/dir/some-file.jpg => sub/dir)
+  #   %{basename}    Basename of the file (assets/some-file.jpg => some-file.jpg)
+  #   %{filename}    Basename without the extension (assets/some-file.jpg => some-file)
+  #   %{extension}   Extension of the file (assets/some-file.jpg => jpg)
+  #   %{width}       Width of the resized image
+  #   %{height}      Height of the resized image
+  #
+  output_path_format: assets/img/resized/%{width}/%{basename}
+
+  # By default, only images referenced by the responsive_image and responsive_image_block
+  # tags are resized. Here you can set a list of paths or path globs to resize other
+  # images. This is useful for resizing images which will be referenced from stylesheets.
+  extra_images:
+   - assets/img/_originals/*.png
+   - assets/img/_originals/*.jpg
+
+## EOF RESPONSIVE_IMAGE.YML
+
+## SCHOLAR.YML
+# jekyll-scholar
+# https://github.com/inukshuk/jekyll-scholar
+scholar:
+   style: _includes/ieee-with-url.csl
+   locale: en
+   source: ./_bibliography
+   bibliography: other.bib
+   repository: ./projects/Articles
+   use_raw_bibtex_entry: true
+   sort_by: none
+   order: ascending
+   group_by: none
+   group_order: ascending
+   bibliography_list_tag: tbody
+   bibliography_item_tag: tr
+## EOF SCHOLAR.YML
+
+## SEO.YML
+# Jekyll SEO tag
+# https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+title: Tom Sparks website
+name: Tom Sparks website
+image: /about-me/photo.png
+description:
+author: Tom Sparks
+bio: I am a Alternative Technology Researcher, with a focus on Digital Communication Networks.
+social:
+  name: Tom Sparks
+  links:
+    - https://github.com/tomasparks
+    - https://www.facebook.com/tom.sparks.106
+## EOF SEO.YML
+
+## WEBMENTIONS.YML
+webmentions:
+  debug: true
+  pages: true
+  collections: true
+  username: tomasparks.github.io
+  js: false
+  throttle_lookups:
+    last_week:  daily
+    last_month: daily
+    last_year:  daily
+    older:      daily
+  legacy_domains:
+    - https://tomasparks.github.io/
+  templates:
+    count: _includes/webmentions/count.html
+    likes: _includes/webmentions/likes.html
+    links: _includes/webmentions/links.html
+    posts: _includes/webmentions/posts.html
+    replies: _includes/webmentions/replies.html
+    reposts: _includes/webmentions/reposts.html
+    webmentions: _includes/webmentions/webmentions.html
+
+## EOF WEBMENTIONS.YML
+
+## PAGINATE.YML
+############################################################
+# Site configuration for the Jekyll 3 Pagination Gem
+# The values here represent the defaults if nothing is set
+pagination:
+  
+  # Site-wide kill switch, disabled here it doesn't run at all 
+  enabled: true
+
+  # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
+  debug: true
+
+  # The default document collection to paginate if nothing is specified ('posts' is default)
+  collection: 'posts'
+
+  # How many objects per paginated page, used to be `paginate` (default: 0, means all)
+  per_page: 100
+
+  # The permalink structure for the paginated pages (this can be any level deep)
+  permalink: '/page/:num/' # Pages are index.html inside this folder (default)
+  #permalink: '/page/:num.html' # Pages are simple html files 
+  #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
+
+  # Optional the title format for the paginated pages (supports :title for original page title, :num for pagination page number, :max for total number of pages)
+  title: ':title - page :num'
+
+  # Limit how many pagenated pages to create (default: 0, means all)
+  limit: 0
+  
+  # Optional, defines the field that the posts should be sorted on (omit to default to 'date')
+  sort_field: 'date'
+
+  # Optional, sorts the posts in reverse order (omit to default decending or sort_reverse: true)
+  sort_reverse: true
+
+  # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
+  category: 'posts'
+
+  # Optional, the default tag to use, omit to disable
+  tag: ''
+
+  # Optional, the default locale to use, omit to disable (depends on a field 'locale' to be specified in the posts, 
+  # in reality this can be any value, suggested are the Microsoft locale-codes (e.g. en_US, en_GB) or simply the ISO-639 language code )
+  locale: '' 
+
+ # Optional,omit or set both before and after to zero to disable. 
+ # Controls how the pagination trail for the paginated pages look like. 
+  trail: 
+    before: 2
+    after: 2
+
+  # Optional, the default file extension for generated pages (e.g html, json, xml).
+  # Internally this is set to html by default
+  extension: json
+
+  # Optional, the default name of the index file for generated pages (e.g. 'index.html')
+  # Without file extension
+  indexpage: 'index'
+
+############################################################
+## EOF PAGINATE.YML
