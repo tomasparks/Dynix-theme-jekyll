@@ -46,7 +46,6 @@ plugins:
  - 'jekyll-redirect-from' # https://github.com/jekyll/jekyll-redirect-from
  - 'jekyll-paginate-v2' # https://github.com/sverrirs/jekyll-paginate-v2
  - 'jekyll-last-modified-at'
- - 'jekyll-webmention_io' # setting in webmentions.yml
  - 'jekyll/scholar' # settings in scholar.yml
 # - 'jekyll/scholar/extras' # settings in scholar.yml
  - 'jekyll_github_sample'
