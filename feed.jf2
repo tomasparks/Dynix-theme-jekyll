@@ -1,0 +1,51 @@
+---
+layout: blank
+pagination:
+  collection: posts
+  permalink: ''
+  per_page: 9999999999999999999
+  enabled: true
+  extension: jf2
+  indexpage: 'feed'
+---
+
+{
+  "type": "feed",
+  "url": "{{site.url}}{{site.baseurl}}/feed.mf2",
+  "name": "Feed",
+  "author": {
+    "type": "card",
+    "name": "{{site.author}}",
+    "url": "https://{{site.gobal.rooturl}}",
+    "photo": "{{site.image}}",
+    "note": "{{site.bio}}"
+  },
+  "children": [
+ 
+ 
+		    {% for post in paginator.posts %}
+	{
+  "type": "entry",
+  "published": "{{post.date}}",
+  "url": "{{ site.url }}{{site.baseurl}}{{ post.url }}",
+  "author": {
+    "type": "card",
+    "name": "{{site.author}}",
+    "url": "https://{{site.gobal.rooturl}}",
+    "photo": "{{site.image}}",
+    "note": "{{site.bio}}"
+  },
+  "name": "{{ post.title | escape }}",
+				"summary": {
+					"html": {{ post.excerpt | jsonify }},
+					"value": {{ post.excerpt | strip_html  | jsonify }}
+				},
+							"value": {{ post.excerpt | jsonify }},
+"category": {{ post.categories | jsonify }},"tags": {{ post.tags | jsonify }}
+}
+
+
+		                        {% if forloop.last == true %}{% else %},{% endif %}
+                        {% endfor %}
+		
+		]}
