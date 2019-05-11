@@ -19,10 +19,10 @@
 <link rel="authorization_endpoint" href="https://indieauth.com/auth">
 <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
 {% for link in site.social.links %}<link href="{{link}}" rel="me">{% endfor %}
-<!-- webmentions -->
+{{site.gobal.webmentions}}
 <!-- webmentions_head -->
 <link rel="micropub" href="http://localhost/micropub/micropub.php">
-<link rel="feed" type="text/html" title="Main feed" href="{{site.url}}/feed.html" />
+<link rel="feed" type="text/html" title="gobal feed" href="{{site.url}}/gobal-feed.html" />
 </head>
 <body>
 <header>
